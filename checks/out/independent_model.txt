@@ -1,0 +1,27 @@
+C-min FN-512/K-512 reader transmission, ms          mine 84.257       paper 84.257       ok
+  its frame delays, ms                              mine 17.5         paper 17.5         ok
+C-min FN-512/K-512, 512-byte frames, ms             mine 90.151       paper 90.151       ok
+R_min, ms                                           mine 9.833        paper 9.833        ok
+margin without waits, ms                            mine 0.016        paper 0.016        ok
+margin with both waits, ms                          mine -10.184      paper -10.184      ok
+reader clock without waits, MHz                     mine 75781.1      paper 75781.1      ok
+Kernel 8-style designs over 100 ms on transmission  mine 27           paper 27           ok
+C-priv FN-512/K-512 transmission, ms                mine 158.225      paper 158.225      ok
+C-priv FN-512/K-512 reader time, ms                 mine 181.7        paper 181.7        ok
+  same at D = 4, ms                                 mine 63.1         paper 63.1         ok
+depth 1, 512-byte frames, margin with waits, ms     mine -0.596       paper -0.596       ok
+A ML-DSA-44 card time, ms                           mine 902.4        paper 902.4        ok
+B minus A, largest difference, ms                   mine 0.085        paper < 0.1        ok
+A/B card time, low end, ms                          mine 681.6        paper 681.6        ok
+A/B card time, high end, ms                         mine 1731.2       paper 1731.2       ok
+A FN-DSA-512 card time, ms                          mine 352.5        paper 352.5        ok
+card + reader, low end, ms                          mine 745.3        paper 745.3        ok
+card + reader, high end, ms                         mine 1888.9       paper 1888.9       ok
+A ML-DSA-44 depth 1 card time, ms (lower bound)     mine 559.6        paper 559.6        ok
+A ML-DSA-44 at D = 4, ms                            mine 230.9        paper 230.9        ok
+A FN-DSA-1024 at D = 2, ms                          mine 343.5        paper 343.5        ok
+ML-DSA-65/87 reader time, low, ms                   mine 113.7        paper 113.7        ok
+ML-DSA-65/87 reader time, high, ms                  mine 157.7        paper 157.7        ok
+FN-DSA-512 signing budget at 80 MHz, cycles         mine 3779705      paper 3779705      ok
+
+25 of 25 values agree with paper/numbers.tex
