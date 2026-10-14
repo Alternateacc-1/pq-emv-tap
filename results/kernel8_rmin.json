@@ -1,0 +1,135 @@
+{
+ "R_min_frames_gaps": "59/6000",
+ "R_min_frames_gaps_ms": "9.8333",
+ "R_min_without_PPSE_ms": "7.3605",
+ "R_with_tp_ms": "20.0333",
+ "applied": [
+  {
+   "cfg": [
+    "C-min",
+    "FN-DSA-512",
+    "ML-KEM-512",
+    2,
+    512
+   ],
+   "left_fg_ms": "0.0156",
+   "left_tp_ms": "-10.1844",
+   "mhz_fg": "75781.147",
+   "mhz_tp": "none",
+   "reader_cycles": 1184779,
+   "reader_fixed_ms": "90.151"
+  },
+  {
+   "cfg": [
+    "C-min",
+    "FN-DSA-512",
+    "ML-KEM-512",
+    2,
+    256
+   ],
+   "left_fg_ms": "-11.5906",
+   "left_tp_ms": "-21.7906",
+   "mhz_fg": "none",
+   "mhz_tp": "none",
+   "reader_cycles": 1184779,
+   "reader_fixed_ms": "101.757"
+  },
+  {
+   "cfg": [
+    "C-min",
+    "FN-DSA-512",
+    "ML-KEM-512",
+    1,
+    256
+   ],
+   "left_fg_ms": "2.6401",
+   "left_tp_ms": "-7.5599",
+   "mhz_fg": "298.407",
+   "mhz_tp": "none",
+   "reader_cycles": 787830,
+   "reader_fixed_ms": "87.527"
+  },
+  {
+   "cfg": [
+    "C-min",
+    "FN-DSA-1024",
+    "ML-KEM-512",
+    1,
+    256
+   ],
+   "left_fg_ms": "-1.3044",
+   "left_tp_ms": "-11.5044",
+   "mhz_fg": "none",
+   "mhz_tp": "none",
+   "reader_cycles": 1184737,
+   "reader_fixed_ms": "91.471"
+  },
+  {
+   "cfg": [
+    "C-min",
+    "ML-DSA-44",
+    "ML-KEM-512",
+    1,
+    512
+   ],
+   "left_fg_ms": "1.2142",
+   "left_tp_ms": "-8.9858",
+   "mhz_fg": "1492.806",
+   "mhz_tp": "none",
+   "reader_cycles": 1812504,
+   "reader_fixed_ms": "88.953"
+  },
+  {
+   "cfg": [
+    "C-min",
+    "ML-DSA-65",
+    "ML-KEM-512",
+    1,
+    512
+   ],
+   "left_fg_ms": "-2.3814",
+   "left_tp_ms": "-12.5814",
+   "mhz_fg": "none",
+   "mhz_tp": "none",
+   "reader_cycles": 2806825,
+   "reader_fixed_ms": "92.548"
+  },
+  {
+   "cfg": [
+    "C-min",
+    "FN-DSA-512",
+    "ML-KEM-512",
+    1,
+    512
+   ],
+   "left_fg_ms": "9.6038",
+   "left_tp_ms": "-0.5962",
+   "mhz_fg": "82.033",
+   "mhz_tp": "none",
+   "reader_cycles": 787830,
+   "reader_fixed_ms": "80.563"
+  },
+  {
+   "cfg": [
+    "C-min",
+    "FN-DSA-1024",
+    "ML-KEM-512",
+    1,
+    512
+   ],
+   "left_fg_ms": "7.2068",
+   "left_tp_ms": "-2.9932",
+   "mhz_fg": "164.392",
+   "mhz_tp": "none",
+   "reader_cycles": 1184737,
+   "reader_fixed_ms": "82.960"
+  }
+ ],
+ "classical_left_with_tp_ms": "69.999",
+ "frames": "19/3000",
+ "frames_ms": "6.3333",
+ "gaps": 7,
+ "gaps_ms": "3.5000",
+ "gaps_s": "7/2000",
+ "t_p": "51/10000"
+}

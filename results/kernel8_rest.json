@@ -1,0 +1,386 @@
+{
+ "applied": [
+  {
+   "arch": "C-min",
+   "depth": 2,
+   "fs": 256,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-22.291",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "-12.091",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1b frames only": {
+     "left_ms": "9.409",
+     "reader_mhz": "125.914"
+    }
+   },
+   "reader_cycles": 1184779,
+   "reader_fixed_ms": "101.757",
+   "sig": "FN-DSA-512"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 256,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-21.866",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "-11.666",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1b frames only": {
+     "left_ms": "9.834",
+     "reader_mhz": "184.306"
+    }
+   },
+   "reader_cycles": 1812504,
+   "reader_fixed_ms": "101.332",
+   "sig": "ML-DSA-44"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 256,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-27.783",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "-17.583",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1b frames only": {
+     "left_ms": "6.917",
+     "reader_mhz": "405.763"
+    }
+   },
+   "reader_cycles": 2806825,
+   "reader_fixed_ms": "107.249",
+   "sig": "ML-DSA-65"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 256,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-8.060",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "2.140",
+     "reader_mhz": "368.125"
+    },
+    "T1b frames only": {
+     "left_ms": "16.640",
+     "reader_mhz": "47.345"
+    }
+   },
+   "reader_cycles": 787830,
+   "reader_fixed_ms": "87.527",
+   "sig": "FN-DSA-512"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 256,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-12.004",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "-1.804",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1b frames only": {
+     "left_ms": "14.696",
+     "reader_mhz": "80.619"
+    }
+   },
+   "reader_cycles": 1184737,
+   "reader_fixed_ms": "91.471",
+   "sig": "FN-DSA-1024"
+  },
+  {
+   "arch": "C-min",
+   "depth": 2,
+   "fs": 512,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-10.684",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "-0.484",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1b frames only": {
+     "left_ms": "13.516",
+     "reader_mhz": "87.660"
+    }
+   },
+   "reader_cycles": 1184779,
+   "reader_fixed_ms": "90.151",
+   "sig": "FN-DSA-512"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 512,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-9.486",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "0.714",
+     "reader_mhz": "2537.955"
+    },
+    "T1b frames only": {
+     "left_ms": "14.214",
+     "reader_mhz": "127.514"
+    }
+   },
+   "reader_cycles": 1812504,
+   "reader_fixed_ms": "88.953",
+   "sig": "ML-DSA-44"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 512,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-13.081",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "-2.881",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1b frames only": {
+     "left_ms": "12.119",
+     "reader_mhz": "231.613"
+    }
+   },
+   "reader_cycles": 2806825,
+   "reader_fixed_ms": "92.548",
+   "sig": "ML-DSA-65"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 512,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-1.096",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "9.104",
+     "reader_mhz": "86.538"
+    },
+    "T1b frames only": {
+     "left_ms": "19.104",
+     "reader_mhz": "41.239"
+    }
+   },
+   "reader_cycles": 787830,
+   "reader_fixed_ms": "80.563",
+   "sig": "FN-DSA-512"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 512,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-3.493",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "6.707",
+     "reader_mhz": "176.648"
+    },
+    "T1b frames only": {
+     "left_ms": "17.707",
+     "reader_mhz": "66.909"
+    }
+   },
+   "reader_cycles": 1184737,
+   "reader_fixed_ms": "82.960",
+   "sig": "FN-DSA-1024"
+  },
+  {
+   "arch": "C-min",
+   "depth": 2,
+   "fs": 4096,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-10.684",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "-0.484",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1b frames only": {
+     "left_ms": "13.516",
+     "reader_mhz": "87.660"
+    }
+   },
+   "reader_cycles": 1184779,
+   "reader_fixed_ms": "90.151",
+   "sig": "FN-DSA-512"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 4096,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-9.486",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "0.714",
+     "reader_mhz": "2537.955"
+    },
+    "T1b frames only": {
+     "left_ms": "14.214",
+     "reader_mhz": "127.514"
+    }
+   },
+   "reader_cycles": 1812504,
+   "reader_fixed_ms": "88.953",
+   "sig": "ML-DSA-44"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 4096,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-13.081",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "-2.881",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1b frames only": {
+     "left_ms": "12.119",
+     "reader_mhz": "231.613"
+    }
+   },
+   "reader_cycles": 2806825,
+   "reader_fixed_ms": "92.548",
+   "sig": "ML-DSA-65"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 4096,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-1.096",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "9.104",
+     "reader_mhz": "86.538"
+    },
+    "T1b frames only": {
+     "left_ms": "19.104",
+     "reader_mhz": "41.239"
+    }
+   },
+   "reader_cycles": 787830,
+   "reader_fixed_ms": "80.563",
+   "sig": "FN-DSA-512"
+  },
+  {
+   "arch": "C-min",
+   "depth": 1,
+   "fs": 4096,
+   "kem": "ML-KEM-512",
+   "modes": {
+    "T1 + t_P (Figure 10-1)": {
+     "left_ms": "-3.493",
+     "reader_mhz": "none (no reader clock)"
+    },
+    "T1 frames+gaps": {
+     "left_ms": "6.707",
+     "reader_mhz": "176.648"
+    },
+    "T1b frames only": {
+     "left_ms": "17.707",
+     "reader_mhz": "66.909"
+    }
+   },
+   "reader_cycles": 1184737,
+   "reader_fixed_ms": "82.960",
+   "sig": "FN-DSA-1024"
+  }
+ ],
+ "classical": [
+  {
+   "depth": 2,
+   "left_ms": "69.499",
+   "reader_fixed_ms": "9.967",
+   "with_remainder_and_tp_ms": "30.501"
+  },
+  {
+   "depth": 1,
+   "left_ms": "70.698",
+   "reader_fixed_ms": "8.769",
+   "with_remainder_and_tp_ms": "29.302"
+  }
+ ],
+ "remainder": {
+  "256": {
+   "R_min": "31/3000",
+   "R_min_ms": "10.3333",
+   "R_with_tp_ms": "20.5333",
+   "frames": "19/3000",
+   "frames_ms": "6.3333"
+  },
+  "4096": {
+   "R_min": "31/3000",
+   "R_min_ms": "10.3333",
+   "R_with_tp_ms": "20.5333",
+   "frames": "19/3000",
+   "frames_ms": "6.3333"
+  },
+  "512": {
+   "R_min": "31/3000",
+   "R_min_ms": "10.3333",
+   "R_with_tp_ms": "20.5333",
+   "frames": "19/3000",
+   "frames_ms": "6.3333"
+  }
+ }
+}
