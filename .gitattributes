@@ -1,0 +1,3 @@
+# Keep every file exactly as committed (no line-ending conversion), so the
+# byte-for-byte checks in run.py also pass on Windows.
+* -text

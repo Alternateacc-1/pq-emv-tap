@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+
+# pqm4 and pqm3 clones, only needed to re-read the benchmark tables
+sources/
+
+# readable tables written by the analyses (the JSON next to them is committed)
+results/*.md
