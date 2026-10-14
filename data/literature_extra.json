@@ -1,0 +1,65 @@
+{
+ "_note": "Values copied from the quoted passages of the papers named in each entry.",
+ "brs22": {
+  "_source": "Bos, Renes, Sprenkels, ePrint 2022/323 (AFRICACRYPT 2022), Table 2 'This work', rows S (Sign): 'S 5.0 18 470 6.5 36 303 8.1 44 332' (KiB, kcc), 'All cycle counts were averaged over 10 000 iterations'; platform STM32F407 (Cortex-M4) at 24 MHz; round-3 Dilithium.",
+  "sign_kib": {
+   "Dilithium-2": "5.0",
+   "Dilithium-3": "6.5",
+   "Dilithium-5": "8.1"
+  },
+  "sign_kcc": {
+   "Dilithium-2": 18470,
+   "Dilithium-3": 36303,
+   "Dilithium-5": 44332
+  },
+  "sig_bytes_round3": {
+   "Dilithium-2": 2420,
+   "Dilithium-3": 3293,
+   "Dilithium-5": 4595
+  },
+  "sk_bytes_round3": {
+   "Dilithium-2": 2528
+  }
+ },
+ "aln25": {
+  "_source": "Alnahawi et al., ePrint 2025/812 section 3.1: 'The chip had approximately 4.5kB of RAM available for our cryptographic operations, and around 3kB of this was used during execution.' Part: 'NXP SmartMX3 P71D600'; 'Java Card implementation of ML-KEM'; 'ISO/IEC 7816 contact interface'.",
+  "ram_available_kb": "4.5",
+  "ram_used_kb": "3",
+  "part": "NXP SmartMX3 P71D600"
+ },
+ "kl29": {
+  "_source": "EMV SWG NP62r2, Notice Bulletin No. 29, July 2025 (inputs): '1984-bit keys are recommended to have an anticipated lifetime to at least 31 December 2035.'; '256-bit and 521-bit ECC keys are recommended to have an anticipated lifetime beyond 31 December 2035.'; '1408-bit keys are recommended to have expired 31 December 2024.'",
+  "rsa1984_lifetime_to": "2035-12-31",
+  "ecc_lifetime_beyond": "2035-12-31",
+  "rsa1408_expired": "2024-12-31"
+ },
+ "pqeac": {
+  "_source": "Fischlin et al., ePrint 2023/352, implementation section: 'The security controller comes with significantly increased RAM-size of 96 kBytes'. Benchmarking: 'For PQ-EAC, we reliably measured a total runtime of 1.28 seconds.'",
+  "ram_kbytes": 96,
+  "total_runtime_s": "1.28"
+ },
+ "nxp_blog": {
+  "_source": "NXP blog, J. Renes, 10 Nov 2025, read directly in a browser on 2026-09-30 (page text SHA-256 4836990e9a39ec724a8e6641b55d2ecf1e0ad27d4e048fee01169f6d90a5b390).",
+  "quote": "Next-generation secure elements, serving the mobile, Industrial IoT and secure identity markets, will also feature dedicated PQC hardware support and can be included as a ready-to-use solution for any Integrated Circuit (IC)."
+ },
+ "bdg25": {
+  "_source": "Bettale, Dottax, Gremy, SECRYPT 2025 p.117: 'a typical embedded device (32-bit Cortex-M3 CPU at 100 MHz) with a hardware accelerator for ECC. The chip supports a baud-rate of 600 kbit/s.'; 'The ML-KEM primitives were implemented with side-channel countermeasures'. Table 3 (p.118, ML-DSA) and Table 4 (FN-DSA), Mode B 128: processing 290 ms (ratio x6.0). ePrint 2024/2005 Table 4 (classic ECC SCP11), Mode B 128: processing 48 ms. Mode B (Fig. 6, PQ part): card runs KEM.KeyGen (ephemeral), KEM.Decaps(KEM.skC, c.Ss), KEM.Decaps(KEM.eskC, c.Se); no signature verification by the card.",
+  "clock_hz": 100000000,
+  "mode_b_128_hybrid_processing_ms": 290,
+  "mode_b_128_classic_processing_ms": 48,
+  "pq_ops_mode_b": {
+   "keygen": 1,
+   "decaps": 2
+  }
+ },
+ "dz26": {
+  "_source": "Dottax, Zeitoun, ePrint 2026/1274 sec. 4: 'a production-grade smart card platform embedding a secure element designed for banking and identity applications, and running at 50 MHz'; Table 2: ML-KEM-512 + CMAC-AES-128 '3.58 + 0.46 = 4.04' (normalised to ECDSA-256); ML-DSA-44 '20.5 - 307.7'; communication at 848 kbit/s.",
+  "clock_hz": 50000000,
+  "mlkem512_decaps_over_ecdsa256": "3.58",
+  "mldsa44_sign_over_ecdsa256": [
+   "20.5",
+   "307.7"
+  ],
+  "comm_rate_kbps": 848
+ }
+}

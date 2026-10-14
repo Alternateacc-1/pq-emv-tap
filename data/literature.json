@@ -1,0 +1,85 @@
+{
+ "_note": "Hand-transcribed from the sources named in each entry (short keys explained in docs/modelling_choices.md). Cycle counts are integers exactly as printed; 'kc' values are thousands of cycles as printed.",
+ "sizes": {
+  "_source": "FIPS203 Table 3 (p.39); FIPS204 Table 2 (p.16); FALCON Table 3.3 (p.51) and pqm4 fndsa_provisional api.h; round-2 Dilithium from GKS21 Table 1",
+  "ML-DSA-44": {"pk": 1312, "sig": 2420, "sk": 2560},
+  "ML-DSA-65": {"pk": 1952, "sig": 3309, "sk": 4032},
+  "ML-DSA-87": {"pk": 2592, "sig": 4627, "sk": 4896},
+  "FN-DSA-512": {"pk": 897, "sig": 666, "sk": 1281},
+  "FN-DSA-1024": {"pk": 1793, "sig": 1280, "sk": 2305},
+  "R2-Dilithium2": {"pk": 1184, "sig": 2044, "sk": null},
+  "R2-Dilithium3": {"pk": 1472, "sig": 2701, "sk": null},
+  "R2-Dilithium4": {"pk": 1760, "sig": 3366, "sk": null},
+  "ML-KEM-512": {"ek": 800, "dk": 1632, "ct": 768, "ss": 32},
+  "ML-KEM-768": {"ek": 1184, "dk": 2400, "ct": 1088, "ss": 32},
+  "ML-KEM-1024": {"ek": 1568, "dk": 3168, "ct": 1568, "ss": 32}
+ },
+ "round3_sig_sizes": {
+  "_source": "pqm3 crypto_sign/dilithium2/m3/params.h: CRYPTO_BYTES = SEEDBYTES + L*POLYZ_PACKEDBYTES + OMEGA + K",
+  "Dilithium2": 2420, "Dilithium3": 3293, "Dilithium5": 4595
+ },
+ "m0plus": {
+  "_source": "M0P (arXiv:2603.19340v6) Tables IV, V, IX; RP2040 Cortex-M0+ 125 MHz, PQClean reference C at PQClean commit 3730b32a, -O3, campaign A; cycles = t(us) x 125 (derived, not counted); stack in KB = 1024 bytes, printed to 0.1 KB",
+  "ML-KEM-512": {"keygen_kc": 1243, "encaps_kc": 1441, "decaps_kc": 1779, "decaps_stack_kb": "9.4", "decaps_total_kb": "12.6"},
+  "ML-KEM-768": {"keygen_kc": 2002, "encaps_kc": 2323, "decaps_kc": 2752, "decaps_stack_kb": "14.2", "decaps_total_kb": "18.9"},
+  "ML-KEM-1024": {"keygen_kc": 3148, "encaps_kc": 3512, "decaps_kc": 4056, "decaps_stack_kb": "20.0", "decaps_total_kb": "26.2"},
+  "ML-DSA-44": {"keygen_kc": 4979, "sign_kc": 19863, "verify_kc": 5497, "sign_stack_kb": "50.6", "sign_total_kb": "56.8"},
+  "ML-DSA-65": {"keygen_kc": 8553, "sign_kc": 32077, "verify_kc": 9026, "sign_stack_kb": "77.6", "sign_total_kb": "86.7"},
+  "ML-DSA-87": {"keygen_kc": 14287, "sign_kc": 44404, "verify_kc": 15028, "sign_stack_kb": "119.6", "sign_total_kb": "131.5"}
+ },
+ "gks21_m3": {
+  "_source": "GKS21 Table 4 (p.19): Cortex-M3 SAM3X8E at 16 MHz, averaged over 10000 executions; round-2 Dilithium; speed in kcc (thousand clock cycles); stack in bytes. Strategy 1 additionally needs 23632/34896/48208 bytes of flash for precomputed values (footnotes a-c).",
+  "R2-Dilithium2": {"sign1_kc": 5822, "sign1_stack": 14869, "sign2_kc": 7115, "sign2_stack": 39503, "sign3_kc": 18932, "sign3_stack": 9463, "verify_kc": 1541, "verify_stack": 8944},
+  "R2-Dilithium3": {"sign1_kc": 8730, "sign1_stack": 18083, "sign2_kc": 10667, "sign2_stack": 53959, "sign3_kc": 33229, "sign3_stack": 10495, "verify_kc": 2321, "verify_stack": 9967},
+  "R2-Dilithium4": {"sign1_kc": 7398, "sign1_stack": 18083, "sign2_kc": 10031, "sign2_stack": 70463, "sign3_kc": 31180, "sign3_stack": 11511, "verify_kc": 3260, "verify_stack": 10999}
+ },
+ "huang_m4": {
+  "_source": "HUANG Table 6 (p.21), 'This work' rows, Cortex-M4 via pqm4, averaged over 1000 executions; round-3 Dilithium/Kyber; row mapping checked against the paper's stated 13.94% and 9.42% sign speed-ups",
+  "Dilithium2": {"keygen_kc": 1357, "sign_kc": 3487, "verify_kc": 1350},
+  "Dilithium3": {"keygen_kc": 2394, "sign_kc": 5574, "verify_kc": 2302},
+  "Dilithium5": {"keygen_kc": 4069, "sign_kc": 7730, "verify_kc": 3998},
+  "Kyber512": {"keygen_kc": 369, "encaps_kc": 448, "decaps_kc": 409},
+  "Kyber768": {"keygen_kc": 604, "encaps_kc": 732, "decaps_kc": 674},
+  "Kyber1024": {"keygen_kc": 962, "encaps_kc": 1119, "decaps_kc": 1043}
+ },
+ "pornin2025_m4": {
+  "_source": "P25 Table 1 (p.1), STM32F407 at 24 MHz; RAM = transient work area + stack; sign figures are the BUFF variant",
+  "FN-DSA-512": {"sign": 22008433, "sign_ram": [39967, 2048], "verify_orig": 255306, "verify_buff": 358517},
+  "FN-DSA-1024": {"sign": 47778012, "sign_ram": [79903, 2160], "verify_orig": 518594, "verify_buff": 724171}
+ },
+ "pornin2026_m4": {
+  "_source": "P26 Table 1 (p.34) Arm Cortex M4 row, STM32F407 at 168 MHz, code in SRAM, data and stack in CCM, no wait states; 'average clock cycle count', printed rounded; RAM p.33: temporary area 20n bytes (standard code 59n) plus stack 992 bytes measured on Cortex-M4. Digits recovered via pypdf glyph names (D-X1).",
+  "FN-DSA-512": {"sign_new": 13450000, "sign_standard": 17020000, "n": 512},
+  "FN-DSA-1024": {"sign_new": 28580000, "sign_standard": 36570000, "n": 1024},
+  "temp_per_n_new": 20, "temp_per_n_standard": 59, "stack_new": 992
+ },
+ "pornin2019_m4": {
+  "_source": "P19 section 5.3 table (p.19), STM32F407 at 168 MHz with caches; averages over 200; expanded-key sizes and temporary storage p.14-16. Digits recovered via pypdf glyph names (D-X1).",
+  "FN-DSA-512": {"sign_dynamic": 43301915, "expand_key": 16191379, "sign_tree": 21155551, "expanded_key_bytes": 57344, "tree_sign_temp_bytes": 25607},
+  "FN-DSA-1024": {"sign_dynamic": 93985426, "expand_key": 35796121, "sign_tree": 44985653, "expanded_key_bytes": 122880, "tree_sign_temp_bytes": null}
+ },
+ "masking": {
+  "_source": "AZ22 section 6.3 (p.16): two-share masked Dilithium3 signing 'is 4.3x slower than the unprotected implementation in the randomized case and 7.32x in the deterministic case' (per execution, excluding rejection repetitions). IDEMIA p.18: side-channel countermeasures for their KEMs 'could bring significant overhead, up to doubling the execution time'.",
+  "mldsa_sign_2share_randomized": "43/10",
+  "mldsa_sign_2share_deterministic": "183/25",
+  "kem_countermeasure_upper": 2
+ },
+ "idemia_table2": {
+  "_source": "IDEMIA Table 2 'Personalization overhead (Kyber)', theoretical column (p.17)",
+  "Falcon-512": 4661, "Falcon-1024": 6785, "Dilithium-2": 8584, "Dilithium-3": 10970
+ },
+ "idemia_table4": {
+  "_source": "IDEMIA Table 4 (p.19), Kyber, ms; rows reconstructed so that T->C + C->T + card = total",
+  "Hybrid CDA": {"Falcon-512": [1134, 4133, 376, 5643], "Falcon-1024": [1170, 6132, 376, 7678], "Dilithium-2": [1214, 7804, 384, 9402], "Dilithium-3": [1256, 10041, 402, 11699]},
+  "Hybrid BDH": {"Falcon-512": [1917, 4908, 354, 7179], "Falcon-1024": [1967, 6908, 383, 9258], "Dilithium-2": [1971, 8511, 405, 10887], "Dilithium-3": [2012, 10851, 434, 13297]}
+ },
+ "chips": {
+  "_source": "Chip data briefs (Infineon SLC36/37PDx, ST31N600, ST31P450, NXP P71D321). RAM in KB of 1024 bytes (D-M2). clock_mhz null = not stated.",
+  "ST31N600": {"core": "SC000", "class": "M0", "clock_mhz": 60, "ram_kb": 16, "contactless": true, "payment": "STPay-Topaz-X1"},
+  "ST31P450": {"core": "SC000", "class": "M0", "clock_mhz": 55, "ram_kb": 10, "contactless": true, "payment": "STPay-Topaz-1, STPay-Topaz-18"},
+  "ST31H320": {"core": "SC000", "class": "M0", "clock_mhz": 28, "ram_kb": 10, "contactless": false, "payment": null},
+  "Infineon SLC36PDx": {"core": "SC300", "class": "M3", "clock_mhz": 80, "ram_kb": 12, "contactless": true, "payment": "brief: payments"},
+  "Infineon SLC37PDx": {"core": "SC300", "class": "M3", "clock_mhz": 80, "ram_kb": 16, "contactless": true, "payment": "brief: payments; 14 KB for PDx448/400, 'up to 16 KB'"},
+  "NXP P71D321 family": {"core": null, "class": null, "clock_mhz": null, "ram_kb": 12, "contactless": true, "payment": "M/Chip"}
+ }
+}

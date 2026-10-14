@@ -1,0 +1,780 @@
+{
+ "fndsa_provisional-1024/m4f": {
+  "asm_files": [
+   "codec_cm4.s",
+   "mq_cm4.s",
+   "sha3_cm4.s",
+   "sign_fpr_cm4.s",
+   "sign_sampler_cm4.s"
+  ],
+  "dsp": {
+   "pkhbt": 14,
+   "pkhtb": 5,
+   "sadd16": 18,
+   "sel": 36,
+   "smlad": 4,
+   "smulbb": 7,
+   "smultb": 5,
+   "smultt": 4,
+   "ssub16": 24,
+   "sxtb16": 2,
+   "uadd8": 4,
+   "umaal": 29,
+   "usub16": 2
+  },
+  "fpu": {
+   "vmov": 64,
+   "vpop.64": 1,
+   "vpush.64": 1
+  },
+  "inline_asm_files": [
+   "inner.h",
+   "kgen_inner.h",
+   "mq.c",
+   "sign_inner.h",
+   "sign_sampler.c"
+  ],
+  "path": "pqm4/crypto_sign/fndsa_provisional-1024/m4f",
+  "v7m": {
+   "bfc": 3,
+   "bfi": 14,
+   "cbnz": 2,
+   "cbz": 4,
+   "clz": 13,
+   "ldrd": 7,
+   "rbit": 2,
+   "sbfx": 9,
+   "smlal": 4,
+   "strd": 4,
+   "ubfx": 16,
+   "umlal": 34,
+   "umull": 15
+  }
+ },
+ "fndsa_provisional-1024/ref": {
+  "asm_files": [],
+  "dsp": {
+   "umaal": 6
+  },
+  "fpu": {},
+  "inline_asm_files": [
+   "inner.h",
+   "kgen_inner.h",
+   "mq.c",
+   "sign_inner.h",
+   "sign_sampler.c"
+  ],
+  "path": "pqm4/mupq/crypto_sign/fndsa_provisional-1024/ref",
+  "v7m": {
+   "clz": 1,
+   "smlal": 4,
+   "ubfx": 1,
+   "umlal": 2,
+   "umull": 7
+  }
+ },
+ "fndsa_provisional-512/m4f": {
+  "asm_files": [
+   "codec_cm4.s",
+   "mq_cm4.s",
+   "sha3_cm4.s",
+   "sign_fpr_cm4.s",
+   "sign_sampler_cm4.s"
+  ],
+  "dsp": {
+   "pkhbt": 14,
+   "pkhtb": 5,
+   "sadd16": 18,
+   "sel": 36,
+   "smlad": 4,
+   "smulbb": 7,
+   "smultb": 5,
+   "smultt": 4,
+   "ssub16": 24,
+   "sxtb16": 2,
+   "uadd8": 4,
+   "umaal": 29,
+   "usub16": 2
+  },
+  "fpu": {
+   "vmov": 64,
+   "vpop.64": 1,
+   "vpush.64": 1
+  },
+  "inline_asm_files": [
+   "inner.h",
+   "kgen_inner.h",
+   "mq.c",
+   "sign_inner.h",
+   "sign_sampler.c"
+  ],
+  "path": "pqm4/crypto_sign/fndsa_provisional-512/m4f",
+  "v7m": {
+   "bfc": 3,
+   "bfi": 14,
+   "cbnz": 2,
+   "cbz": 4,
+   "clz": 13,
+   "ldrd": 7,
+   "rbit": 2,
+   "sbfx": 9,
+   "smlal": 4,
+   "strd": 4,
+   "ubfx": 16,
+   "umlal": 34,
+   "umull": 15
+  }
+ },
+ "fndsa_provisional-512/ref": {
+  "asm_files": [],
+  "dsp": {
+   "umaal": 6
+  },
+  "fpu": {},
+  "inline_asm_files": [
+   "inner.h",
+   "kgen_inner.h",
+   "mq.c",
+   "sign_inner.h",
+   "sign_sampler.c"
+  ],
+  "path": "pqm4/mupq/crypto_sign/fndsa_provisional-512/ref",
+  "v7m": {
+   "clz": 1,
+   "smlal": 4,
+   "ubfx": 1,
+   "umlal": 2,
+   "umull": 7
+  }
+ },
+ "ml-dsa-44/clean": {
+  "asm_files": [],
+  "dsp": {},
+  "fpu": {},
+  "inline_asm_files": [],
+  "path": "pqm4/mupq/pqclean/crypto_sign/ml-dsa-44/clean",
+  "v7m": {}
+ },
+ "ml-dsa-44/m4f": {
+  "asm_files": [
+   "macros.i",
+   "macros_smallntt.i",
+   "ntt.S",
+   "pointwise_mont.s",
+   "smallntt_769.S",
+   "vector.s"
+  ],
+  "dsp": {
+   "pkhbt": 5,
+   "pkhtb": 6,
+   "sadd16.w": 8,
+   "smlabt": 12,
+   "smlad": 1,
+   "smlatt": 1,
+   "smmulr.w": 1,
+   "smuad": 2,
+   "smuadx": 2,
+   "smulbb": 3,
+   "smultb": 1,
+   "smulwb": 4,
+   "smulwt": 8,
+   "ssub16.w": 8,
+   "uadd16": 17,
+   "usub16": 18
+  },
+  "fpu": {
+   "vldm": 8,
+   "vmov": 100,
+   "vmov.w": 21,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [],
+  "path": "pqm4/crypto_sign/ml-dsa-44/m4f",
+  "v7m": {
+   "ldrd": 10,
+   "mls": 1,
+   "mls.w": 1,
+   "smlal": 2,
+   "smlal.w": 4,
+   "smull": 2,
+   "smull.w": 2,
+   "ubfx": 1
+  }
+ },
+ "ml-dsa-44/m4fstack": {
+  "asm_files": [
+   "macros.i",
+   "macros_smallntt.i",
+   "ntt.S",
+   "pointwise_mont.s",
+   "smallntt_769.S",
+   "vector.s"
+  ],
+  "dsp": {
+   "pkhbt": 1,
+   "pkhtb": 6,
+   "sadd16.w": 8,
+   "smlabb": 2,
+   "smlabt": 10,
+   "smlad": 1,
+   "smlatt": 1,
+   "smmulr.w": 1,
+   "smuadx": 2,
+   "smulbb": 3,
+   "smultb": 1,
+   "smultt": 2,
+   "smulwb": 4,
+   "smulwt": 6,
+   "ssub16.w": 8,
+   "uadd16": 17,
+   "usub16": 18
+  },
+  "fpu": {
+   "vldm": 8,
+   "vmov": 100,
+   "vmov.w": 23,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [],
+  "path": "pqm4/crypto_sign/ml-dsa-44/m4fstack",
+  "v7m": {
+   "ldrd": 12,
+   "mls": 1,
+   "mls.w": 1,
+   "smlal": 2,
+   "smlal.w": 4,
+   "smull": 2,
+   "smull.w": 2,
+   "ubfx": 1
+  }
+ },
+ "ml-dsa-65/clean": {
+  "asm_files": [],
+  "dsp": {},
+  "fpu": {},
+  "inline_asm_files": [],
+  "path": "pqm4/mupq/pqclean/crypto_sign/ml-dsa-65/clean",
+  "v7m": {}
+ },
+ "ml-dsa-65/m4f": {
+  "asm_files": [
+   "macros.i",
+   "macros_smallntt.i",
+   "ntt.S",
+   "pointwise_mont.s",
+   "smallntt_769.S",
+   "vector.s"
+  ],
+  "dsp": {
+   "pkhbt": 5,
+   "pkhtb": 6,
+   "sadd16.w": 8,
+   "smlabt": 12,
+   "smlad": 1,
+   "smlatt": 1,
+   "smmulr.w": 1,
+   "smuad": 2,
+   "smuadx": 2,
+   "smulbb": 3,
+   "smultb": 1,
+   "smulwb": 4,
+   "smulwt": 8,
+   "ssub16.w": 8,
+   "uadd16": 17,
+   "usub16": 18
+  },
+  "fpu": {
+   "vldm": 8,
+   "vmov": 100,
+   "vmov.w": 21,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [],
+  "path": "pqm4/crypto_sign/ml-dsa-65/m4f",
+  "v7m": {
+   "ldrd": 10,
+   "mls": 1,
+   "mls.w": 1,
+   "smlal": 2,
+   "smlal.w": 4,
+   "smull": 2,
+   "smull.w": 2,
+   "ubfx": 1
+  }
+ },
+ "ml-dsa-65/m4fstack": {
+  "asm_files": [
+   "macros.i",
+   "macros_smallntt.i",
+   "ntt.S",
+   "pointwise_mont.s",
+   "smallntt_769.S",
+   "vector.s"
+  ],
+  "dsp": {
+   "pkhbt": 1,
+   "pkhtb": 6,
+   "sadd16.w": 8,
+   "smlabb": 2,
+   "smlabt": 10,
+   "smlad": 1,
+   "smlatt": 1,
+   "smmulr.w": 1,
+   "smuadx": 2,
+   "smulbb": 3,
+   "smultb": 1,
+   "smultt": 2,
+   "smulwb": 4,
+   "smulwt": 6,
+   "ssub16.w": 8,
+   "uadd16": 17,
+   "usub16": 18
+  },
+  "fpu": {
+   "vldm": 8,
+   "vmov": 100,
+   "vmov.w": 23,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [],
+  "path": "pqm4/crypto_sign/ml-dsa-65/m4fstack",
+  "v7m": {
+   "ldrd": 12,
+   "mls": 1,
+   "mls.w": 1,
+   "smlal": 2,
+   "smlal.w": 4,
+   "smull": 2,
+   "smull.w": 2,
+   "ubfx": 1
+  }
+ },
+ "ml-dsa-87/clean": {
+  "asm_files": [],
+  "dsp": {},
+  "fpu": {},
+  "inline_asm_files": [],
+  "path": "pqm4/mupq/pqclean/crypto_sign/ml-dsa-87/clean",
+  "v7m": {}
+ },
+ "ml-dsa-87/m4f": {
+  "asm_files": [
+   "macros.i",
+   "macros_smallntt.i",
+   "ntt.S",
+   "pointwise_mont.s",
+   "smallntt_769.S",
+   "vector.s"
+  ],
+  "dsp": {
+   "pkhbt": 5,
+   "pkhtb": 6,
+   "sadd16.w": 8,
+   "smlabt": 12,
+   "smlad": 1,
+   "smlatt": 1,
+   "smmulr.w": 1,
+   "smuad": 2,
+   "smuadx": 2,
+   "smulbb": 3,
+   "smultb": 1,
+   "smulwb": 4,
+   "smulwt": 8,
+   "ssub16.w": 8,
+   "uadd16": 17,
+   "usub16": 18
+  },
+  "fpu": {
+   "vldm": 8,
+   "vmov": 100,
+   "vmov.w": 21,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [],
+  "path": "pqm4/crypto_sign/ml-dsa-87/m4f",
+  "v7m": {
+   "ldrd": 10,
+   "mls": 1,
+   "mls.w": 1,
+   "smlal": 2,
+   "smlal.w": 4,
+   "smull": 2,
+   "smull.w": 2,
+   "ubfx": 1
+  }
+ },
+ "ml-dsa-87/m4fstack": {
+  "asm_files": [
+   "macros.i",
+   "macros_smallntt.i",
+   "ntt.S",
+   "pointwise_mont.s",
+   "smallntt_769.S",
+   "vector.s"
+  ],
+  "dsp": {
+   "pkhbt": 1,
+   "pkhtb": 6,
+   "sadd16.w": 8,
+   "smlabb": 2,
+   "smlabt": 10,
+   "smlad": 1,
+   "smlatt": 1,
+   "smmulr.w": 1,
+   "smuadx": 2,
+   "smulbb": 3,
+   "smultb": 1,
+   "smultt": 2,
+   "smulwb": 4,
+   "smulwt": 6,
+   "ssub16.w": 8,
+   "uadd16": 17,
+   "usub16": 18
+  },
+  "fpu": {
+   "vldm": 8,
+   "vmov": 100,
+   "vmov.w": 23,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [],
+  "path": "pqm4/crypto_sign/ml-dsa-87/m4fstack",
+  "v7m": {
+   "ldrd": 12,
+   "mls": 1,
+   "mls.w": 1,
+   "smlal": 2,
+   "smlal.w": 4,
+   "smull": 2,
+   "smull.w": 2,
+   "ubfx": 1
+  }
+ },
+ "ml-kem-1024/clean": {
+  "asm_files": [],
+  "dsp": {},
+  "fpu": {},
+  "inline_asm_files": [],
+  "path": "pqm4/mupq/pqclean/crypto_kem/ml-kem-1024/clean",
+  "v7m": {}
+ },
+ "ml-kem-1024/m4fspeed": {
+  "asm_files": [
+   "cmov_int16.S",
+   "fastaddsub.S",
+   "fastbasemul.S",
+   "fastinvntt.S",
+   "fastntt.S",
+   "macros.i",
+   "matacc.i",
+   "matacc_asm.S",
+   "poly_asm.S",
+   "reduce.S"
+  ],
+  "dsp": {
+   "pkhbt": 7,
+   "pkhtb": 14,
+   "sadd16.w": 8,
+   "smlabb": 18,
+   "smlabt": 18,
+   "smlad": 8,
+   "smladx": 16,
+   "smlatb": 1,
+   "smlatt": 9,
+   "smuad": 4,
+   "smuadx": 8,
+   "smulbb": 3,
+   "smultb": 1,
+   "smultt": 4,
+   "smulwb": 6,
+   "smulwt": 18,
+   "ssub16.w": 8,
+   "uadd16": 26,
+   "usub16": 27
+  },
+  "fpu": {
+   "vldm": 3,
+   "vmov": 143,
+   "vmov.w": 4,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [
+   "matacc.h"
+  ],
+  "path": "pqm4/crypto_kem/ml-kem-1024/m4fspeed",
+  "v7m": {
+   "ldrd": 10,
+   "ubfx": 3,
+   "ubfx.w": 4
+  }
+ },
+ "ml-kem-1024/m4fstack": {
+  "asm_files": [
+   "cmov_int16.S",
+   "fastaddsub.S",
+   "fastbasemul.S",
+   "fastinvntt.S",
+   "fastntt.S",
+   "macros.i",
+   "matacc.i",
+   "matacc_asm.S",
+   "poly_asm.S",
+   "reduce.S"
+  ],
+  "dsp": {
+   "pkhbt": 1,
+   "pkhtb": 18,
+   "sadd16.w": 8,
+   "smlabb": 16,
+   "smlabt": 20,
+   "smlatb": 1,
+   "smlatt": 1,
+   "smuadx": 12,
+   "smulbb": 3,
+   "smultb": 1,
+   "smultt": 12,
+   "smulwb": 6,
+   "smulwt": 18,
+   "ssub16.w": 8,
+   "uadd16": 32,
+   "usub16": 27
+  },
+  "fpu": {
+   "vldm": 3,
+   "vmov": 104,
+   "vmov.w": 8,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [
+   "matacc.h"
+  ],
+  "path": "pqm4/crypto_kem/ml-kem-1024/m4fstack",
+  "v7m": {
+   "ldrd": 14,
+   "ubfx": 9,
+   "ubfx.w": 4
+  }
+ },
+ "ml-kem-512/clean": {
+  "asm_files": [],
+  "dsp": {},
+  "fpu": {},
+  "inline_asm_files": [],
+  "path": "pqm4/mupq/pqclean/crypto_kem/ml-kem-512/clean",
+  "v7m": {}
+ },
+ "ml-kem-512/m4fspeed": {
+  "asm_files": [
+   "cmov_int16.S",
+   "fastaddsub.S",
+   "fastbasemul.S",
+   "fastinvntt.S",
+   "fastntt.S",
+   "macros.i",
+   "matacc.i",
+   "matacc_asm.S",
+   "poly_asm.S",
+   "reduce.S"
+  ],
+  "dsp": {
+   "pkhbt": 7,
+   "pkhtb": 14,
+   "sadd16.w": 8,
+   "smlabb": 18,
+   "smlabt": 18,
+   "smlad": 8,
+   "smladx": 16,
+   "smlatb": 1,
+   "smlatt": 9,
+   "smuad": 4,
+   "smuadx": 8,
+   "smulbb": 3,
+   "smultb": 1,
+   "smultt": 4,
+   "smulwb": 6,
+   "smulwt": 18,
+   "ssub16.w": 8,
+   "uadd16": 26,
+   "usub16": 27
+  },
+  "fpu": {
+   "vldm": 3,
+   "vmov": 143,
+   "vmov.w": 4,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [
+   "matacc.h"
+  ],
+  "path": "pqm4/crypto_kem/ml-kem-512/m4fspeed",
+  "v7m": {
+   "ldrd": 10,
+   "ubfx": 3,
+   "ubfx.w": 4
+  }
+ },
+ "ml-kem-512/m4fstack": {
+  "asm_files": [
+   "cmov_int16.S",
+   "fastaddsub.S",
+   "fastbasemul.S",
+   "fastinvntt.S",
+   "fastntt.S",
+   "macros.i",
+   "matacc.i",
+   "matacc_asm.S",
+   "poly_asm.S",
+   "reduce.S"
+  ],
+  "dsp": {
+   "pkhbt": 1,
+   "pkhtb": 18,
+   "sadd16.w": 8,
+   "smlabb": 16,
+   "smlabt": 20,
+   "smlatb": 1,
+   "smlatt": 1,
+   "smuadx": 12,
+   "smulbb": 3,
+   "smultb": 1,
+   "smultt": 12,
+   "smulwb": 6,
+   "smulwt": 18,
+   "ssub16.w": 8,
+   "uadd16": 32,
+   "usub16": 27
+  },
+  "fpu": {
+   "vldm": 3,
+   "vmov": 104,
+   "vmov.w": 8,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [
+   "matacc.h"
+  ],
+  "path": "pqm4/crypto_kem/ml-kem-512/m4fstack",
+  "v7m": {
+   "ldrd": 14,
+   "ubfx": 9,
+   "ubfx.w": 4
+  }
+ },
+ "ml-kem-768/clean": {
+  "asm_files": [],
+  "dsp": {},
+  "fpu": {},
+  "inline_asm_files": [],
+  "path": "pqm4/mupq/pqclean/crypto_kem/ml-kem-768/clean",
+  "v7m": {}
+ },
+ "ml-kem-768/m4fspeed": {
+  "asm_files": [
+   "cmov_int16.S",
+   "fastaddsub.S",
+   "fastbasemul.S",
+   "fastinvntt.S",
+   "fastntt.S",
+   "macros.i",
+   "matacc.i",
+   "matacc_asm.S",
+   "poly_asm.S",
+   "reduce.S"
+  ],
+  "dsp": {
+   "pkhbt": 7,
+   "pkhtb": 14,
+   "sadd16.w": 8,
+   "smlabb": 18,
+   "smlabt": 18,
+   "smlad": 8,
+   "smladx": 16,
+   "smlatb": 1,
+   "smlatt": 9,
+   "smuad": 4,
+   "smuadx": 8,
+   "smulbb": 3,
+   "smultb": 1,
+   "smultt": 4,
+   "smulwb": 6,
+   "smulwt": 18,
+   "ssub16.w": 8,
+   "uadd16": 26,
+   "usub16": 27
+  },
+  "fpu": {
+   "vldm": 3,
+   "vmov": 143,
+   "vmov.w": 4,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [
+   "matacc.h"
+  ],
+  "path": "pqm4/crypto_kem/ml-kem-768/m4fspeed",
+  "v7m": {
+   "ldrd": 10,
+   "ubfx": 3,
+   "ubfx.w": 4
+  }
+ },
+ "ml-kem-768/m4fstack": {
+  "asm_files": [
+   "cmov_int16.S",
+   "fastaddsub.S",
+   "fastbasemul.S",
+   "fastinvntt.S",
+   "fastntt.S",
+   "macros.i",
+   "matacc.i",
+   "matacc_asm.S",
+   "poly_asm.S",
+   "reduce.S"
+  ],
+  "dsp": {
+   "pkhbt": 1,
+   "pkhtb": 18,
+   "sadd16.w": 8,
+   "smlabb": 16,
+   "smlabt": 20,
+   "smlatb": 1,
+   "smlatt": 1,
+   "smuadx": 12,
+   "smulbb": 3,
+   "smultb": 1,
+   "smultt": 12,
+   "smulwb": 6,
+   "smulwt": 18,
+   "ssub16.w": 8,
+   "uadd16": 32,
+   "usub16": 27
+  },
+  "fpu": {
+   "vldm": 3,
+   "vmov": 105,
+   "vmov.w": 8,
+   "vpop.w": 2,
+   "vpush.w": 2
+  },
+  "inline_asm_files": [
+   "matacc.h"
+  ],
+  "path": "pqm4/crypto_kem/ml-kem-768/m4fstack",
+  "v7m": {
+   "ldrd": 14,
+   "ubfx": 9,
+   "ubfx.w": 4
+  }
+ }
+}

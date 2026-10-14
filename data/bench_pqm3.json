@@ -1,0 +1,706 @@
+{
+ "speed_cycles": {
+  "dilithium2/clean": {
+   "executions": 100,
+   "keygen": {
+    "avg": 2141349,
+    "max": 2172209,
+    "min": 2088037
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 9453705,
+    "max": 34824060,
+    "min": 3780779
+   },
+   "verify": {
+    "avg": 2357160,
+    "max": 2357770,
+    "min": 2356494
+   }
+  },
+  "dilithium2/m3": {
+   "executions": 100,
+   "keygen": {
+    "avg": 1912638,
+    "max": 1943498,
+    "min": 1859293
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 6602737,
+    "max": 30248533,
+    "min": 2989784
+   },
+   "verify": {
+    "avg": 1804922,
+    "max": 1805783,
+    "min": 1804303
+   }
+  },
+  "dilithium2aes/clean": {
+   "executions": 100,
+   "keygen": {
+    "avg": 5177287,
+    "max": 5248985,
+    "min": 5118119
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 14705483,
+    "max": 49768875,
+    "min": 6772934
+   },
+   "verify": {
+    "avg": 4948919,
+    "max": 5023293,
+    "min": 4891535
+   }
+  },
+  "dilithium3/clean": {
+   "executions": 100,
+   "keygen": {
+    "avg": 3673281,
+    "max": 3676589,
+    "min": 3669755
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 15791303,
+    "max": 61296910,
+    "min": 5806982
+   },
+   "verify": {
+    "avg": 3860668,
+    "max": 3861171,
+    "min": 3860121
+   }
+  },
+  "dilithium3/m3": {
+   "executions": 100,
+   "keygen": {
+    "avg": 3308859,
+    "max": 3312025,
+    "min": 3305504
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 11681062,
+    "max": 48016415,
+    "min": 4638553
+   },
+   "verify": {
+    "avg": 3025694,
+    "max": 3026030,
+    "min": 3025192
+   }
+  },
+  "dilithium3aes/clean": {
+   "executions": 100,
+   "keygen": {
+    "avg": 9264996,
+    "max": 9369008,
+    "min": 9201048
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 21492568,
+    "max": 59749347,
+    "min": 11241307
+   },
+   "verify": {
+    "avg": 8723854,
+    "max": 8825906,
+    "min": 8662025
+   }
+  },
+  "firesaber/clean": {
+   "decaps": {
+    "avg": 5765705,
+    "max": 5765732,
+    "min": 5765693
+   },
+   "encaps": {
+    "avg": 4978241,
+    "max": 4978270,
+    "min": 4978231
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 4008689,
+    "max": 4008721,
+    "min": 4008682
+   },
+   "kind": "kem"
+  },
+  "firesaber/m3speed": {
+   "decaps": {
+    "avg": 1882251,
+    "max": 1882288,
+    "min": 1882247
+   },
+   "encaps": {
+    "avg": 1811994,
+    "max": 1812032,
+    "min": 1811991
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 1498378,
+    "max": 1498415,
+    "min": 1498375
+   },
+   "kind": "kem"
+  },
+  "firesaber/m3speedstack": {
+   "decaps": {
+    "avg": 2190834,
+    "max": 2190867,
+    "min": 2190826
+   },
+   "encaps": {
+    "avg": 2116815,
+    "max": 2116849,
+    "min": 2116809
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 1777409,
+    "max": 1777409,
+    "min": 1777409
+   },
+   "kind": "kem"
+  },
+  "firesaber/m3stack": {
+   "decaps": {
+    "avg": 2554683,
+    "max": 2554719,
+    "min": 2554678
+   },
+   "encaps": {
+    "avg": 2484693,
+    "max": 2484728,
+    "min": 2484688
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 2024392,
+    "max": 2024428,
+    "min": 2024388
+   },
+   "kind": "kem"
+  },
+  "kyber1024/clean": {
+   "decaps": {
+    "avg": 2188135,
+    "max": 2211401,
+    "min": 2185075
+   },
+   "encaps": {
+    "avg": 2068032,
+    "max": 2093513,
+    "min": 2062756
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 1675464,
+    "max": 1698615,
+    "min": 1672383
+   },
+   "kind": "kem"
+  },
+  "kyber1024/m3": {
+   "decaps": {
+    "avg": 1559322,
+    "max": 1584215,
+    "min": 1554875
+   },
+   "encaps": {
+    "avg": 1617669,
+    "max": 1644738,
+    "min": 1611007
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 1399645,
+    "max": 1424482,
+    "min": 1395170
+   },
+   "kind": "kem"
+  },
+  "kyber512/clean": {
+   "decaps": {
+    "avg": 1000930,
+    "max": 1014644,
+    "min": 999746
+   },
+   "encaps": {
+    "avg": 908433,
+    "max": 924379,
+    "min": 905035
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 685263,
+    "max": 698981,
+    "min": 684083
+   },
+   "kind": "kem"
+  },
+  "kyber512/m3": {
+   "decaps": {
+    "avg": 627897,
+    "max": 641737,
+    "min": 626438
+   },
+   "encaps": {
+    "avg": 656152,
+    "max": 672207,
+    "min": 652478
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 539881,
+    "max": 553724,
+    "min": 538425
+   },
+   "kind": "kem"
+  },
+  "kyber768/clean": {
+   "decaps": {
+    "avg": 1512990,
+    "max": 1524691,
+    "min": 1510727
+   },
+   "encaps": {
+    "avg": 1401601,
+    "max": 1415312,
+    "min": 1397123
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 1134574,
+    "max": 1147417,
+    "min": 1132149
+   },
+   "kind": "kem"
+  },
+  "kyber768/m3": {
+   "decaps": {
+    "avg": 1022257,
+    "max": 1034719,
+    "min": 1018875
+   },
+   "encaps": {
+    "avg": 1067007,
+    "max": 1081545,
+    "min": 1061410
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 886498,
+    "max": 898980,
+    "min": 883111
+   },
+   "kind": "kem"
+  },
+  "lightsaber/clean": {
+   "decaps": {
+    "avg": 2196876,
+    "max": 2196912,
+    "min": 2196871
+   },
+   "encaps": {
+    "avg": 1800793,
+    "max": 1800829,
+    "min": 1800789
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 1238485,
+    "max": 1238522,
+    "min": 1238482
+   },
+   "kind": "kem"
+  },
+  "lightsaber/m3speed": {
+   "decaps": {
+    "avg": 747411,
+    "max": 747450,
+    "min": 747410
+   },
+   "encaps": {
+    "avg": 706161,
+    "max": 706200,
+    "min": 706160
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 519952,
+    "max": 519990,
+    "min": 519951
+   },
+   "kind": "kem"
+  },
+  "lightsaber/m3speedstack": {
+   "decaps": {
+    "avg": 829403,
+    "max": 829440,
+    "min": 829401
+   },
+   "encaps": {
+    "avg": 785870,
+    "max": 785907,
+    "min": 785868
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 566942,
+    "max": 566980,
+    "min": 566941
+   },
+   "kind": "kem"
+  },
+  "lightsaber/m3stack": {
+   "decaps": {
+    "avg": 903685,
+    "max": 903725,
+    "min": 903684
+   },
+   "encaps": {
+    "avg": 862174,
+    "max": 862212,
+    "min": 862173
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 613896,
+    "max": 613934,
+    "min": 613895
+   },
+   "kind": "kem"
+  },
+  "picnic3l1/opt": {
+   "executions": 100,
+   "keygen": {
+    "avg": 66972,
+    "max": 69050,
+    "min": 64580
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 304140458,
+    "max": 304158819,
+    "min": 304118144
+   },
+   "verify": {
+    "avg": 204127371,
+    "max": 204174031,
+    "min": 204037313
+   }
+  },
+  "picnic3l1/opt-mem": {
+   "executions": 100,
+   "keygen": {
+    "avg": 66972,
+    "max": 69050,
+    "min": 64580
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 322583594,
+    "max": 322621529,
+    "min": 322530333
+   },
+   "verify": {
+    "avg": 213779607,
+    "max": 213839248,
+    "min": 213713714
+   }
+  },
+  "picnicl1fs/opt": {
+   "executions": 100,
+   "keygen": {
+    "avg": 101384,
+    "max": 103519,
+    "min": 99249
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 294517846,
+    "max": 294519045,
+    "min": 294516400
+   },
+   "verify": {
+    "avg": 129325001,
+    "max": 129334572,
+    "min": 129315833
+   }
+  },
+  "picnicl1full/opt": {
+   "executions": 100,
+   "keygen": {
+    "avg": 61210,
+    "max": 63198,
+    "min": 58904
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 217549057,
+    "max": 217550649,
+    "min": 217547815
+   },
+   "verify": {
+    "avg": 96688245,
+    "max": 96700718,
+    "min": 96675090
+   }
+  },
+  "saber/clean": {
+   "decaps": {
+    "avg": 3916240,
+    "max": 3916271,
+    "min": 3916232
+   },
+   "encaps": {
+    "avg": 3437602,
+    "max": 3437635,
+    "min": 3437595
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 2612797,
+    "max": 2612832,
+    "min": 2612792
+   },
+   "kind": "kem"
+  },
+  "saber/m3speed": {
+   "decaps": {
+    "avg": 1266793,
+    "max": 1266830,
+    "min": 1266790
+   },
+   "encaps": {
+    "avg": 1217099,
+    "max": 1217137,
+    "min": 1217097
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 960237,
+    "max": 960277,
+    "min": 960236
+   },
+   "kind": "kem"
+  },
+  "saber/m3speedstack": {
+   "decaps": {
+    "avg": 1443329,
+    "max": 1443329,
+    "min": 1443329
+   },
+   "encaps": {
+    "avg": 1390592,
+    "max": 1390592,
+    "min": 1390592
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 1099694,
+    "max": 1099694,
+    "min": 1099694
+   },
+   "kind": "kem"
+  },
+  "saber/m3stack": {
+   "decaps": {
+    "avg": 1639161,
+    "max": 1639198,
+    "min": 1639158
+   },
+   "encaps": {
+    "avg": 1589456,
+    "max": 1589495,
+    "min": 1589453
+   },
+   "executions": 100,
+   "keygen": {
+    "avg": 1228688,
+    "max": 1228725,
+    "min": 1228685
+   },
+   "kind": "kem"
+  }
+ },
+ "stack_bytes": {
+  "dilithium2/clean": {
+   "keygen": 38292,
+   "kind": "sign",
+   "sign": 51916,
+   "verify": 36204
+  },
+  "dilithium2/m3": {
+   "keygen": 38324,
+   "kind": "sign",
+   "sign": 51956,
+   "verify": 36244
+  },
+  "dilithium2aes/clean": {
+   "keygen": 39764,
+   "kind": "sign",
+   "sign": 53388,
+   "verify": 37676
+  },
+  "dilithium3/clean": {
+   "keygen": 60880,
+   "kind": "sign",
+   "sign": 79588,
+   "verify": 57732
+  },
+  "dilithium3/m3": {
+   "keygen": 60876,
+   "kind": "sign",
+   "sign": 79620,
+   "verify": 57772
+  },
+  "dilithium3aes/clean": {
+   "keygen": 62352,
+   "kind": "sign",
+   "sign": 81060,
+   "verify": 59204
+  },
+  "firesaber/clean": {
+   "decaps": 20940,
+   "encaps": 19468,
+   "keygen": 19364,
+   "kind": "kem"
+  },
+  "firesaber/m3speed": {
+   "decaps": 8372,
+   "encaps": 8372,
+   "keygen": 7692,
+   "kind": "kem"
+  },
+  "firesaber/m3speedstack": {
+   "decaps": 3860,
+   "encaps": 3860,
+   "keygen": 5636,
+   "kind": "kem"
+  },
+  "firesaber/m3stack": {
+   "decaps": 3364,
+   "encaps": 3340,
+   "keygen": 4324,
+   "kind": "kem"
+  },
+  "kyber1024/clean": {
+   "decaps": 20340,
+   "encaps": 18772,
+   "keygen": 15092,
+   "kind": "kem"
+  },
+  "kyber1024/m3": {
+   "decaps": 3324,
+   "encaps": 3308,
+   "keygen": 3620,
+   "kind": "kem"
+  },
+  "kyber512/clean": {
+   "decaps": 9540,
+   "encaps": 8772,
+   "keygen": 6108,
+   "kind": "kem"
+  },
+  "kyber512/m3": {
+   "decaps": 2324,
+   "encaps": 2316,
+   "keygen": 2228,
+   "kind": "kem"
+  },
+  "kyber768/clean": {
+   "decaps": 14476,
+   "encaps": 13388,
+   "keygen": 10228,
+   "kind": "kem"
+  },
+  "kyber768/m3": {
+   "decaps": 2812,
+   "encaps": 2796,
+   "keygen": 3108,
+   "kind": "kem"
+  },
+  "lightsaber/clean": {
+   "decaps": 10288,
+   "encaps": 9552,
+   "keygen": 9448,
+   "kind": "kem"
+  },
+  "lightsaber/m3speed": {
+   "decaps": 6308,
+   "encaps": 6308,
+   "keygen": 5636,
+   "kind": "kem"
+  },
+  "lightsaber/m3speedstack": {
+   "decaps": 3596,
+   "encaps": 3596,
+   "keygen": 4604,
+   "kind": "kem"
+  },
+  "lightsaber/m3stack": {
+   "decaps": 3356,
+   "encaps": 3076,
+   "keygen": 3292,
+   "kind": "kem"
+  },
+  "picnic3l1/opt": {
+   "keygen": 824,
+   "kind": "sign",
+   "sign": 69252,
+   "verify": 87648
+  },
+  "picnic3l1/opt-mem": {
+   "keygen": 832,
+   "kind": "sign",
+   "sign": 24680,
+   "verify": 32452
+  },
+  "picnicl1fs/opt": {
+   "keygen": 728,
+   "kind": "sign",
+   "sign": 4060,
+   "verify": 4028
+  },
+  "picnicl1full/opt": {
+   "keygen": 824,
+   "kind": "sign",
+   "sign": 4136,
+   "verify": 3504
+  },
+  "saber/clean": {
+   "decaps": 14232,
+   "encaps": 13168,
+   "keygen": 13040,
+   "kind": "kem"
+  },
+  "saber/m3speed": {
+   "decaps": 7348,
+   "encaps": 7348,
+   "keygen": 6668,
+   "kind": "kem"
+  },
+  "saber/m3speedstack": {
+   "decaps": 3732,
+   "encaps": 3732,
+   "keygen": 5124,
+   "kind": "kem"
+  },
+  "saber/m3stack": {
+   "decaps": 3364,
+   "encaps": 3212,
+   "keygen": 3812,
+   "kind": "kem"
+  }
+ }
+}

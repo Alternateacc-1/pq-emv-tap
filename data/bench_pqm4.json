@@ -1,0 +1,3456 @@
+{
+ "speed_cycles": {
+  "aimer128f/m4speed": {
+   "executions": 10,
+   "keygen": {
+    "avg": 490087,
+    "max": 490088,
+    "min": 490087
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 28590420,
+    "max": 28590439,
+    "min": 28590395
+   },
+   "verify": {
+    "avg": 26750578,
+    "max": 26751014,
+    "min": 26749771
+   }
+  },
+  "aimer128f/m4stack": {
+   "executions": 10,
+   "keygen": {
+    "avg": 490082,
+    "max": 490083,
+    "min": 490082
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 46470710,
+    "max": 46471507,
+    "min": 46470162
+   },
+   "verify": {
+    "avg": 26743713,
+    "max": 26744143,
+    "min": 26743128
+   }
+  },
+  "aimer128f/mem_opt": {
+   "executions": 10,
+   "keygen": {
+    "avg": 564325,
+    "max": 564326,
+    "min": 564324
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 46875341,
+    "max": 46876276,
+    "min": 46874593
+   },
+   "verify": {
+    "avg": 26989249,
+    "max": 26989828,
+    "min": 26988505
+   }
+  },
+  "aimer128f/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 564323,
+    "max": 564324,
+    "min": 564323
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 28991142,
+    "max": 28991171,
+    "min": 28991115
+   },
+   "verify": {
+    "avg": 26994617,
+    "max": 26994927,
+    "min": 26994234
+   }
+  },
+  "aimer128s/m4speed": {
+   "executions": 10,
+   "keygen": {
+    "avg": 490085,
+    "max": 490086,
+    "min": 490085
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 277353540,
+    "max": 277354485,
+    "min": 277345110
+   },
+   "verify": {
+    "avg": 225136633,
+    "max": 225136640,
+    "min": 225136625
+   }
+  },
+  "aimer128s/m4stack": {
+   "executions": 10,
+   "keygen": {
+    "avg": 490088,
+    "max": 490088,
+    "min": 490088
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 372458535,
+    "max": 372459135,
+    "min": 372458327
+   },
+   "verify": {
+    "avg": 225134323,
+    "max": 225134367,
+    "min": 225134115
+   }
+  },
+  "aimer128s/mem_opt": {
+   "executions": 10,
+   "keygen": {
+    "avg": 564323,
+    "max": 564325,
+    "min": 564323
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 374834586,
+    "max": 374834973,
+    "min": 374834473
+   },
+   "verify": {
+    "avg": 227230761,
+    "max": 227230833,
+    "min": 227230441
+   }
+  },
+  "aimer192f/m4speed": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1192752,
+    "max": 1192753,
+    "min": 1192752
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 80106923,
+    "max": 80106945,
+    "min": 80106896
+   },
+   "verify": {
+    "avg": 75084294,
+    "max": 75085373,
+    "min": 75083653
+   }
+  },
+  "aimer192f/m4stack": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1192753,
+    "max": 1192754,
+    "min": 1192753
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 116329912,
+    "max": 116330708,
+    "min": 116328844
+   },
+   "verify": {
+    "avg": 75138063,
+    "max": 75138892,
+    "min": 75137469
+   }
+  },
+  "aimer192f/mem_opt": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1397043,
+    "max": 1397043,
+    "min": 1397043
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 117993511,
+    "max": 117995094,
+    "min": 117991579
+   },
+   "verify": {
+    "avg": 76372135,
+    "max": 76373839,
+    "min": 76370763
+   }
+  },
+  "aimer192f/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1397040,
+    "max": 1397041,
+    "min": 1397040
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 81884026,
+    "max": 81884035,
+    "min": 81883991
+   },
+   "verify": {
+    "avg": 76458825,
+    "max": 76460984,
+    "min": 76456517
+   }
+  },
+  "aimer192s/m4speed": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1192756,
+    "max": 1192758,
+    "min": 1192756
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 763112898,
+    "max": 763113314,
+    "min": 763110056
+   },
+   "verify": {
+    "avg": 617799254,
+    "max": 617799272,
+    "min": 617799226
+   }
+  },
+  "aimer192s/m4stack": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1192756,
+    "max": 1192756,
+    "min": 1192756
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 904630579,
+    "max": 904631379,
+    "min": 904630192
+   },
+   "verify": {
+    "avg": 617834636,
+    "max": 617834652,
+    "min": 617834607
+   }
+  },
+  "aimer192s/mem_opt": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1397047,
+    "max": 1397079,
+    "min": 1397039
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 916637185,
+    "max": 916637425,
+    "min": 916637133
+   },
+   "verify": {
+    "avg": 629249382,
+    "max": 629249415,
+    "min": 629249345
+   }
+  },
+  "aimer256f/m4speed": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2899948,
+    "max": 2899949,
+    "min": 2899948
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 160891483,
+    "max": 160891501,
+    "min": 160891455
+   },
+   "verify": {
+    "avg": 166071755,
+    "max": 166073951,
+    "min": 166068640
+   }
+  },
+  "aimer256f/m4stack": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2899950,
+    "max": 2899985,
+    "min": 2899947
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 228360437,
+    "max": 228362262,
+    "min": 228359438
+   },
+   "verify": {
+    "avg": 166042220,
+    "max": 166043056,
+    "min": 166040702
+   }
+  },
+  "aimer256f/mem_opt": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3344254,
+    "max": 3344255,
+    "min": 3344250
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 233973308,
+    "max": 233976707,
+    "min": 233969892
+   },
+   "verify": {
+    "avg": 170620601,
+    "max": 170623743,
+    "min": 170617448
+   }
+  },
+  "aimer256f/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3344258,
+    "max": 3344292,
+    "min": 3344255
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 164484408,
+    "max": 164484481,
+    "min": 164483962
+   },
+   "verify": {
+    "avg": 170648722,
+    "max": 170651027,
+    "min": 170647189
+   }
+  },
+  "aimer256s/m4speed": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2899956,
+    "max": 2899989,
+    "min": 2899949
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1391295720,
+    "max": 1391297144,
+    "min": 1391289067
+   },
+   "verify": {
+    "avg": 1321985344,
+    "max": 1321985426,
+    "min": 1321984834
+   }
+  },
+  "aimer256s/m4stack": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2899950,
+    "max": 2899950,
+    "min": 2899950
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1712314043,
+    "max": 1712314175,
+    "min": 1712314001
+   },
+   "verify": {
+    "avg": 1322034101,
+    "max": 1322034132,
+    "min": 1322034066
+   }
+  },
+  "aimer256s/mem_opt": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3344262,
+    "max": 3344293,
+    "min": 3344252
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1752719642,
+    "max": 1752720844,
+    "min": 1752719422
+   },
+   "verify": {
+    "avg": 1361337862,
+    "max": 1361338013,
+    "min": 1361336718
+   }
+  },
+  "bikel1/m4f": {
+   "decaps": {
+    "avg": 56744036,
+    "max": 56744062,
+    "min": 56744013
+   },
+   "encaps": {
+    "avg": 3363252,
+    "max": 3363291,
+    "min": 3363238
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 27382389,
+    "max": 27382406,
+    "min": 27382366
+   },
+   "kind": "kem"
+  },
+  "bikel1/opt": {
+   "decaps": {
+    "avg": 138514606,
+    "max": 138514711,
+    "min": 138514541
+   },
+   "encaps": {
+    "avg": 5295900,
+    "max": 5295931,
+    "min": 5295877
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 76272765,
+    "max": 76272809,
+    "min": 76272741
+   },
+   "kind": "kem"
+  },
+  "bikel3/m4f": {
+   "decaps": {
+    "avg": 150282952,
+    "max": 150282974,
+    "min": 150282849
+   },
+   "encaps": {
+    "avg": 8441498,
+    "max": 8441521,
+    "min": 8441478
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 66285221,
+    "max": 66285235,
+    "min": 66285184
+   },
+   "kind": "kem"
+  },
+  "bikel3/opt": {
+   "decaps": {
+    "avg": 423262047,
+    "max": 423262086,
+    "min": 423261952
+   },
+   "encaps": {
+    "avg": 16405238,
+    "max": 16405241,
+    "min": 16405236
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 248083316,
+    "max": 248083345,
+    "min": 248083286
+   },
+   "kind": "kem"
+  },
+  "cross-sha2-r-sdp-1-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 5614888,
+    "max": 5650611,
+    "min": 5590276
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 216566013,
+    "max": 217395250,
+    "min": 215745202
+   },
+   "verify": {
+    "avg": 143008126,
+    "max": 144002548,
+    "min": 141803162
+   }
+  },
+  "cross-sha2-r-sdp-3-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 8201340,
+    "max": 8208465,
+    "min": 8148672
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 241899820,
+    "max": 242049039,
+    "min": 241815860
+   },
+   "verify": {
+    "avg": 123896179,
+    "max": 124545760,
+    "min": 123524606
+   }
+  },
+  "cross-sha2-r-sdpg-1-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2151163,
+    "max": 2174685,
+    "min": 2115797
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 116162852,
+    "max": 116181821,
+    "min": 116120174
+   },
+   "verify": {
+    "avg": 87741423,
+    "max": 88267494,
+    "min": 87209686
+   }
+  },
+  "cross-sha2-r-sdpg-1-small/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2151212,
+    "max": 2174734,
+    "min": 2115845
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 391718680,
+    "max": 391774957,
+    "min": 391662566
+   },
+   "verify": {
+    "avg": 368397996,
+    "max": 369416443,
+    "min": 367703173
+   }
+  },
+  "cross-sha2-r-sdpg-3-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3049185,
+    "max": 3055381,
+    "min": 2996960
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 136242875,
+    "max": 136299163,
+    "min": 136234139
+   },
+   "verify": {
+    "avg": 84236165,
+    "max": 85067521,
+    "min": 83659318
+   }
+  },
+  "cross-sha2-r-sdpg-5-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 4302017,
+    "max": 4308343,
+    "min": 4249738
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 221761047,
+    "max": 221762936,
+    "min": 221758357
+   },
+   "verify": {
+    "avg": 134821310,
+    "max": 135025658,
+    "min": 134547992
+   }
+  },
+  "cross-sha3-r-sdp-1-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 967965,
+    "max": 978861,
+    "min": 963482
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 58864285,
+    "max": 58876854,
+    "min": 58853041
+   },
+   "verify": {
+    "avg": 30641221,
+    "max": 30661122,
+    "min": 30631654
+   }
+  },
+  "cross-sha3-r-sdp-3-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2195040,
+    "max": 2205040,
+    "min": 2191401
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 90064203,
+    "max": 90080511,
+    "min": 90034522
+   },
+   "verify": {
+    "avg": 48561804,
+    "max": 48577008,
+    "min": 48542657
+   }
+  },
+  "cross-sha3-r-sdpg-1-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 290136,
+    "max": 297758,
+    "min": 287742
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 29963868,
+    "max": 29974902,
+    "min": 29960918
+   },
+   "verify": {
+    "avg": 20093649,
+    "max": 20103416,
+    "min": 20078626
+   }
+  },
+  "cross-sha3-r-sdpg-1-small/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 290135,
+    "max": 297757,
+    "min": 287741
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 102853622,
+    "max": 102861948,
+    "min": 102847774
+   },
+   "verify": {
+    "avg": 75137510,
+    "max": 75159685,
+    "min": 75126803
+   }
+  },
+  "cross-sha3-r-sdpg-3-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 627948,
+    "max": 637639,
+    "min": 625525
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 43573841,
+    "max": 43582933,
+    "min": 43565461
+   },
+   "verify": {
+    "avg": 27513830,
+    "max": 27525746,
+    "min": 27493024
+   }
+  },
+  "cross-sha3-r-sdpg-5-fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1146280,
+    "max": 1153794,
+    "min": 1142409
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 93557878,
+    "max": 93566329,
+    "min": 93547167
+   },
+   "verify": {
+    "avg": 59948216,
+    "max": 60043852,
+    "min": 59857434
+   }
+  },
+  "fndsa_provisional-1024/m4f": {
+   "executions": 10,
+   "keygen": {
+    "avg": 308608613,
+    "max": 763483542,
+    "min": 195536229
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 48321135,
+    "max": 48398718,
+    "min": 48158227
+   },
+   "verify": {
+    "avg": 793856,
+    "max": 799182,
+    "min": 782604
+   }
+  },
+  "fndsa_provisional-1024/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 274928016,
+    "max": 448029028,
+    "min": 217869128
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 107512779,
+    "max": 107788566,
+    "min": 107106716
+   },
+   "verify": {
+    "avg": 1461795,
+    "max": 1469817,
+    "min": 1444739
+   }
+  },
+  "fndsa_provisional-512/m4f": {
+   "executions": 10,
+   "keygen": {
+    "avg": 67693338,
+    "max": 81542705,
+    "min": 57825106
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 22469685,
+    "max": 22594542,
+    "min": 22280159
+   },
+   "verify": {
+    "avg": 396949,
+    "max": 406553,
+    "min": 390368
+   }
+  },
+  "fndsa_provisional-512/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 85699591,
+    "max": 132207505,
+    "min": 64822516
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 49522949,
+    "max": 49631598,
+    "min": 49325465
+   },
+   "verify": {
+    "avg": 731387,
+    "max": 738870,
+    "min": 714301
+   }
+  },
+  "haetae2/m4f": {
+   "executions": 100,
+   "keygen": {
+    "avg": 6743278,
+    "max": 25393506,
+    "min": 1555292
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 21993963,
+    "max": 86765689,
+    "min": 4721290
+   },
+   "verify": {
+    "avg": 918459,
+    "max": 918668,
+    "min": 918244
+   }
+  },
+  "haetae2/ref": {
+   "executions": 100,
+   "keygen": {
+    "avg": 9363639,
+    "max": 41895014,
+    "min": 1716264
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 31631089,
+    "max": 216853925,
+    "min": 6247382
+   },
+   "verify": {
+    "avg": 1104080,
+    "max": 1104329,
+    "min": 1103874
+   }
+  },
+  "haetae3/m4f": {
+   "executions": 100,
+   "keygen": {
+    "avg": 12925388,
+    "max": 52240529,
+    "min": 2752846
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 30891994,
+    "max": 160522018,
+    "min": 7467529
+   },
+   "verify": {
+    "avg": 1760745,
+    "max": 1761081,
+    "min": 1760408
+   }
+  },
+  "haetae3/ref": {
+   "executions": 100,
+   "keygen": {
+    "avg": 20247658,
+    "max": 101863701,
+    "min": 3023325
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 41078691,
+    "max": 168213225,
+    "min": 9771906
+   },
+   "verify": {
+    "avg": 1998105,
+    "max": 1998406,
+    "min": 1997691
+   }
+  },
+  "haetae5/m4f": {
+   "executions": 100,
+   "keygen": {
+    "avg": 19064310,
+    "max": 94189003,
+    "min": 3530778
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 44679058,
+    "max": 182948586,
+    "min": 9277906
+   },
+   "verify": {
+    "avg": 2323830,
+    "max": 2324229,
+    "min": 2323454
+   }
+  },
+  "haetae5/ref": {
+   "executions": 100,
+   "keygen": {
+    "avg": 18169623,
+    "max": 64304046,
+    "min": 3864921
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 63180459,
+    "max": 264538555,
+    "min": 12011324
+   },
+   "verify": {
+    "avg": 2461679,
+    "max": 2462068,
+    "min": 2461294
+   }
+  },
+  "hawk1024/ref": {
+   "executions": 100,
+   "keygen": {
+    "avg": 246017495,
+    "max": 662190563,
+    "min": 183762252
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 4309675,
+    "max": 4309759,
+    "min": 4309595
+   },
+   "verify": {
+    "avg": 2782441,
+    "max": 2784348,
+    "min": 2780257
+   }
+  },
+  "hawk256/ref": {
+   "executions": 100,
+   "keygen": {
+    "avg": 15758436,
+    "max": 35345186,
+    "min": 11600791
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1042002,
+    "max": 2294025,
+    "min": 954957
+   },
+   "verify": {
+    "avg": 627815,
+    "max": 628077,
+    "min": 627480
+   }
+  },
+  "hawk512/ref": {
+   "executions": 100,
+   "keygen": {
+    "avg": 53733289,
+    "max": 174603165,
+    "min": 45271209
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1972051,
+    "max": 1972127,
+    "min": 1971984
+   },
+   "verify": {
+    "avg": 1293829,
+    "max": 1294494,
+    "min": 1292946
+   }
+  },
+  "hqc-128/clean": {
+   "decaps": {
+    "avg": 159569179,
+    "max": 159569183,
+    "min": 159569176
+   },
+   "encaps": {
+    "avg": 105650897,
+    "max": 105650927,
+    "min": 105650877
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 52705201,
+    "max": 52705224,
+    "min": 52705180
+   },
+   "kind": "kem"
+  },
+  "hqc-192/clean": {
+   "decaps": {
+    "avg": 486156251,
+    "max": 486156266,
+    "min": 486156214
+   },
+   "encaps": {
+    "avg": 323146261,
+    "max": 323146292,
+    "min": 323146250
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 161458617,
+    "max": 161458638,
+    "min": 161458590
+   },
+   "kind": "kem"
+  },
+  "hqc-256/clean": {
+   "decaps": {
+    "avg": 891163005,
+    "max": 891163038,
+    "min": 891162988
+   },
+   "encaps": {
+    "avg": 591853870,
+    "max": 591853898,
+    "min": 591853850
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 295934078,
+    "max": 295934104,
+    "min": 295934057
+   },
+   "kind": "kem"
+  },
+  "mayo1/m4f": {
+   "executions": 10,
+   "keygen": {
+    "avg": 9572502,
+    "max": 9572527,
+    "min": 9572487
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 16860361,
+    "max": 16860362,
+    "min": 16860360
+   },
+   "verify": {
+    "avg": 11031631,
+    "max": 11031641,
+    "min": 11031601
+   }
+  },
+  "mayo1/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 14912311,
+    "max": 14912318,
+    "min": 14912275
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 34939149,
+    "max": 34939151,
+    "min": 34939148
+   },
+   "verify": {
+    "avg": 13972096,
+    "max": 13972103,
+    "min": 13972062
+   }
+  },
+  "mayo2/m4f": {
+   "executions": 10,
+   "keygen": {
+    "avg": 9575000,
+    "max": 9575017,
+    "min": 9574978
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 11006533,
+    "max": 11006551,
+    "min": 11006511
+   },
+   "verify": {
+    "avg": 6028386,
+    "max": 6028413,
+    "min": 6028371
+   }
+  },
+  "mayo2/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 17182073,
+    "max": 17182075,
+    "min": 17182072
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 23433633,
+    "max": 23433656,
+    "min": 23433613
+   },
+   "verify": {
+    "avg": 6809416,
+    "max": 6809447,
+    "min": 6809403
+   }
+  },
+  "mayo3/m4f": {
+   "executions": 10,
+   "keygen": {
+    "avg": 27170159,
+    "max": 27170188,
+    "min": 27170149
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 45517756,
+    "max": 45517768,
+    "min": 45517727
+   },
+   "verify": {
+    "avg": 28446810,
+    "max": 28446813,
+    "min": 28446809
+   }
+  },
+  "mayo3/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 42601482,
+    "max": 42601509,
+    "min": 42601466
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 95034259,
+    "max": 95034278,
+    "min": 95034238
+   },
+   "verify": {
+    "avg": 34019916,
+    "max": 34019966,
+    "min": 34019866
+   }
+  },
+  "mirith_IIIa_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3009088,
+    "max": 3009123,
+    "min": 3009084
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 891195817,
+    "max": 891198221,
+    "min": 891191657
+   },
+   "verify": {
+    "avg": 831725932,
+    "max": 831742620,
+    "min": 831697264
+   }
+  },
+  "mirith_IIIb_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 4565011,
+    "max": 4565046,
+    "min": 4565007
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1298812706,
+    "max": 1298815343,
+    "min": 1298810546
+   },
+   "verify": {
+    "avg": 1214260655,
+    "max": 1214277229,
+    "min": 1214247570
+   }
+  },
+  "mirith_Ia_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1303728,
+    "max": 1303764,
+    "min": 1303721
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 296732107,
+    "max": 296734109,
+    "min": 296728990
+   },
+   "verify": {
+    "avg": 276059526,
+    "max": 276080171,
+    "min": 276031297
+   }
+  },
+  "mirith_Ib_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2514924,
+    "max": 2514964,
+    "min": 2514920
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 565778762,
+    "max": 565781372,
+    "min": 565776437
+   },
+   "verify": {
+    "avg": 528408968,
+    "max": 528415550,
+    "min": 528400758
+   }
+  },
+  "mirith_Va_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 6254885,
+    "max": 6254887,
+    "min": 6254885
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 2373353150,
+    "max": 2373358665,
+    "min": 2373347664
+   },
+   "verify": {
+    "avg": 2233960878,
+    "max": 2234010721,
+    "min": 2233908923
+   }
+  },
+  "mirith_Vb_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 8807561,
+    "max": 8807580,
+    "min": 8807538
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 3406388587,
+    "max": 3406391954,
+    "min": 3406385114
+   },
+   "verify": {
+    "avg": 3205119426,
+    "max": 3205181151,
+    "min": 3205069724
+   }
+  },
+  "mirith_hypercube_IIIa_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3009085,
+    "max": 3009121,
+    "min": 3009081
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 323235292,
+    "max": 323309072,
+    "min": 323169167
+   },
+   "verify": {
+    "avg": 313483184,
+    "max": 313507476,
+    "min": 313455293
+   }
+  },
+  "mirith_hypercube_IIIa_short/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3009092,
+    "max": 3009125,
+    "min": 3009084
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 718708882,
+    "max": 718725922,
+    "min": 718706940
+   },
+   "verify": {
+    "avg": 730959561,
+    "max": 730965347,
+    "min": 730953898
+   }
+  },
+  "mirith_hypercube_IIIb_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 4565028,
+    "max": 4565053,
+    "min": 4565013
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 450970203,
+    "max": 451011870,
+    "min": 450912625
+   },
+   "verify": {
+    "avg": 441590516,
+    "max": 441613045,
+    "min": 441574663
+   }
+  },
+  "mirith_hypercube_IIIb_short/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 4565027,
+    "max": 4565047,
+    "min": 4565008
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 845096869,
+    "max": 845114293,
+    "min": 845094881
+   },
+   "verify": {
+    "avg": 860321543,
+    "max": 860325520,
+    "min": 860312205
+   }
+  },
+  "mirith_hypercube_Ia_fast/opt": {
+   "executions": 10,
+   "keygen": {
+    "avg": 995563,
+    "max": 995752,
+    "min": 995419
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 58999862,
+    "max": 59042031,
+    "min": 58972041
+   },
+   "verify": {
+    "avg": 53599779,
+    "max": 53623234,
+    "min": 53565299
+   }
+  },
+  "mirith_hypercube_Ia_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1303715,
+    "max": 1303718,
+    "min": 1303715
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 116964064,
+    "max": 116990779,
+    "min": 116941316
+   },
+   "verify": {
+    "avg": 111505597,
+    "max": 111525936,
+    "min": 111482197
+   }
+  },
+  "mirith_hypercube_Ia_short/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1303722,
+    "max": 1303724,
+    "min": 1303721
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 370999431,
+    "max": 370999483,
+    "min": 370999393
+   },
+   "verify": {
+    "avg": 364000112,
+    "max": 364002214,
+    "min": 363996085
+   }
+  },
+  "mirith_hypercube_Ib_fast/opt": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1879815,
+    "max": 1880127,
+    "min": 1879488
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 83825209,
+    "max": 83857763,
+    "min": 83797728
+   },
+   "verify": {
+    "avg": 78145476,
+    "max": 78153192,
+    "min": 78137727
+   }
+  },
+  "mirith_hypercube_Ib_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2514929,
+    "max": 2514959,
+    "min": 2514917
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 205510181,
+    "max": 205547801,
+    "min": 205497961
+   },
+   "verify": {
+    "avg": 199772762,
+    "max": 199782994,
+    "min": 199769009
+   }
+  },
+  "mirith_hypercube_Ib_short/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2514920,
+    "max": 2514923,
+    "min": 2514920
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 447351952,
+    "max": 447351992,
+    "min": 447351902
+   },
+   "verify": {
+    "avg": 440279587,
+    "max": 440281382,
+    "min": 440278101
+   }
+  },
+  "mirith_hypercube_Va_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 6254896,
+    "max": 6254922,
+    "min": 6254886
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 808070687,
+    "max": 808157180,
+    "min": 808007911
+   },
+   "verify": {
+    "avg": 792058628,
+    "max": 792098565,
+    "min": 792006360
+   }
+  },
+  "mirith_hypercube_Vb_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 8807565,
+    "max": 8807583,
+    "min": 8807542
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1134272446,
+    "max": 1134368110,
+    "min": 1134201632
+   },
+   "verify": {
+    "avg": 1117085816,
+    "max": 1117104354,
+    "min": 1117059819
+   }
+  },
+  "ml-dsa-44/clean": {
+   "executions": 1000,
+   "keygen": {
+    "avg": 1874405,
+    "max": 1914904,
+    "min": 1827873
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 7925955,
+    "max": 33055004,
+    "min": 3322507
+   },
+   "verify": {
+    "avg": 2063096,
+    "max": 2063590,
+    "min": 2062599
+   }
+  },
+  "ml-dsa-44/m4f": {
+   "executions": 1000,
+   "keygen": {
+    "avg": 1426025,
+    "max": 1466529,
+    "min": 1379650
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 3943121,
+    "max": 17009165,
+    "min": 1812557
+   },
+   "verify": {
+    "avg": 1421623,
+    "max": 1422362,
+    "min": 1420738
+   }
+  },
+  "ml-dsa-44/m4fstack": {
+   "executions": 1000,
+   "keygen": {
+    "avg": 1799062,
+    "max": 1902006,
+    "min": 1685053
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 12134284,
+    "max": 65357843,
+    "min": 3901973
+   },
+   "verify": {
+    "avg": 3242333,
+    "max": 3279836,
+    "min": 3199001
+   }
+  },
+  "ml-dsa-65/clean": {
+   "executions": 1000,
+   "keygen": {
+    "avg": 3205533,
+    "max": 3206864,
+    "min": 3204116
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 12359056,
+    "max": 70122163,
+    "min": 5098254
+   },
+   "verify": {
+    "avg": 3377305,
+    "max": 3377714,
+    "min": 3376896
+   }
+  },
+  "ml-dsa-65/m4f": {
+   "executions": 1000,
+   "keygen": {
+    "avg": 2516006,
+    "max": 2517453,
+    "min": 2514337
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 6193171,
+    "max": 26008621,
+    "min": 2918295
+   },
+   "verify": {
+    "avg": 2415944,
+    "max": 2416730,
+    "min": 2415109
+   }
+  },
+  "ml-dsa-65/m4fstack": {
+   "executions": 1000,
+   "keygen": {
+    "avg": 3412622,
+    "max": 3418945,
+    "min": 3406495
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 24421526,
+    "max": 164688347,
+    "min": 6735243
+   },
+   "verify": {
+    "avg": 5732397,
+    "max": 5783258,
+    "min": 5688990
+   }
+  },
+  "ml-dsa-87/clean": {
+   "executions": 1000,
+   "keygen": {
+    "avg": 5341863,
+    "max": 5406569,
+    "min": 5276084
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 15579513,
+    "max": 82615659,
+    "min": 7954385
+   },
+   "verify": {
+    "avg": 5610203,
+    "max": 5610695,
+    "min": 5609675
+   }
+  },
+  "ml-dsa-87/m4f": {
+   "executions": 1000,
+   "keygen": {
+    "avg": 4275859,
+    "max": 4340256,
+    "min": 4188469
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 7947380,
+    "max": 29357607,
+    "min": 4880711
+   },
+   "verify": {
+    "avg": 4193104,
+    "max": 4194249,
+    "min": 4191862
+   }
+  },
+  "ml-dsa-87/m4fstack": {
+   "executions": 1000,
+   "keygen": {
+    "avg": 5820537,
+    "max": 6113363,
+    "min": 5484663
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 33357899,
+    "max": 170850278,
+    "min": 11168408
+   },
+   "verify": {
+    "avg": 9911514,
+    "max": 9969829,
+    "min": 9852116
+   }
+  },
+  "ml-kem-1024/clean": {
+   "decaps": {
+    "avg": 2020327,
+    "max": 2020672,
+    "min": 2019721
+   },
+   "encaps": {
+    "avg": 1708071,
+    "max": 1708427,
+    "min": 1707476
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 1536343,
+    "max": 1536698,
+    "min": 1535750
+   },
+   "kind": "kem"
+  },
+  "ml-kem-1024/m4fspeed": {
+   "decaps": {
+    "avg": 1094008,
+    "max": 1101987,
+    "min": 1089897
+   },
+   "encaps": {
+    "avg": 1031565,
+    "max": 1039544,
+    "min": 1027454
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 1018976,
+    "max": 1026934,
+    "min": 1014877
+   },
+   "kind": "kem"
+  },
+  "ml-kem-1024/m4fstack": {
+   "decaps": {
+    "avg": 1100982,
+    "max": 1110327,
+    "min": 1098251
+   },
+   "encaps": {
+    "avg": 1037953,
+    "max": 1047298,
+    "min": 1035260
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 1020202,
+    "max": 1029553,
+    "min": 1017478
+   },
+   "kind": "kem"
+  },
+  "ml-kem-512/clean": {
+   "decaps": {
+    "avg": 888653,
+    "max": 888831,
+    "min": 888436
+   },
+   "encaps": {
+    "avg": 700605,
+    "max": 700779,
+    "min": 700383
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 595793,
+    "max": 595971,
+    "min": 595576
+   },
+   "kind": "kem"
+  },
+  "ml-kem-512/m4fspeed": {
+   "decaps": {
+    "avg": 428167,
+    "max": 428357,
+    "min": 427955
+   },
+   "encaps": {
+    "avg": 390881,
+    "max": 391073,
+    "min": 390671
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 392423,
+    "max": 392614,
+    "min": 392211
+   },
+   "kind": "kem"
+  },
+  "ml-kem-512/m4fstack": {
+   "decaps": {
+    "avg": 430202,
+    "max": 430519,
+    "min": 429745
+   },
+   "encaps": {
+    "avg": 392864,
+    "max": 393181,
+    "min": 392407
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 392224,
+    "max": 392541,
+    "min": 391772
+   },
+   "kind": "kem"
+  },
+  "ml-kem-768/clean": {
+   "decaps": {
+    "avg": 1387984,
+    "max": 1397397,
+    "min": 1385144
+   },
+   "encaps": {
+    "avg": 1138225,
+    "max": 1147634,
+    "min": 1135419
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 988722,
+    "max": 998135,
+    "min": 985880
+   },
+   "kind": "kem"
+  },
+  "ml-kem-768/m4fspeed": {
+   "decaps": {
+    "avg": 707827,
+    "max": 716842,
+    "min": 704858
+   },
+   "encaps": {
+    "avg": 658754,
+    "max": 667769,
+    "min": 655785
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 642096,
+    "max": 651103,
+    "min": 639116
+   },
+   "kind": "kem"
+  },
+  "ml-kem-768/m4fstack": {
+   "decaps": {
+    "avg": 714194,
+    "max": 722374,
+    "min": 710433
+   },
+   "encaps": {
+    "avg": 664654,
+    "max": 672834,
+    "min": 660893
+   },
+   "executions": 10,
+   "keygen": {
+    "avg": 644195,
+    "max": 652374,
+    "min": 640433
+   },
+   "kind": "kem"
+  },
+  "mqom_cat1_gf251_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 7780082,
+    "max": 7795766,
+    "min": 7761398
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 149063790,
+    "max": 149079787,
+    "min": 149045955
+   },
+   "verify": {
+    "avg": 136742778,
+    "max": 136821602,
+    "min": 136613266
+   }
+  },
+  "mqom_cat1_gf31_fast/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 8472628,
+    "max": 8473585,
+    "min": 8471619
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 243796920,
+    "max": 243811088,
+    "min": 243782136
+   },
+   "verify": {
+    "avg": 244346110,
+    "max": 244424317,
+    "min": 244239828
+   }
+  },
+  "ov-Ip-pkc-skc/m4fspeed": {
+   "executions": 10,
+   "keygen": {
+    "avg": 175478965,
+    "max": 175478990,
+    "min": 175478948
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 89263175,
+    "max": 89263214,
+    "min": 89263170
+   },
+   "verify": {
+    "avg": 12003597,
+    "max": 12006562,
+    "min": 11986733
+   }
+  },
+  "ov-Ip-pkc-skc/m4fstack": {
+   "executions": 10,
+   "keygen": {
+    "avg": 175478966,
+    "max": 175478991,
+    "min": 175478947
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 89263173,
+    "max": 89263204,
+    "min": 89263168
+   },
+   "verify": {
+    "avg": 12058243,
+    "max": 12064225,
+    "min": 12038372
+   }
+  },
+  "ov-Ip-pkc-skc/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 375763142,
+    "max": 375763170,
+    "min": 375763127
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 242044572,
+    "max": 242044595,
+    "min": 242044549
+   },
+   "verify": {
+    "avg": 12436704,
+    "max": 12436717,
+    "min": 12436679
+   }
+  },
+  "ov-Ip-pkc/m4fspeed": {
+   "executions": 10,
+   "keygen": {
+    "avg": 175478881,
+    "max": 175478911,
+    "min": 175478862
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 2527865,
+    "max": 2527896,
+    "min": 2527858
+   },
+   "verify": {
+    "avg": 11215424,
+    "max": 11218217,
+    "min": 11205795
+   }
+  },
+  "ov-Ip-pkc/m4fstack": {
+   "executions": 10,
+   "keygen": {
+    "avg": 175478881,
+    "max": 175478903,
+    "min": 175478860
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 2773500,
+    "max": 4984285,
+    "min": 2527858
+   },
+   "verify": {
+    "avg": 12061774,
+    "max": 12064226,
+    "min": 12042070
+   }
+  },
+  "ov-Ip-pkc/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 375763094,
+    "max": 375763124,
+    "min": 375763057
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 6928079,
+    "max": 6928111,
+    "min": 6928071
+   },
+   "verify": {
+    "avg": 11584175,
+    "max": 11584182,
+    "min": 11584145
+   }
+  },
+  "ov-Ip/m4f": {
+   "executions": 10,
+   "keygen": {
+    "avg": 139271467,
+    "max": 139271493,
+    "min": 139271458
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 2505317,
+    "max": 2505345,
+    "min": 2505311
+   },
+   "verify": {
+    "avg": 996456,
+    "max": 997662,
+    "min": 986007
+   }
+  },
+  "ov-Ip/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 351626040,
+    "max": 351626063,
+    "min": 351626005
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 6488435,
+    "max": 6488456,
+    "min": 6488421
+   },
+   "verify": {
+    "avg": 1413310,
+    "max": 1413342,
+    "min": 1413307
+   }
+  },
+  "perk-128-fast-3/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 644470,
+    "max": 647939,
+    "min": 636635
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 246017426,
+    "max": 253780360,
+    "min": 243005413
+   },
+   "verify": {
+    "avg": 81024701,
+    "max": 81395570,
+    "min": 80816007
+   }
+  },
+  "perk-128-fast-3/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 708498,
+    "max": 746765,
+    "min": 693335
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 217731020,
+    "max": 218266235,
+    "min": 217373834
+   },
+   "verify": {
+    "avg": 96392553,
+    "max": 96887038,
+    "min": 96066645
+   }
+  },
+  "perk-128-fast-5/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 817180,
+    "max": 817404,
+    "min": 816960
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 237884869,
+    "max": 244535683,
+    "min": 230003551
+   },
+   "verify": {
+    "avg": 78109386,
+    "max": 78417783,
+    "min": 77698543
+   }
+  },
+  "perk-128-fast-5/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 909135,
+    "max": 909199,
+    "min": 909079
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 215652606,
+    "max": 216332885,
+    "min": 215184285
+   },
+   "verify": {
+    "avg": 94148220,
+    "max": 95135325,
+    "min": 93538371
+   }
+  },
+  "perk-128-short-3/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 642276,
+    "max": 647881,
+    "min": 636688
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1346726173,
+    "max": 1370409684,
+    "min": 1331302188
+   },
+   "verify": {
+    "avg": 460140305,
+    "max": 460823613,
+    "min": 459600932
+   }
+  },
+  "perk-128-short-5/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 817086,
+    "max": 817352,
+    "min": 816914
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1249408455,
+    "max": 1287162277,
+    "min": 1222079503
+   },
+   "verify": {
+    "avg": 428017047,
+    "max": 428959908,
+    "min": 427222001
+   }
+  },
+  "perk-192-fast-3/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1490893,
+    "max": 1491170,
+    "min": 1490614
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 578039864,
+    "max": 583232703,
+    "min": 570936301
+   },
+   "verify": {
+    "avg": 194443607,
+    "max": 194812016,
+    "min": 194020947
+   }
+  },
+  "perk-192-fast-5/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1803700,
+    "max": 1804063,
+    "min": 1803353
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 560779599,
+    "max": 567090598,
+    "min": 551003314
+   },
+   "verify": {
+    "avg": 186978273,
+    "max": 187997766,
+    "min": 185781347
+   }
+  },
+  "perk-192-short-3/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1490931,
+    "max": 1491237,
+    "min": 1490700
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 3287248058,
+    "max": 3367875518,
+    "min": 3215163085
+   },
+   "verify": {
+    "avg": 1177626072,
+    "max": 1180161689,
+    "min": 1173662370
+   }
+  },
+  "perk-192-short-5/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1803810,
+    "max": 1804114,
+    "min": 1803582
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 3055640781,
+    "max": 3097923832,
+    "min": 3012300361
+   },
+   "verify": {
+    "avg": 1098102537,
+    "max": 1100922095,
+    "min": 1091885810
+   }
+  },
+  "perk-256-fast-3/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2579417,
+    "max": 2579552,
+    "min": 2579240
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1180042672,
+    "max": 1195968610,
+    "min": 1167250030
+   },
+   "verify": {
+    "avg": 418170893,
+    "max": 420627465,
+    "min": 415658694
+   }
+  },
+  "perk-256-fast-5/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3067494,
+    "max": 3122708,
+    "min": 3051317
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1132865549,
+    "max": 1145937660,
+    "min": 1118062283
+   },
+   "verify": {
+    "avg": 398350119,
+    "max": 400676954,
+    "min": 396811115
+   }
+  },
+  "perk-256-short-3/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 2585286,
+    "max": 2638281,
+    "min": 2579142
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 6776856645,
+    "max": 6897544501,
+    "min": 6661520383
+   },
+   "verify": {
+    "avg": 2642609592,
+    "max": 2645143628,
+    "min": 2640236102
+   }
+  },
+  "perk-256-short-5/m4": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3079789,
+    "max": 3184058,
+    "min": 3052513
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 6207736113,
+    "max": 6330487968,
+    "min": 6128500846
+   },
+   "verify": {
+    "avg": 2452601903,
+    "max": 2460272362,
+    "min": 2442259899
+   }
+  },
+  "snova-24-5-16-4-esk/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 24840838,
+    "max": 24841191,
+    "min": 24840391
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 139251354,
+    "max": 139274512,
+    "min": 139235721
+   },
+   "verify": {
+    "avg": 88454046,
+    "max": 88454429,
+    "min": 88453528
+   }
+  },
+  "snova-24-5-16-4-ssk/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 24772323,
+    "max": 24772994,
+    "min": 24771821
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 174094748,
+    "max": 299202162,
+    "min": 160180156
+   },
+   "verify": {
+    "avg": 88453756,
+    "max": 88454408,
+    "min": 88453293
+   }
+  },
+  "snova-25-8-16-3-esk/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 35280792,
+    "max": 35280867,
+    "min": 35280693
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 71674196,
+    "max": 130098735,
+    "min": 65171606
+   },
+   "verify": {
+    "avg": 42542485,
+    "max": 42542553,
+    "min": 42542403
+   }
+  },
+  "snova-25-8-16-3-ssk/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 35195324,
+    "max": 35195579,
+    "min": 35195216
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 112654217,
+    "max": 158103540,
+    "min": 93165980
+   },
+   "verify": {
+    "avg": 42542507,
+    "max": 42542732,
+    "min": 42542396
+   }
+  },
+  "snova-28-17-16-2-esk/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 51177590,
+    "max": 51177647,
+    "min": 51177548
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 23387139,
+    "max": 42311786,
+    "min": 21270788
+   },
+   "verify": {
+    "avg": 19180389,
+    "max": 19180440,
+    "min": 19180360
+   }
+  },
+  "snova-28-17-16-2-ssk/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 51065038,
+    "max": 51065086,
+    "min": 51064999
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 52865514,
+    "max": 71788606,
+    "min": 50757388
+   },
+   "verify": {
+    "avg": 19180379,
+    "max": 19180425,
+    "min": 19180357
+   }
+  },
+  "snova-37-8-16-4-ssk/ref": {
+   "executions": 10,
+   "keygen": {
+    "avg": 122023801,
+    "max": 122024216,
+    "min": 122023399
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 533063912,
+    "max": 533090127,
+    "min": 533033960
+   },
+   "verify": {
+    "avg": 335806349,
+    "max": 335806820,
+    "min": 335805890
+   }
+  },
+  "sphincs-sha2-128f-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 15742990,
+    "max": 15742996,
+    "min": 15742958
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 368575228,
+    "max": 368575246,
+    "min": 368575193
+   },
+   "verify": {
+    "avg": 21923628,
+    "max": 22456717,
+    "min": 21369867
+   }
+  },
+  "sphincs-sha2-128s-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1007731522,
+    "max": 1007731551,
+    "min": 1007731504
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 7657558168,
+    "max": 7657558212,
+    "min": 7657558117
+   },
+   "verify": {
+    "avg": 7471794,
+    "max": 7797915,
+    "min": 7228491
+   }
+  },
+  "sphincs-sha2-192f-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 23570224,
+    "max": 23570257,
+    "min": 23570214
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 666398438,
+    "max": 666398468,
+    "min": 666398401
+   },
+   "verify": {
+    "avg": 35457937,
+    "max": 35973969,
+    "min": 35087854
+   }
+  },
+  "sphincs-sha2-192s-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1509654951,
+    "max": 1509654968,
+    "min": 1509654914
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 15452089990,
+    "max": 15452090071,
+    "min": 15452089934
+   },
+   "verify": {
+    "avg": 13494855,
+    "max": 14303224,
+    "min": 12947211
+   }
+  },
+  "sphincs-sha2-256f-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 62583556,
+    "max": 62583577,
+    "min": 62583533
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1377768608,
+    "max": 1377768713,
+    "min": 1377768561
+   },
+   "verify": {
+    "avg": 37302611,
+    "max": 38058007,
+    "min": 36599268
+   }
+  },
+  "sphincs-sha2-256s-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 1001040810,
+    "max": 1001040845,
+    "min": 1001040779
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 14326202444,
+    "max": 14326202506,
+    "min": 14326202404
+   },
+   "verify": {
+    "avg": 19637153,
+    "max": 20132079,
+    "min": 18985943
+   }
+  },
+  "sphincs-shake-128f-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 50505025,
+    "max": 50505030,
+    "min": 50505022
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1182422563,
+    "max": 1182422621,
+    "min": 1182422491
+   },
+   "verify": {
+    "avg": 70501834,
+    "max": 71605565,
+    "min": 68595319
+   }
+  },
+  "sphincs-shake-128s-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3231401965,
+    "max": 3231402005,
+    "min": 3231401936
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 24553696412,
+    "max": 24553696516,
+    "min": 24553696311
+   },
+   "verify": {
+    "avg": 24366771,
+    "max": 25470425,
+    "min": 22962144
+   }
+  },
+  "sphincs-shake-192f-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 74890591,
+    "max": 74890617,
+    "min": 74890566
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 1937690056,
+    "max": 1937690169,
+    "min": 1937690000
+   },
+   "verify": {
+    "avg": 103305801,
+    "max": 104969964,
+    "min": 101234011
+   }
+  },
+  "sphincs-shake-192s-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 4793551013,
+    "max": 4793551045,
+    "min": 4793550980
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 43114327277,
+    "max": 43114327407,
+    "min": 43114327182
+   },
+   "verify": {
+    "avg": 35026412,
+    "max": 36300013,
+    "min": 33413152
+   }
+  },
+  "sphincs-shake-256f-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 200110912,
+    "max": 200110926,
+    "min": 200110878
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 4026533198,
+    "max": 4026533250,
+    "min": 4026533128
+   },
+   "verify": {
+    "avg": 108394619,
+    "max": 111648895,
+    "min": 106138946
+   }
+  },
+  "sphincs-shake-256s-simple/clean": {
+   "executions": 10,
+   "keygen": {
+    "avg": 3201898694,
+    "max": 3201898741,
+    "min": 3201898656
+   },
+   "kind": "sign",
+   "sign": {
+    "avg": 38175697620,
+    "max": 38175697766,
+    "min": 38175697525
+   },
+   "verify": {
+    "avg": 52912174,
+    "max": 53979746,
+    "min": 51224772
+   }
+  }
+ },
+ "stack_bytes": {
+  "aimer128f/m4speed": {
+   "keygen": 8720,
+   "kind": "sign",
+   "sign": 123376,
+   "verify": 15448
+  },
+  "aimer128f/m4stack": {
+   "keygen": 8720,
+   "kind": "sign",
+   "sign": 13864,
+   "verify": 15440
+  },
+  "aimer128f/mem_opt": {
+   "keygen": 8728,
+   "kind": "sign",
+   "sign": 13864,
+   "verify": 15440
+  },
+  "aimer128f/ref": {
+   "keygen": 8728,
+   "kind": "sign",
+   "sign": 123376,
+   "verify": 15448
+  },
+  "aimer128s/m4speed": {
+   "keygen": 8720,
+   "kind": "sign",
+   "sign": 166204,
+   "verify": 34624
+  },
+  "aimer128s/m4stack": {
+   "keygen": 8720,
+   "kind": "sign",
+   "sign": 27324,
+   "verify": 34624
+  },
+  "aimer128s/mem_opt": {
+   "keygen": 8728,
+   "kind": "sign",
+   "sign": 27324,
+   "verify": 34624
+  },
+  "aimer192f/m4speed": {
+   "keygen": 19184,
+   "kind": "sign",
+   "sign": 273104,
+   "verify": 31608
+  },
+  "aimer192f/m4stack": {
+   "keygen": 19184,
+   "kind": "sign",
+   "sign": 29976,
+   "verify": 31608
+  },
+  "aimer192f/mem_opt": {
+   "keygen": 19192,
+   "kind": "sign",
+   "sign": 29976,
+   "verify": 31608
+  },
+  "aimer192f/ref": {
+   "keygen": 19192,
+   "kind": "sign",
+   "sign": 273104,
+   "verify": 31608
+  },
+  "aimer192s/m4speed": {
+   "keygen": 19184,
+   "kind": "sign",
+   "sign": 349788,
+   "verify": 60384
+  },
+  "aimer192s/m4stack": {
+   "keygen": 19184,
+   "kind": "sign",
+   "sign": 43220,
+   "verify": 60384
+  },
+  "aimer192s/mem_opt": {
+   "keygen": 19192,
+   "kind": "sign",
+   "sign": 43220,
+   "verify": 60384
+  },
+  "aimer256f/m4speed": {
+   "keygen": 50032,
+   "kind": "sign",
+   "sign": 573176,
+   "verify": 78608
+  },
+  "aimer256f/m4stack": {
+   "keygen": 50032,
+   "kind": "sign",
+   "sign": 77056,
+   "verify": 78568
+  },
+  "aimer256f/mem_opt": {
+   "keygen": 50040,
+   "kind": "sign",
+   "sign": 77164,
+   "verify": 78568
+  },
+  "aimer256f/ref": {
+   "keygen": 50040,
+   "kind": "sign",
+   "sign": 573284,
+   "verify": 78716
+  },
+  "aimer256s/m4speed": {
+   "keygen": 50032,
+   "kind": "sign",
+   "sign": 615856,
+   "verify": 116936
+  },
+  "aimer256s/m4stack": {
+   "keygen": 50032,
+   "kind": "sign",
+   "sign": 76032,
+   "verify": 116936
+  },
+  "aimer256s/mem_opt": {
+   "keygen": 50040,
+   "kind": "sign",
+   "sign": 76140,
+   "verify": 117044
+  },
+  "bikel1/m4f": {
+   "decaps": 91372,
+   "encaps": 32192,
+   "keygen": 43976,
+   "kind": "kem"
+  },
+  "bikel1/opt": {
+   "decaps": 78540,
+   "encaps": 25836,
+   "keygen": 35748,
+   "kind": "kem"
+  },
+  "bikel3/m4f": {
+   "decaps": 175128,
+   "encaps": 62944,
+   "keygen": 85744,
+   "kind": "kem"
+  },
+  "bikel3/opt": {
+   "decaps": 155388,
+   "encaps": 50556,
+   "keygen": 69444,
+   "kind": "kem"
+  },
+  "cross-sha2-r-sdp-1-fast/ref": {
+   "keygen": 5200,
+   "kind": "sign",
+   "sign": 218304,
+   "verify": 105604
+  },
+  "cross-sha2-r-sdp-3-fast/ref": {
+   "keygen": 9920,
+   "kind": "sign",
+   "sign": 324764,
+   "verify": 158132
+  },
+  "cross-sha2-r-sdpg-1-fast/ref": {
+   "keygen": 2760,
+   "kind": "sign",
+   "sign": 130824,
+   "verify": 69536
+  },
+  "cross-sha2-r-sdpg-1-small/ref": {
+   "keygen": 2760,
+   "kind": "sign",
+   "sign": 466288,
+   "verify": 245480
+  },
+  "cross-sha2-r-sdpg-3-fast/ref": {
+   "keygen": 4536,
+   "kind": "sign",
+   "sign": 205148,
+   "verify": 108452
+  },
+  "cross-sha2-r-sdpg-5-fast/ref": {
+   "keygen": 7408,
+   "kind": "sign",
+   "sign": 398612,
+   "verify": 213684
+  },
+  "cross-sha3-r-sdp-1-fast/ref": {
+   "keygen": 4672,
+   "kind": "sign",
+   "sign": 218400,
+   "verify": 105576
+  },
+  "cross-sha3-r-sdp-3-fast/ref": {
+   "keygen": 9336,
+   "kind": "sign",
+   "sign": 324688,
+   "verify": 157792
+  },
+  "cross-sha3-r-sdpg-1-fast/ref": {
+   "keygen": 2328,
+   "kind": "sign",
+   "sign": 130928,
+   "verify": 69560
+  },
+  "cross-sha3-r-sdpg-1-small/ref": {
+   "keygen": 2328,
+   "kind": "sign",
+   "sign": 466400,
+   "verify": 245512
+  },
+  "cross-sha3-r-sdpg-3-fast/ref": {
+   "keygen": 4032,
+   "kind": "sign",
+   "sign": 205080,
+   "verify": 108236
+  },
+  "cross-sha3-r-sdpg-5-fast/ref": {
+   "keygen": 6824,
+   "kind": "sign",
+   "sign": 398600,
+   "verify": 213436
+  },
+  "fndsa_provisional-1024/m4f": {
+   "keygen": 27772,
+   "kind": "sign",
+   "sign": 81992,
+   "verify": 5024
+  },
+  "fndsa_provisional-1024/ref": {
+   "keygen": 27676,
+   "kind": "sign",
+   "sign": 82276,
+   "verify": 5308
+  },
+  "fndsa_provisional-512/m4f": {
+   "keygen": 14348,
+   "kind": "sign",
+   "sign": 41952,
+   "verify": 2976
+  },
+  "fndsa_provisional-512/ref": {
+   "keygen": 14380,
+   "kind": "sign",
+   "sign": 42124,
+   "verify": 3260
+  },
+  "haetae2/m4f": {
+   "keygen": 19756,
+   "kind": "sign",
+   "sign": 55568,
+   "verify": 23296
+  },
+  "haetae2/ref": {
+   "keygen": 26092,
+   "kind": "sign",
+   "sign": 54444,
+   "verify": 29696
+  },
+  "haetae3/m4f": {
+   "keygen": 29596,
+   "kind": "sign",
+   "sign": 83420,
+   "verify": 31784
+  },
+  "haetae3/ref": {
+   "keygen": 43492,
+   "kind": "sign",
+   "sign": 80428,
+   "verify": 48424
+  },
+  "haetae5/m4f": {
+   "keygen": 34084,
+   "kind": "sign",
+   "sign": 103964,
+   "verify": 37300
+  },
+  "haetae5/ref": {
+   "keygen": 54868,
+   "kind": "sign",
+   "sign": 100228,
+   "verify": 62024
+  },
+  "hawk1024/ref": {
+   "keygen": 27972,
+   "kind": "sign",
+   "sign": 7980,
+   "verify": 11468
+  },
+  "hawk256/ref": {
+   "keygen": 7900,
+   "kind": "sign",
+   "sign": 3320,
+   "verify": 3712
+  },
+  "hawk512/ref": {
+   "keygen": 14580,
+   "kind": "sign",
+   "sign": 4856,
+   "verify": 6272
+  },
+  "hqc-128/clean": {
+   "decaps": 55892,
+   "encaps": 51428,
+   "keygen": 33644,
+   "kind": "kem"
+  },
+  "hqc-192/clean": {
+   "decaps": 110660,
+   "encaps": 101636,
+   "keygen": 65668,
+   "kind": "kem"
+  },
+  "hqc-256/clean": {
+   "decaps": 175972,
+   "encaps": 161508,
+   "keygen": 103756,
+   "kind": "kem"
+  },
+  "mayo1/m4f": {
+   "keygen": 179276,
+   "kind": "sign",
+   "sign": 251204,
+   "verify": 253484
+  },
+  "mayo1/ref": {
+   "keygen": 154220,
+   "kind": "sign",
+   "sign": 197268,
+   "verify": 214756
+  },
+  "mayo2/m4f": {
+   "keygen": 169548,
+   "kind": "sign",
+   "sign": 168700,
+   "verify": 159500
+  },
+  "mayo2/ref": {
+   "keygen": 118204,
+   "kind": "sign",
+   "sign": 122252,
+   "verify": 152732
+  },
+  "mayo3/m4f": {
+   "keygen": 499508,
+   "kind": "sign",
+   "sign": 592012,
+   "verify": 583212
+  },
+  "mayo3/ref": {
+   "keygen": 401500,
+   "kind": "sign",
+   "sign": 487596,
+   "verify": 515860
+  },
+  "mirith_IIIa_fast/ref": {
+   "keygen": 21832,
+   "kind": "sign",
+   "sign": 266480,
+   "verify": 46156
+  },
+  "mirith_IIIb_fast/ref": {
+   "keygen": 32872,
+   "kind": "sign",
+   "sign": 298208,
+   "verify": 59172
+  },
+  "mirith_Ia_fast/ref": {
+   "keygen": 10208,
+   "kind": "sign",
+   "sign": 122424,
+   "verify": 22836
+  },
+  "mirith_Ib_fast/ref": {
+   "keygen": 19064,
+   "kind": "sign",
+   "sign": 151016,
+   "verify": 33764
+  },
+  "mirith_Va_fast/ref": {
+   "keygen": 45000,
+   "kind": "sign",
+   "sign": 484464,
+   "verify": 85252
+  },
+  "mirith_Vb_fast/ref": {
+   "keygen": 62864,
+   "kind": "sign",
+   "sign": 535176,
+   "verify": 106004
+  },
+  "mirith_hypercube_IIIa_fast/ref": {
+   "keygen": 21832,
+   "kind": "sign",
+   "sign": 167024,
+   "verify": 42692
+  },
+  "mirith_hypercube_IIIa_short/ref": {
+   "keygen": 21832,
+   "kind": "sign",
+   "sign": 486448,
+   "verify": 56596
+  },
+  "mirith_hypercube_IIIb_fast/ref": {
+   "keygen": 32872,
+   "kind": "sign",
+   "sign": 189520,
+   "verify": 55244
+  },
+  "mirith_hypercube_IIIb_short/ref": {
+   "keygen": 32872,
+   "kind": "sign",
+   "sign": 509056,
+   "verify": 68632
+  },
+  "mirith_hypercube_Ia_fast/opt": {
+   "keygen": 10216,
+   "kind": "sign",
+   "sign": 76944,
+   "verify": 20864
+  },
+  "mirith_hypercube_Ia_fast/ref": {
+   "keygen": 10208,
+   "kind": "sign",
+   "sign": 76944,
+   "verify": 20864
+  },
+  "mirith_hypercube_Ia_short/ref": {
+   "keygen": 10208,
+   "kind": "sign",
+   "sign": 217624,
+   "verify": 31212
+  },
+  "mirith_hypercube_Ib_fast/opt": {
+   "keygen": 19072,
+   "kind": "sign",
+   "sign": 96928,
+   "verify": 31316
+  },
+  "mirith_hypercube_Ib_fast/ref": {
+   "keygen": 19064,
+   "kind": "sign",
+   "sign": 96928,
+   "verify": 31316
+  },
+  "mirith_hypercube_Ib_short/ref": {
+   "keygen": 19064,
+   "kind": "sign",
+   "sign": 237408,
+   "verify": 41220
+  },
+  "mirith_hypercube_Va_fast/ref": {
+   "keygen": 45000,
+   "kind": "sign",
+   "sign": 308440,
+   "verify": 81056
+  },
+  "mirith_hypercube_Vb_fast/ref": {
+   "keygen": 62864,
+   "kind": "sign",
+   "sign": 344832,
+   "verify": 101220
+  },
+  "ml-dsa-44/clean": {
+   "keygen": 38304,
+   "kind": "sign",
+   "sign": 51976,
+   "verify": 36308
+  },
+  "ml-dsa-44/m4f": {
+   "keygen": 38296,
+   "kind": "sign",
+   "sign": 44816,
+   "verify": 8912
+  },
+  "ml-dsa-44/m4fstack": {
+   "keygen": 4408,
+   "kind": "sign",
+   "sign": 5080,
+   "verify": 2712
+  },
+  "ml-dsa-65/clean": {
+   "keygen": 60832,
+   "kind": "sign",
+   "sign": 79624,
+   "verify": 57736
+  },
+  "ml-dsa-65/m4f": {
+   "keygen": 60824,
+   "kind": "sign",
+   "sign": 68872,
+   "verify": 9888
+  },
+  "ml-dsa-65/m4fstack": {
+   "keygen": 4408,
+   "kind": "sign",
+   "sign": 6616,
+   "verify": 2712
+  },
+  "ml-dsa-87/clean": {
+   "keygen": 97696,
+   "kind": "sign",
+   "sign": 122740,
+   "verify": 92948
+  },
+  "ml-dsa-87/m4f": {
+   "keygen": 97688,
+   "kind": "sign",
+   "sign": 107892,
+   "verify": 12060
+  },
+  "ml-dsa-87/m4fstack": {
+   "keygen": 4408,
+   "kind": "sign",
+   "sign": 8144,
+   "verify": 2720
+  },
+  "ml-kem-1024/clean": {
+   "decaps": 20352,
+   "encaps": 18776,
+   "keygen": 15128,
+   "kind": "kem"
+  },
+  "ml-kem-1024/m4fspeed": {
+   "decaps": 7484,
+   "encaps": 7500,
+   "keygen": 6436,
+   "kind": "kem"
+  },
+  "ml-kem-1024/m4fstack": {
+   "decaps": 3356,
+   "encaps": 3372,
+   "keygen": 3332,
+   "kind": "kem"
+  },
+  "ml-kem-512/clean": {
+   "decaps": 9560,
+   "encaps": 8784,
+   "keygen": 6152,
+   "kind": "kem"
+  },
+  "ml-kem-512/m4fspeed": {
+   "decaps": 5412,
+   "encaps": 5436,
+   "keygen": 4372,
+   "kind": "kem"
+  },
+  "ml-kem-512/m4fstack": {
+   "decaps": 2332,
+   "encaps": 2348,
+   "keygen": 2300,
+   "kind": "kem"
+  },
+  "ml-kem-768/clean": {
+   "decaps": 14480,
+   "encaps": 13384,
+   "keygen": 10248,
+   "kind": "kem"
+  },
+  "ml-kem-768/m4fspeed": {
+   "decaps": 6452,
+   "encaps": 6468,
+   "keygen": 5396,
+   "kind": "kem"
+  },
+  "ml-kem-768/m4fstack": {
+   "decaps": 2844,
+   "encaps": 2860,
+   "keygen": 2820,
+   "kind": "kem"
+  },
+  "mqom_cat1_gf251_fast/ref": {
+   "keygen": 184356,
+   "kind": "sign",
+   "sign": 399396,
+   "verify": 252684
+  },
+  "mqom_cat1_gf31_fast/ref": {
+   "keygen": 262888,
+   "kind": "sign",
+   "sign": 612816,
+   "verify": 421596
+  },
+  "ov-Ip-pkc-skc/m4fspeed": {
+   "keygen": 383148,
+   "kind": "sign",
+   "sign": 243104,
+   "verify": 281036
+  },
+  "ov-Ip-pkc-skc/m4fstack": {
+   "keygen": 383148,
+   "kind": "sign",
+   "sign": 243104,
+   "verify": 6556
+  },
+  "ov-Ip-pkc-skc/ref": {
+   "keygen": 256644,
+   "kind": "sign",
+   "sign": 256596,
+   "verify": 283860
+  },
+  "ov-Ip-pkc/m4fspeed": {
+   "keygen": 145236,
+   "kind": "sign",
+   "sign": 5192,
+   "verify": 280952
+  },
+  "ov-Ip-pkc/m4fstack": {
+   "keygen": 145236,
+   "kind": "sign",
+   "sign": 5192,
+   "verify": 6556
+  },
+  "ov-Ip-pkc/ref": {
+   "keygen": 18732,
+   "kind": "sign",
+   "sign": 12712,
+   "verify": 283860
+  },
+  "ov-Ip/m4f": {
+   "keygen": 18676,
+   "kind": "sign",
+   "sign": 5192,
+   "verify": 2520
+  },
+  "ov-Ip/ref": {
+   "keygen": 18732,
+   "kind": "sign",
+   "sign": 12712,
+   "verify": 5492
+  },
+  "perk-128-fast-3/m4": {
+   "keygen": 7696,
+   "kind": "sign",
+   "sign": 24020,
+   "verify": 20684
+  },
+  "perk-128-fast-3/ref": {
+   "keygen": 7728,
+   "kind": "sign",
+   "sign": 313412,
+   "verify": 313284
+  },
+  "perk-128-fast-5/m4": {
+   "keygen": 9032,
+   "kind": "sign",
+   "sign": 25160,
+   "verify": 21752
+  },
+  "perk-128-fast-5/ref": {
+   "keygen": 9032,
+   "kind": "sign",
+   "sign": 305688,
+   "verify": 305480
+  },
+  "perk-128-short-3/m4": {
+   "keygen": 7696,
+   "kind": "sign",
+   "sign": 27780,
+   "verify": 25228
+  },
+  "perk-128-short-5/m4": {
+   "keygen": 9032,
+   "kind": "sign",
+   "sign": 28616,
+   "verify": 26056
+  },
+  "perk-192-fast-3/m4": {
+   "keygen": 14952,
+   "kind": "sign",
+   "sign": 47720,
+   "verify": 41352
+  },
+  "perk-192-fast-5/m4": {
+   "keygen": 16864,
+   "kind": "sign",
+   "sign": 48776,
+   "verify": 42416
+  },
+  "perk-192-short-3/m4": {
+   "keygen": 14952,
+   "kind": "sign",
+   "sign": 51344,
+   "verify": 46656
+  },
+  "perk-192-short-5/m4": {
+   "keygen": 16864,
+   "kind": "sign",
+   "sign": 51888,
+   "verify": 47256
+  },
+  "perk-256-fast-3/m4": {
+   "keygen": 25504,
+   "kind": "sign",
+   "sign": 80304,
+   "verify": 69912
+  },
+  "perk-256-fast-5/m4": {
+   "keygen": 28064,
+   "kind": "sign",
+   "sign": 80896,
+   "verify": 70640
+  },
+  "perk-256-short-3/m4": {
+   "keygen": 25504,
+   "kind": "sign",
+   "sign": 82264,
+   "verify": 74784
+  },
+  "perk-256-short-5/m4": {
+   "keygen": 28064,
+   "kind": "sign",
+   "sign": 82056,
+   "verify": 74808
+  },
+  "snova-24-5-16-4-esk/ref": {
+   "keygen": 169008,
+   "kind": "sign",
+   "sign": 89984,
+   "verify": 118152
+  },
+  "snova-24-5-16-4-ssk/ref": {
+   "keygen": 169008,
+   "kind": "sign",
+   "sign": 169104,
+   "verify": 118152
+  },
+  "snova-25-8-16-3-esk/ref": {
+   "keygen": 190696,
+   "kind": "sign",
+   "sign": 87400,
+   "verify": 122656
+  },
+  "snova-25-8-16-3-ssk/ref": {
+   "keygen": 190696,
+   "kind": "sign",
+   "sign": 190836,
+   "verify": 122656
+  },
+  "snova-28-17-16-2-esk/ref": {
+   "keygen": 309216,
+   "kind": "sign",
+   "sign": 127232,
+   "verify": 199684
+  },
+  "snova-28-17-16-2-ssk/ref": {
+   "keygen": 309216,
+   "kind": "sign",
+   "sign": 309356,
+   "verify": 199684
+  },
+  "snova-37-8-16-4-ssk/ref": {
+   "keygen": 640324,
+   "kind": "sign",
+   "sign": 640428,
+   "verify": 411516
+  },
+  "sphincs-sha2-128f-simple/clean": {
+   "keygen": 2856,
+   "kind": "sign",
+   "sign": 2468,
+   "verify": 2664
+  },
+  "sphincs-sha2-128s-simple/clean": {
+   "keygen": 3084,
+   "kind": "sign",
+   "sign": 2556,
+   "verify": 1968
+  },
+  "sphincs-sha2-192f-simple/clean": {
+   "keygen": 5468,
+   "kind": "sign",
+   "sign": 4404,
+   "verify": 4356
+  },
+  "sphincs-sha2-192s-simple/clean": {
+   "keygen": 5796,
+   "kind": "sign",
+   "sign": 4540,
+   "verify": 3700
+  },
+  "sphincs-sha2-256f-simple/clean": {
+   "keygen": 8460,
+   "kind": "sign",
+   "sign": 6412,
+   "verify": 5980
+  },
+  "sphincs-sha2-256s-simple/clean": {
+   "keygen": 8756,
+   "kind": "sign",
+   "sign": 6540,
+   "verify": 5580
+  },
+  "sphincs-shake-128f-simple/clean": {
+   "keygen": 2760,
+   "kind": "sign",
+   "sign": 2372,
+   "verify": 2568
+  },
+  "sphincs-shake-128s-simple/clean": {
+   "keygen": 2988,
+   "kind": "sign",
+   "sign": 2460,
+   "verify": 1872
+  },
+  "sphincs-shake-192f-simple/clean": {
+   "keygen": 4928,
+   "kind": "sign",
+   "sign": 3860,
+   "verify": 3816
+  },
+  "sphincs-shake-192s-simple/clean": {
+   "keygen": 5252,
+   "kind": "sign",
+   "sign": 3996,
+   "verify": 3160
+  },
+  "sphincs-shake-256f-simple/clean": {
+   "keygen": 7928,
+   "kind": "sign",
+   "sign": 5876,
+   "verify": 5448
+  },
+  "sphincs-shake-256s-simple/clean": {
+   "keygen": 8220,
+   "kind": "sign",
+   "sign": 6004,
+   "verify": 5048
+  }
+ }
+}
