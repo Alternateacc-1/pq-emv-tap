@@ -1,0 +1,2 @@
+# Only needed to redraw the figure PDFs (paper/make_figures.py).
+matplotlib==3.11.2

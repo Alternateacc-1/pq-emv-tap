@@ -1,0 +1,13 @@
+{
+ "f9_fs512": {
+  "pcd_gaps": 20,
+  "pcd_gaps_s": "1/100",
+  "reader_frames": "16982/211875"
+ },
+ "hardened_decaps_clock_hz": {
+  "hi_cycles": 12100000,
+  "hi_hz": 109003216,
+  "lo_cycles": 8066667,
+  "lo_hz": 72668814
+ }
+}

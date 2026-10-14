@@ -1,0 +1,10 @@
+name,lo_hz,hi_hz,m4_only,inferred,label_macro,label,kind,value
+"FN-DSA-512 sign, pqm4 ref",1048186540,1048186540,0,0,RefClockMHz,1048.2,point,
+"FN-DSA-512 sign, pqm4 m4f",475586003,475586003,1,0,FnFiveMFourfClockMHz,475.6,point,
+"FN-DSA-512 sign, Pornin 2026",284678301,284678301,1,0,PornTwentySixClockMHz,284.7,point,
+"ML-KEM-512 decaps, pqm3 (M3)",5656000,5656000,0,0,DecapsMThreeClockMHz,5.7,point,
+"ML-KEM-512 decaps, PQClean (M0+)",16026000,16026000,0,0,DecapsMZeroClockMHz,16.0,point,
+"ML-KEM-512 decaps, protected",72668814,109003216,0,1,HardClockLoMHz;HardClockHiMHz,72.7;109.0,range,
+StPFourClockMHz,,,,,StPFourClockMHz,55,reference,55
+StNSixClockMHz,,,,,StNSixClockMHz,60,reference,60
+ScThreeClockMHz,,,,,ScThreeClockMHz,80,reference,80

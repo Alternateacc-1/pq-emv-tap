@@ -1,0 +1,10 @@
+name,impl,bytes,payment_core,label_macro,label,kind,value
+"ML-KEM-512 decaps, pqm3 (M3)",pqm3 m3,3385,1,,,point,
+"ML-KEM-512 decaps, PQClean (M0+)",M0+ PQClean,53433/5,1,,,point,
+"ML-DSA-44 sign, pqm4 m4fstack",pqm4 m4fstack,7793,0,,,point,
+"FN-DSA-512 sign, Pornin 2026",Pornin 2026 RAM-efficient,12191,0,,,point,
+"FN-DSA-512 sign, pqm4 ref",pqm4 ref,43083,1,,,point,
+"ML-DSA-44 sign, pqm3 (M3)",pqm3 m3,54669,1,,,point,
+"ML-DSA-44 sign, PQClean (M0+)",M0+ PQClean,272637/5,1,,,point,
+StPFourRamKB,,,,StPFourRamKB,10,reference,10
+SlcThreeSevenRamKB,,,,SlcThreeSevenRamKB,16,reference,16
