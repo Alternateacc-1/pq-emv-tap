@@ -1,0 +1,21 @@
+Kernel 8-style configs whose reader transmission alone > 100 ms: model 27/30, packed 27/30
+('C-min', 'FN-DSA-512', 'ML-KEM-512', 256) records 15 -> 13 | reader tx 84.257 -> 82.860 | tx+delays 101.757 -> 99.360 ms
+('C-min', 'ML-DSA-44', 'ML-KEM-512', 256) records 31 -> 29 | reader tx 99.814 -> 98.417 | tx+delays 133.314 -> 130.917 ms
+('C-min', 'FN-DSA-1024', 'ML-KEM-512', 256) records 23 -> 22 | reader tx 92.035 -> 91.611 | tx+delays 117.535 -> 117.111 ms
+('C-priv', 'FN-DSA-512', 'ML-KEM-512', 256) records 15 -> 13 | reader tx 158.225 -> 156.828 | tx+delays 181.725 -> 179.328 ms
+('C-min', 'FN-DSA-512', 'ML-KEM-512', 512) records 15 -> 13 | reader tx 80.151 -> 78.754 | tx+delays 90.151 -> 87.754 ms
+model: margin with R_min + both waits -10.184 ms; without waits 0.016 ms -> 75781.147 MHz (2 verify+encaps) / 25001.634 MHz (encaps only)
+packed: margin with R_min + both waits -7.787 ms; without waits 2.413 ms -> 491.063 MHz (2 verify+encaps) / 162.011 MHz (encaps only)
+signing designs (card fixed ms, model -> packed):
+  A ML-DSA-44   records 33 -> 31  card 902.360 -> 901.149  reader 85.196 -> 82.799
+  B ML-DSA-44   records 33 -> 31  card 902.445 -> 901.234  reader 83.327 -> 80.930
+  A ML-DSA-65   records 45 -> 43  card 1258.239 -> 1257.027  reader 115.554 -> 113.157
+  B ML-DSA-65   records 45 -> 43  card 1258.324 -> 1257.112  reader 113.685 -> 111.288
+  A ML-DSA-87   records 61 -> 59  card 1731.232 -> 1730.021  reader 158.170 -> 155.773
+  B ML-DSA-87   records 61 -> 59  card 1731.317 -> 1730.106  reader 156.301 -> 153.904
+  A FN-DSA-512  records 15 -> 13  card 352.491 -> 351.110  reader 35.889 -> 33.492
+  B FN-DSA-512  records 15 -> 13  card 352.576 -> 351.195  reader 34.020 -> 31.623
+  A FN-DSA-1024 records 27 -> 26  card 681.597 -> 681.342  reader 65.473 -> 65.048
+  B FN-DSA-1024 records 27 -> 26  card 681.682 -> 681.427  reader 63.604 -> 63.179
+A FN-DSA-512 max signing cycles at 80 MHz (packed): 3890194; Pornin 13.45M needs >= 276.593 MHz
+A FN-DSA-512 max signing cycles at 80 MHz (model): 3779705; Pornin 13.45M needs >= 284.678 MHz

@@ -1,0 +1,2 @@
+C-min FN-DSA-512/ML-KEM-512, 256-byte frames: authentication exchanges, reader time Type A 101.757 ms, Type B 117.633 ms
+C-min FN-DSA-512/ML-KEM-512, 512-byte frames: authentication exchanges, reader time Type A 90.151 ms, Type B 102.779 ms

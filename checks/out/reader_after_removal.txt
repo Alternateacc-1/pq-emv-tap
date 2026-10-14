@@ -1,0 +1,9 @@
+reader cycles: verify 396949, encaps 390881, paper total 1184779
+FSD=256 frames+gaps, no t_P                left -11.5906 ms  2 verify + encaps  none MHz
+FSD=256 frames+gaps, no t_P                left -11.5906 ms  encaps only        none MHz
+FSD=256 frames only (no delays, no waits)  left 9.4094 ms  2 verify + encaps  125.914 MHz
+FSD=256 frames only (no delays, no waits)  left 9.4094 ms  encaps only        41.541 MHz
+FSD=512 frames+gaps, no t_P                left 0.0156 ms  2 verify + encaps  75781.147 MHz
+FSD=512 frames+gaps, no t_P                left 0.0156 ms  encaps only        25001.634 MHz
+FSD=512 frames only (no delays, no waits)  left 13.5156 ms  2 verify + encaps  87.660 MHz
+FSD=512 frames only (no delays, no waits)  left 13.5156 ms  encaps only        28.921 MHz
