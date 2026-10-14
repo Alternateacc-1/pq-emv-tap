@@ -1,0 +1,544 @@
+macro,value as printed,exact value,units,producing file/function,source artifact,erratum,rounding rule
+ReaderTariffMs,100,1/10,ms,paper/make_numbers.py:build,run.py READER_BUDGET (Book A 10.2.1.1),,ms0x
+CardTariffMs,400,2/5,ms,paper/make_numbers.py:build,"run.py CARD_BUDGET (Book A 10.2, implied)",,ms0x
+FieldTargetMs,500,1/2,ms,paper/make_numbers.py:build,run.py FIELD_BUDGET (Book A 10.1),,ms0x
+BitRateKbps,106,106,kbit/s,paper/make_numbers.py:build,pqemv.transport Link (fc/128; L1 4.2.1.1),,pub
+BitRateDFourKbps,424,424,kbit/s,paper/make_numbers.py:build,Link(divisor=4) (out of EMV),,pub
+ByteCostUs,85,6/70625,us,paper/make_numbers.py:build,TESTS T02 (9 etu),,us0
+FwtCardFc,524 288,524288,1/fc,paper/make_numbers.py:build,pqemv.transport FWT_CARD (Table A.6 PICC FWI_MAX 7),,exact
+FwtCardMs,38.664,8192/211875,ms,paper/make_numbers.py:build,results.json wtx.window_ms / Link.fwt_card,,ms3
+CardFwiMax,7,7,,paper/make_numbers.py:build,L1 Table A.6 PICC FWI_MAX,,exact
+WtxRoundTripFc,16 380,16380,1/fc,paper/make_numbers.py:build,TESTS T05,,exact
+WtxRoundTripMs,1.208,273/226000,ms,paper/make_numbers.py:build,results.json wtx.round_trip,,ms3
+TpMs,5.1,51/10000,ms,paper/make_numbers.py:build,results/kernel8_rmin.json t_p (L1 Table A.7 PCD min),,ms1
+TwoTpMs,10.2,51/5000,ms,paper/make_numbers.py:build,2 x kernel8_rmin.json t_p,,ms1
+RespMaxBytes,256,256,B,paper/make_numbers.py:build,pqemv.architectures RESP_MAX (Book 1 §11.1.1),,exact
+CmdMaxBytes,255,255,B,paper/make_numbers.py:build,pqemv.architectures CMD_MAX (Book 2 D1),,exact
+RecordMaxBytes,254,254,B,paper/make_numbers.py:build,pqemv.architectures RECORD_MAX (Book 3 §7.1),,exact
+CertObjMaxBytes,248,248,B,paper/make_numbers.py:build,C-8 A.1.65/A.1.74; pqemv.architectures RSA NCA,,exact
+FsdMinBytes,256,256,B,paper/make_numbers.py:build,Link default FSD (Table A.6 FSDMIN),,exact
+FsFiveTwelve,512,512,B,paper/make_numbers.py:build,results/kernel8_rmin.json applied cfg FSD=FSC,,exact
+FsFourKilo,4096,4096,B,paper/make_numbers.py:build,L1 Table 5.14 FSDI 'C',,exact
+FnFiveSigBytes,666,666,B,paper/make_numbers.py:build,implementations SIZES (Falcon v1.2 Table 3.3),,exact
+DilThreeRoundThreeSigBytes,3293,3293,B,paper/make_numbers.py:build,data/literature.json round3_sig_sizes,,exact
+ScThreeClockMHz,80,80000000,MHz,paper/make_numbers.py:build,chips SLC37PDx (IFX-SLC3x),,mhz0x
+StNSixClockMHz,60,60000000,MHz,paper/make_numbers.py:build,chips ST31N600 (ST-N600),,mhz0x
+StPFourClockMHz,55,55000000,MHz,paper/make_numbers.py:build,chips ST31P450 (ST-P450),,mhz0x
+SlcThreeSixRamKB,12,12,KB,paper/make_numbers.py:build,chips SLC36PDx,,exact
+SlcThreeSevenRamKB,16,16,KB,paper/make_numbers.py:build,chips SLC37PDx,,exact
+StNSixRamKB,16,16,KB,paper/make_numbers.py:build,chips ST31N600,,exact
+StPFourRamKB,10,10,KB,paper/make_numbers.py:build,chips ST31P450,,exact
+NxpRamKB,12,12,KB,paper/make_numbers.py:build,chips NXP P71D321 family,,exact
+FnFiveWtxCount,1,1,,paper/make_numbers.py:build,fit_matrix.json fndsa512_decomposition,,exact
+FnFiveWtxCardMs,0.349,349263/1000000000,ms,paper/make_numbers.py:build,fit_matrix.json (6-dp JSON),,ms3
+CConfigs,30,30,,paper/make_numbers.py:build,fit_matrix.json c_reader depth 2,,exact
+CTxOnlyExceed,27,27,,paper/make_numbers.py:build,fit_matrix.json c_reader,,exact
+CTxOnlyExceedAllFs,25,25,,paper/make_numbers.py:build,fit_matrix.json c_reader (C-priv or C-min ML-KEM-768/1024),,exact
+CprivFnFiveKemFiveTxMs,158.225,6329/40000,ms,paper/make_numbers.py:build,fit_matrix.json c_reader,,ms3
+CprivFnFiveKemFiveTxFloorMs,158.2,6329/40000,ms,paper/make_numbers.py:build,fit_matrix.json c_reader (lower bound),,lb1
+CminFnFiveKemSevenTxMs,113.388,28347/250000,ms,paper/make_numbers.py:build,fit_matrix.json c_reader,,ms3
+CminFnFiveKemFiveTxMs,84.257,84257/1000000,ms,paper/make_numbers.py:build,fit_matrix.json c_reader,,ms3
+CminFnFiveKemFiveGapsMs,17.5,7/400,ms,paper/make_numbers.py:build,fit_matrix.json c_reader,,ms1
+CminFnTenKemFiveTxMs,92.035,18407/200000,ms,paper/make_numbers.py:build,fit_matrix.json c_reader,,ms3
+CminFnTenKemFiveGapsMs,25.5,51/2000,ms,paper/make_numbers.py:build,fit_matrix.json c_reader,,ms1
+CminMlFourKemFiveTxMs,99.814,49907/500000,ms,paper/make_numbers.py:build,fit_matrix.json c_reader,,ms3
+CminMlFourKemFiveGapsMs,33.5,67/2000,ms,paper/make_numbers.py:build,fit_matrix.json c_reader,,ms1
+CprivExtFourKiloReaderMs,141.0,8817/62500,ms,paper/make_numbers.py:build,results.json transport sensitivity,,lb1
+CprivReaderMs,181.7,616049/3390000,ms,paper/make_numbers.py:build,results.json transport reader_fixed,,ms1
+CprivReaderDFourMs,63.1,3941/62500,ms,paper/make_numbers.py:build,results.json transport sensitivity,,ms1
+FsixReaderLoMs,113.7,385391/3390000,ms,paper/make_numbers.py:build,"results.json transport (A: -FDT, E3)",E3,ms1
+FsixReaderHiMs,157.7,178167/1130000,ms,paper/make_numbers.py:build,"results.json transport (A: -FDT, E3)",E3,ms1
+FsixFramesLoMs,57.2,11437/200000,ms,paper/make_numbers.py:build,results.json transport sensitivity D-T1b,,ms1
+FsixFramesHiMs,80.2,8017/100000,ms,paper/make_numbers.py:build,results.json transport sensitivity D-T1b,,ms1
+GapMs,0.500,1/2000,ms,paper/make_numbers.py:build,"FDT_A,PCD,MIN 6780/fc (correction E3)",E3,ms3
+FsevenCardLoMs,681.6,1155307/1695000,ms,paper/make_numbers.py:build,results.json transport card_fixed,,ms1
+FsevenCardHiMs,1731.2,489073/282500,ms,paper/make_numbers.py:build,results.json transport card_fixed,,ms1
+AMlFourCardMs,902.360,1529501/1695000,ms,paper/make_numbers.py:build,results.json transport card_fixed,,ms3
+AMlSixCardMs,1258.239,4265429/3390000,ms,paper/make_numbers.py:build,results.json transport card_fixed,,ms3
+AMlEightCardMs,1731.232,489073/282500,ms,paper/make_numbers.py:build,results.json transport card_fixed,,ms3
+AFnTenCardMs,681.597,1155307/1695000,ms,paper/make_numbers.py:build,results.json transport card_fixed,,ms3
+ABCardMaxDiffMs,0.1,6/70625,ms,paper/make_numbers.py:build,results.json transport (max |A-B| card),,ms1
+FsevenFieldLoMs,745.3,63163/84750,ms,paper/make_numbers.py:build,"results.json transport (A: -FDT, E3)",E3,ms1
+FsevenFieldHiMs,1888.9,2134459/1130000,ms,paper/make_numbers.py:build,"results.json transport (A: -FDT, E3)",E3,ms1
+AMlFourDepthOneCardMs,559.6,948589/1695000,ms,paper/make_numbers.py:build,results.json transport depth 1,,lb1
+AMlFourExtFourKiloCardMs,850.5,106317/125000,ms,paper/make_numbers.py:build,results.json sensitivity,,lb1
+AMlFourDFourCardMs,230.9,115453/500000,ms,paper/make_numbers.py:build,results.json sensitivity,,ms1
+AMlFourCardFloorMs,902.4,1529501/1695000,ms,paper/make_numbers.py:build,results.json transport,,ms1
+AFnTenCardOneMs,681.6,1155307/1695000,ms,paper/make_numbers.py:build,results.json transport,,ms1
+AFnTenDTwoCardMs,343.5,38813/113000,ms,run.build + run.fixed_times (Link divisor 2),model (frontier),,ms1
+MlFourCleanRamBytes,54 689,54689,B,paper/make_numbers.py:build,results.json ram,,exact
+MlFourPqmThreeCleanRamBytes,54 629,54629,B,paper/make_numbers.py:build,results.json ram,,exact
+MlFourPqmThreeMThreeRamBytes,54 669,54669,B,paper/make_numbers.py:build,results.json ram,,exact
+MlFourMZeroPRamBytes,54 527.4,54527.4,B,paper/make_numbers.py:build,"results.json ram (M0+ total, 1 dp)",,pub
+MlFourSmallestRamKB,54.5,272637/5,KB (1000 B),paper/make_numbers.py:build,results.json ram (smallest executable on SC300/SC000),,kb1
+MlFourRamRatio,3.4,272637/80000,,paper/make_numbers.py:build,smallest / 16 KB (1000-byte KB),,x1
+MlFourStackRamBytes,7793,7793,B,paper/make_numbers.py:build,results.json ram,,exact
+GksStackLoBytes,9463,9463,B,paper/make_numbers.py:build,results.json ram (GKS21 work_ram),,exact
+GksStackHiBytes,11 511,11511,B,paper/make_numbers.py:build,results.json ram (GKS21 work_ram),,exact
+GksRamLoBytes,11 800,11800,B,paper/make_numbers.py:build,results.json ram (GKS21),,exact
+GksRamHiBytes,15 170,15170,B,paper/make_numbers.py:build,results.json ram (GKS21),,exact
+GksCyclesLoM,18.9,18932000,M cycles,paper/make_numbers.py:build,results.json card_impls (GKS21 strategy 3),,mcyc1
+GksCyclesHiM,33.2,33229000,M cycles,paper/make_numbers.py:build,results.json card_impls (GKS21),,mcyc1
+BrsSignKiB,5.0,5.0,KiB,paper/make_numbers.py:build,data/literature_extra.json brs22 (Table 2),E4,pub
+BrsRamBytes,7833,7833,B,paper/make_numbers.py:build,brs22 stack x 1024 + sig + MSG + APDU_BUF (D-M1),E4,exact
+BrsCyclesM,18.47,18470000,M cycles,paper/make_numbers.py:build,brs22 Table 2 kcc,E4,mcyc2
+BrsCardMs,230.9,1847/8000,ms,paper/make_numbers.py:build,brs22 cycles / 80 MHz,E4,ms1
+FnineAuthMs,90.151,76403/847500,ms,run.build + closed_form (FSD 512),results/kernel8_rmin.json applied,,ms3
+FnineLeftMs,9.849,8347/847500,ms,paper/make_numbers.py:build,100 ms - FnineAuthMs,,ms3
+RminMs,9.833,59/6000,ms,paper/make_numbers.py:build,results/kernel8_rmin.json R_min_frames_gaps,E1,ms3
+RminFramesMs,6.333,19/3000,ms,paper/make_numbers.py:build,results/kernel8_rmin.json frames,E1,ms3
+RminGapsMs,3.500,7/2000,ms,paper/make_numbers.py:build,results/kernel8_rmin.json gaps_s,E1,ms3
+RminGapCount,7,7,,paper/make_numbers.py:build,results/kernel8_rmin.json gaps,E1,exact
+FnineMarginMs,0.016,53/3390000,ms,paper/make_numbers.py:build,kernel8_rmin.json left_fg_ms (exact from T13),E1,ms3
+FnineMarginTpMs,-10.184,-1381/135600,ms,paper/make_numbers.py:build,kernel8_rmin.json left_tp_ms,E1,ms3
+FnineClockMHz,75 781.1,75781147359,MHz,paper/make_numbers.py:build,kernel8_rmin.json mhz_fg (exact Hz from T13),E1,mhz1
+FnineClockGHz,75.8,75781147359,GHz,paper/make_numbers.py:build,kernel8_rmin.json mhz_fg,E1,ghz1
+FnineReaderCycles,1 184 779,1184779,cycles,paper/make_numbers.py:build,kernel8_rmin.json reader_cycles,,exact
+ClassicalLeftMs,69.999,69999/1000000,ms,paper/make_numbers.py:build,kernel8_rmin.json classical_left_with_tp_ms,E1,ms3
+TonebClockMinMHz,125.9,125914000,MHz,paper/make_numbers.py:build,kernel8_rest.json applied T1b (3-dp JSON),,mhz1
+TonebClockFiveTwelveMHz,87.7,87660000,MHz,paper/make_numbers.py:build,kernel8_rest.json applied T1b (3-dp JSON),,mhz1
+AFnFiveCardMs,352.5,74684/211875,ms,paper/make_numbers.py:build,results.json transport card_fixed,,ms1
+PornTwentySixClockMHz,284.7,284678301,MHz,paper/make_numbers.py:build,fit_matrix.json decomposition,,mhz1
+PornTwentySixClockOneMHz,284.7,284678301,MHz,paper/make_numbers.py:build,fit_matrix.json decomposition,,mhz1
+PornTwentySixOverScThree,3.6,284678301/80000000,,paper/make_numbers.py:build,required_hz / 80 MHz,,x1
+RefClockMHz,1048.2,1048186540,MHz,paper/make_numbers.py:build,fit_matrix.json decomposition,,mhz1
+RefCycles,49 522 949,49522949,cycles,paper/make_numbers.py:build,fit_matrix.json decomposition,,exact
+RefRamBytes,43 083,43083,B,paper/make_numbers.py:build,results.json ram,,exact
+FtenComputeMs,47.2,47246313/1000000000,ms,paper/make_numbers.py:build,fit_matrix.json decomposition (6-dp JSON),,ms1
+FtenMaxCycles,3 779 705,3779705,cycles,"make_numbers.maxcyc (run.build, evaluate_closed, 80 MHz)",model,,exact
+FtenMaxCyclesM,3.78,3779705,M cycles,make_numbers.maxcyc,model,,mcyc2
+FtenMaxCyclesDTwoM,17.7,17726796,M cycles,make_numbers.maxcyc (divisor 2),model,,mcyc1
+FtenMaxCyclesDepthOneM,15.3,15316460,M cycles,make_numbers.maxcyc (depth 1),model,,mcyc1
+FtenMaxCyclesFsFiveM,4.17,4172530,M cycles,make_numbers.maxcyc (FSD 512),model,,mcyc2
+PornTwentySixCycles,13 450 000,13450000,cycles,paper/make_numbers.py:build,fit_matrix.json decomposition,,exact
+PornTwentySixCyclesM,13.45,13450000,M cycles,paper/make_numbers.py:build,fit_matrix.json decomposition,,mcyc2
+PornTwentySixRamBytes,12 191,12191,B,paper/make_numbers.py:build,results.json ram,,exact
+DecapsMThreeClockMHz,5.7,5656000,MHz,paper/make_numbers.py:build,results.json computation (3-dp JSON),,mhz1
+DecapsMThreeClockExactMHz,5.656,5656000,MHz,paper/make_numbers.py:build,results.json computation,,mhz3
+DecapsMZeroClockMHz,16.0,16026000,MHz,paper/make_numbers.py:build,results.json computation (3-dp JSON),,mhz1
+DecapsMZeroClockExactMHz,16.026,16026000,MHz,paper/make_numbers.py:build,results.json computation,,mhz3
+DecapsMThreeMargin,14.1,10000/707,,paper/make_numbers.py:build,80 MHz / clock,,x1
+DecapsMZeroMargin,3.7,10000/2671,,paper/make_numbers.py:build,60 MHz / clock,,x1
+DecapsMThreeRamBytes,3385,3385,B,paper/make_numbers.py:build,results.json ram,,exact
+EncapsMThreeRamBytes,4177,4177,B,paper/make_numbers.py:build,results.json ram,E5,exact
+DecapsSevenMThreeRamBytes,4193,4193,B,paper/make_numbers.py:build,results.json ram,E5,exact
+AlnRamKB,4.5,4.5,kB,paper/make_numbers.py:build,data/literature_extra.json aln25,E5,pub
+AlnRamBytes,4500,4500,B,paper/make_numbers.py:build,results/ram_4500.json limits,E5,exact
+AlnFitsPaymentCore,3,3,,paper/make_numbers.py:build,results/ram_4500.json,E5,exact
+RsaCardMs,75.347,255427/3390000,ms,paper/make_numbers.py:build,results.json transport,,ms3
+RsaReaderMs,10.099,17117/1695000,ms,paper/make_numbers.py:build,"results.json transport (-FDT, E3)",E3,ms3
+EccCardMs,31.806,35941/1130000,ms,paper/make_numbers.py:build,results.json transport,,ms3
+EccReaderMs,9.967,11263/1130000,ms,paper/make_numbers.py:build,results.json transport,,ms3
+IdemiaFalconFiveBytes,4661,4661,B,paper/make_numbers.py:build,results.json idemia,,exact
+IdemiaFalconTenBytes,6785,6785,B,paper/make_numbers.py:build,results.json idemia,,exact
+IdemiaDilTwoBytes,8584,8584,B,paper/make_numbers.py:build,results.json idemia,,exact
+IdemiaDilThreeBytes,10 970,10970,B,paper/make_numbers.py:build,results.json idemia,,exact
+IdemiaHeaderBytes,70,70,B,paper/make_numbers.py:build,results.json idemia difference,,exact
+FfifteenBestTpMs,-0.596,-2981/5000000,ms,paper/make_numbers.py:build,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+FfifteenFnFiveFsMHz,82.0,82033000,MHz,paper/make_numbers.py:build,kernel8_rmin.json applied mhz_fg,E2,mhz1
+FfifteenFnTenFsMHz,164.4,164392000,MHz,paper/make_numbers.py:build,kernel8_rmin.json applied mhz_fg,E2,mhz1
+FfifteenFnFiveFsMinMHz,298.4,298407000,MHz,paper/make_numbers.py:build,kernel8_rmin.json applied mhz_fg,E2,mhz1
+FfifteenMlFourFsMHz,1492.8,1492806000,MHz,paper/make_numbers.py:build,kernel8_rmin.json applied mhz_fg,E2,mhz1
+PqeacRamKB,96,96,KB,paper/make_numbers.py:build,data/literature_extra.json pqeac,,exact
+BdgHybridMs,290,290,ms,paper/make_numbers.py:build,data/literature_extra.json bdg25 (SECRYPT Tab. 3/4),E6,exact
+BdgClassicMs,48,48,ms,paper/make_numbers.py:build,data/literature_extra.json bdg25 (ePrint Tab. 4),E6,exact
+BdgIncrementMs,242,242,ms,paper/make_numbers.py:build,results/protected_mlkem.json,E6,exact
+BdgClockMHz,100,100000000,MHz,paper/make_numbers.py:build,data/literature_extra.json bdg25,E6,mhz0x
+BdgIncrementM,24.2,24200000,M cycles,paper/make_numbers.py:build,results/protected_mlkem.json,E6,mcyc1
+HardDecapsLoM,8.1,24200000/3,M cycles,paper/make_numbers.py:build,results/protected_mlkem.json (KeyGen = Decaps),E6,mcyc1
+HardDecapsHiM,12.1,12100000,M cycles,paper/make_numbers.py:build,results/protected_mlkem.json (KeyGen ~ 0),E6,mcyc1
+HardDecapsLoCycles,8 066 667,8066667,cycles,paper/make_numbers.py:build,results/protected_mlkem.json (rounded to integer),E6,exact
+HardDecapsHiCycles,12 100 000,12100000,cycles,paper/make_numbers.py:build,results/protected_mlkem.json,E6,exact
+HardRatioLo,12.8,24200000/1883691,,paper/make_numbers.py:build,results/protected_mlkem.json,E6,x1
+HardRatioHi,19.3,12100000/627897,,paper/make_numbers.py:build,results/protected_mlkem.json,E6,x1
+UnprotDecapsCycles,627 897,627897,cycles,paper/make_numbers.py:build,results.json card_impls pqm3 m3,E6,exact
+DecapsBudgetScThreeCycles,8 880 471,8880471,cycles,paper/make_numbers.py:build,results/protected_mlkem.json budgets,E6,exact
+DecapsBudgetStNSixCycles,6 660 353,6660353,cycles,paper/make_numbers.py:build,results/protected_mlkem.json budgets,E6,exact
+DecapsBudgetStPFourCycles,6 105 324,6105324,cycles,paper/make_numbers.py:build,results/protected_mlkem.json budgets,E6,exact
+TrAClassicalCardMs,75.347,255427/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrAClassicalReaderMs,10.099,17117/1695000,ms,paper/make_numbers.py:tables,"results.json transport reader_fixed (-FDT, E3)",E3,ms3
+TrAClassicalFieldMs,85.446,289661/3390000,ms,paper/make_numbers.py:tables,"results.json transport card+reader (-FDT, E3)",E3,ms3
+TrBClassicalCardMs,75.432,51143/678000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrBClassicalReaderMs,8.729,29593/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrBClassicalFieldMs,84.162,71327/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCClassicalCardMs,31.806,35941/1130000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCClassicalReaderMs,9.967,11263/1130000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCClassicalFieldMs,41.773,11801/282500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrAMlDsaFourFourCardMs,902.360,1529501/1695000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrAMlDsaFourFourReaderMs,84.696,287119/3390000,ms,paper/make_numbers.py:tables,"results.json transport reader_fixed (-FDT, E3)",E3,ms3
+TrAMlDsaFourFourFieldMs,987.056,3346121/3390000,ms,paper/make_numbers.py:tables,"results.json transport card+reader (-FDT, E3)",E3,ms3
+TrAMlDsaSixFiveCardMs,1258.239,4265429/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrAMlDsaSixFiveReaderMs,115.054,24377/211875,ms,paper/make_numbers.py:tables,"results.json transport reader_fixed (-FDT, E3)",E3,ms3
+TrAMlDsaSixFiveFieldMs,1373.292,4655461/3390000,ms,paper/make_numbers.py:tables,"results.json transport card+reader (-FDT, E3)",E3,ms3
+TrAMlDsaEightSevenCardMs,1731.232,489073/282500,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrAMlDsaEightSevenReaderMs,157.670,178167/1130000,ms,paper/make_numbers.py:tables,"results.json transport reader_fixed (-FDT, E3)",E3,ms3
+TrAMlDsaEightSevenFieldMs,1888.902,2134459/1130000,ms,paper/make_numbers.py:tables,"results.json transport card+reader (-FDT, E3)",E3,ms3
+TrAFnDsaFiveOneTwoCardMs,352.491,74684/211875,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrAFnDsaFiveOneTwoReaderMs,35.389,119969/3390000,ms,paper/make_numbers.py:tables,"results.json transport reader_fixed (-FDT, E3)",E3,ms3
+TrAFnDsaFiveOneTwoFieldMs,387.880,1314913/3390000,ms,paper/make_numbers.py:tables,"results.json transport card+reader (-FDT, E3)",E3,ms3
+TrAFnDsaOneZeroTwoFourCardMs,681.597,1155307/1695000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrAFnDsaOneZeroTwoFourReaderMs,64.973,220259/3390000,ms,paper/make_numbers.py:tables,"results.json transport reader_fixed (-FDT, E3)",E3,ms3
+TrAFnDsaOneZeroTwoFourFieldMs,746.570,2530873/3390000,ms,paper/make_numbers.py:tables,"results.json transport card+reader (-FDT, E3)",E3,ms3
+TrARTwoDilithiumTwoCardMs,778.046,109899/141250,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrARTwoDilithiumTwoReaderMs,74.835,84563/1130000,ms,paper/make_numbers.py:tables,"results.json transport reader_fixed (-FDT, E3)",E3,ms3
+TrARTwoDilithiumTwoFieldMs,852.881,192751/226000,ms,paper/make_numbers.py:tables,"results.json transport card+reader (-FDT, E3)",E3,ms3
+TrARTwoDilithiumThreeCardMs,1006.604,568731/565000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrARTwoDilithiumThreeReaderMs,92.585,104621/1130000,ms,paper/make_numbers.py:tables,"results.json transport reader_fixed (-FDT, E3)",E3,ms3
+TrARTwoDilithiumThreeFieldMs,1099.188,1242083/1130000,ms,paper/make_numbers.py:tables,"results.json transport card+reader (-FDT, E3)",E3,ms3
+TrARTwoDilithiumFourCardMs,1238.071,2098531/1695000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrARTwoDilithiumFourReaderMs,112.308,380723/3390000,ms,paper/make_numbers.py:tables,"results.json transport reader_fixed (-FDT, E3)",E3,ms3
+TrARTwoDilithiumFourFieldMs,1350.379,915557/678000,ms,paper/make_numbers.py:tables,"results.json transport card+reader (-FDT, E3)",E3,ms3
+TrBMlDsaFourFourCardMs,902.445,305929/339000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrBMlDsaFourFourReaderMs,83.327,141239/1695000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrBMlDsaFourFourFieldMs,985.772,417721/423750,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrBMlDsaSixFiveCardMs,1258.324,4265717/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrBMlDsaSixFiveReaderMs,113.685,385391/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrBMlDsaSixFiveFieldMs,1372.008,1162777/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrBMlDsaEightSevenCardMs,1731.317,489097/282500,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrBMlDsaEightSevenReaderMs,156.301,8831/56500,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrBMlDsaEightSevenFieldMs,1887.618,133313/70625,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrBFnDsaFiveOneTwoCardMs,352.576,74702/211875,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrBFnDsaFiveOneTwoReaderMs,34.020,7208/211875,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrBFnDsaFiveOneTwoFieldMs,386.596,16382/42375,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrBFnDsaOneZeroTwoFourCardMs,681.682,1155451/1695000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrBFnDsaOneZeroTwoFourReaderMs,63.604,107809/1695000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrBFnDsaOneZeroTwoFourFieldMs,745.286,63163/84750,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrBRTwoDilithiumTwoCardMs,778.131,109911/141250,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrBRTwoDilithiumTwoReaderMs,73.465,10377/141250,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrBRTwoDilithiumTwoFieldMs,851.596,60144/70625,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrBRTwoDilithiumThreeCardMs,1006.688,568779/565000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrBRTwoDilithiumThreeReaderMs,91.216,51537/565000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrBRTwoDilithiumThreeFieldMs,1097.904,155079/141250,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrBRTwoDilithiumFourCardMs,1238.156,83947/67800,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrBRTwoDilithiumFourReaderMs,110.939,188041/1695000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrBRTwoDilithiumFourFieldMs,1349.095,571679/423750,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinMlDsaFourFourMlKemFiveOneTwoCardMs,645.121,2186959/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinMlDsaFourFourMlKemFiveOneTwoReaderMs,133.314,451933/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinMlDsaFourFourMlKemFiveOneTwoFieldMs,778.434,659723/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinMlDsaSixFiveMlKemFiveOneTwoCardMs,863.908,2928649/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinMlDsaSixFiveMlKemFiveOneTwoReaderMs,151.064,512107/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinMlDsaSixFiveMlKemFiveOneTwoFieldMs,1014.972,860189/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinMlDsaEightSevenMlKemFiveOneTwoCardMs,1162.578,3941141/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinMlDsaEightSevenMlKemFiveOneTwoReaderMs,178.676,605711/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinMlDsaEightSevenMlKemFiveOneTwoFieldMs,1341.254,1136713/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinFnDsaFiveOneTwoMlKemFiveOneTwoCardMs,288.382,195523/678000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinFnDsaFiveOneTwoMlKemFiveOneTwoReaderMs,101.757,344957/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinFnDsaFiveOneTwoMlKemFiveOneTwoFieldMs,390.139,330643/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoCardMs,480.896,543413/1130000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoReaderMs,117.535,26563/226000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoFieldMs,598.432,169057/282500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinMlDsaFourFourMlKemSevenSixEightCardMs,680.251,2306051/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinMlDsaFourFourMlKemSevenSixEightReaderMs,164.444,111493/678000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinMlDsaFourFourMlKemSevenSixEightFieldMs,844.695,715879/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinMlDsaSixFiveMlKemSevenSixEightCardMs,900.165,3051559/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinMlDsaSixFiveMlKemSevenSixEightReaderMs,184.167,221/1200,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinMlDsaSixFiveMlKemSevenSixEightFieldMs,1084.332,918971/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinMlDsaEightSevenMlKemSevenSixEightCardMs,1197.709,1353411/1130000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinMlDsaEightSevenMlKemSevenSixEightReaderMs,209.806,237081/1130000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinMlDsaEightSevenMlKemSevenSixEightFieldMs,1407.515,397623/282500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinFnDsaFiveOneTwoMlKemSevenSixEightCardMs,323.512,365569/1130000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinFnDsaFiveOneTwoMlKemSevenSixEightReaderMs,132.888,150163/1130000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinFnDsaFiveOneTwoMlKemSevenSixEightFieldMs,456.400,1141/2500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinFnDsaOneZeroTwoFourMlKemSevenSixEightCardMs,517.153,584383/1130000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinFnDsaOneZeroTwoFourMlKemSevenSixEightReaderMs,150.638,170221/1130000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinFnDsaOneZeroTwoFourMlKemSevenSixEightFieldMs,667.791,188651/282500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinMlDsaFourFourMlKemOneZeroTwoFourCardMs,717.379,486383/678000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinMlDsaFourFourMlKemOneZeroTwoFourReaderMs,213.112,722449/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinMlDsaFourFourMlKemOneZeroTwoFourFieldMs,930.491,788591/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinMlDsaSixFiveMlKemOneZeroTwoFourCardMs,936.167,5617/6000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinMlDsaSixFiveMlKemOneZeroTwoFourReaderMs,230.862,782623/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinMlDsaSixFiveMlKemOneZeroTwoFourFieldMs,1167.029,989057/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinMlDsaEightSevenMlKemOneZeroTwoFourCardMs,1234.837,4186097/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinMlDsaEightSevenMlKemOneZeroTwoFourReaderMs,258.474,876227/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinMlDsaEightSevenMlKemOneZeroTwoFourFieldMs,1493.311,1265581/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinFnDsaFiveOneTwoMlKemOneZeroTwoFourCardMs,360.640,1222571/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinFnDsaFiveOneTwoMlKemOneZeroTwoFourReaderMs,181.555,615473/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinFnDsaFiveOneTwoMlKemOneZeroTwoFourFieldMs,542.196,459511/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCMinFnDsaOneZeroTwoFourMlKemOneZeroTwoFourCardMs,553.155,125013/226000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCMinFnDsaOneZeroTwoFourMlKemOneZeroTwoFourReaderMs,197.334,222987/1130000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCMinFnDsaOneZeroTwoFourMlKemOneZeroTwoFourFieldMs,750.488,212013/282500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivMlDsaFourFourMlKemFiveOneTwoCardMs,716.275,2428171/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivMlDsaFourFourMlKemFiveOneTwoReaderMs,213.282,28921/135600,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivMlDsaFourFourMlKemFiveOneTwoFieldMs,929.556,787799/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivMlDsaSixFiveMlKemFiveOneTwoCardMs,935.062,3169861/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivMlDsaSixFiveMlKemFiveOneTwoReaderMs,231.032,783199/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivMlDsaSixFiveMlKemFiveOneTwoFieldMs,1166.094,197653/169500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivMlDsaEightSevenMlKemFiveOneTwoCardMs,1233.732,4182353/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivMlDsaEightSevenMlKemFiveOneTwoReaderMs,258.644,876803/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivMlDsaEightSevenMlKemFiveOneTwoFieldMs,1492.376,1264789/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivFnDsaFiveOneTwoMlKemFiveOneTwoCardMs,359.536,1218827/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivFnDsaFiveOneTwoMlKemFiveOneTwoReaderMs,181.725,616049/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivFnDsaFiveOneTwoMlKemFiveOneTwoFieldMs,541.261,458719/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivFnDsaOneZeroTwoFourMlKemFiveOneTwoCardMs,552.050,623817/1130000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivFnDsaOneZeroTwoFourMlKemFiveOneTwoReaderMs,197.504,223179/1130000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivFnDsaOneZeroTwoFourMlKemFiveOneTwoFieldMs,749.554,211749/282500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivMlDsaFourFourMlKemSevenSixEightCardMs,780.334,881777/1130000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivMlDsaFourFourMlKemSevenSixEightReaderMs,280.980,317507/1130000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivMlDsaFourFourMlKemSevenSixEightFieldMs,1061.313,299821/282500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivMlDsaSixFiveMlKemSevenSixEightCardMs,1000.247,3390839/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivMlDsaSixFiveMlKemSevenSixEightReaderMs,300.702,1019381/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivMlDsaSixFiveMlKemSevenSixEightFieldMs,1300.950,220511/169500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivMlDsaEightSevenMlKemSevenSixEightCardMs,1297.791,4399513/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivMlDsaEightSevenMlKemSevenSixEightReaderMs,326.342,1106299/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivMlDsaEightSevenMlKemSevenSixEightFieldMs,1624.133,12181/7500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivFnDsaFiveOneTwoMlKemSevenSixEightCardMs,423.595,1435987/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivFnDsaFiveOneTwoMlKemSevenSixEightReaderMs,249.423,169109/678000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivFnDsaFiveOneTwoMlKemSevenSixEightFieldMs,673.018,570383/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivFnDsaOneZeroTwoFourMlKemSevenSixEightCardMs,617.236,2092429/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivFnDsaOneZeroTwoFourMlKemSevenSixEightReaderMs,267.174,905719/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivFnDsaOneZeroTwoFourMlKemSevenSixEightFieldMs,884.409,749537/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivMlDsaFourFourMlKemOneZeroTwoFourCardMs,861.726,2921251/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivMlDsaFourFourMlKemOneZeroTwoFourReaderMs,370.160,1254841/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivMlDsaFourFourMlKemOneZeroTwoFourFieldMs,1231.886,1044023/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivMlDsaSixFiveMlKemOneZeroTwoFourCardMs,1080.514,3662941/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivMlDsaSixFiveMlKemOneZeroTwoFourReaderMs,387.910,263003/678000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivMlDsaSixFiveMlKemOneZeroTwoFourFieldMs,1468.424,1244489/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivMlDsaEightSevenMlKemOneZeroTwoFourCardMs,1379.184,4675433/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivMlDsaEightSevenMlKemOneZeroTwoFourReaderMs,415.522,1408619/3390000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivMlDsaEightSevenMlKemOneZeroTwoFourFieldMs,1794.706,1521013/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivFnDsaFiveOneTwoMlKemOneZeroTwoFourCardMs,504.987,1711907/3390000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivFnDsaFiveOneTwoMlKemOneZeroTwoFourReaderMs,338.603,229573/678000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivFnDsaFiveOneTwoMlKemOneZeroTwoFourFieldMs,843.591,714943/847500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+TrCPrivFnDsaOneZeroTwoFourMlKemOneZeroTwoFourCardMs,697.502,788177/1130000,ms,paper/make_numbers.py:tables,results.json transport card_fixed,,ms3
+TrCPrivFnDsaOneZeroTwoFourMlKemOneZeroTwoFourReaderMs,354.381,400451/1130000,ms,paper/make_numbers.py:tables,results.json transport reader_fixed,,ms3
+TrCPrivFnDsaOneZeroTwoFourMlKemOneZeroTwoFourFieldMs,1051.883,297157/282500,ms,paper/make_numbers.py:tables,results.json transport card+reader,,ms3
+RminHltaMs,0.359,76/211875,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminHltaGaps,1,1,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminTPBeforeWupbMs,5.100,51/10000,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminTPBeforeWupbGaps,0,0,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminWupbTypeBMs,0.679,1151/1695000,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminWupbTypeBGaps,0,0,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminTPBeforeWupaMs,5.100,51/10000,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminTPBeforeWupaGaps,0,0,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminWupaMs,0.085,6/70625,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminWupaGaps,1,1,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminAnticollisionCLOneMs,0.189,8/42375,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminAnticollisionCLOneGaps,1,1,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminSelectCLOneMs,0.783,166/211875,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminSelectCLOneGaps,1,1,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminRatsMs,0.359,76/211875,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminRatsGaps,1,1,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminSelectPpseMs,1.973,418/211875,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminSelectPpseGaps,1,1,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminSelectAidMs,1.208,256/211875,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminSelectAidGaps,1,1,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+RminGenerateAcMs,0.699,148/211875,ms,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,ms3
+RminGenerateAcGaps,0,0,,paper/make_numbers.py:tables,analyses/kernel8_rmin.py TERMS (T13),E1,exact
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDTwoFsFiveOneTwoAuthMs,90.151,90151/1000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied,E1,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDTwoFsFiveOneTwoLeftMs,0.016,39/2500000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E1,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDTwoFsFiveOneTwoLeftTpMs,-10.184,-25461/2500000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E1,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDTwoFsFiveOneTwoMHz,75 781.1,75781147000,MHz,paper/make_numbers.py:tables,kernel8_rmin.json applied,E1,mhz1
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDTwoFsTwoFiveSixAuthMs,101.757,101757/1000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied,E1,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDTwoFsTwoFiveSixLeftMs,-11.591,-57953/5000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E1,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDTwoFsTwoFiveSixLeftTpMs,-21.791,-108953/5000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E1,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDOneFsTwoFiveSixAuthMs,87.527,87527/1000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDOneFsTwoFiveSixLeftMs,2.640,26401/10000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDOneFsTwoFiveSixLeftTpMs,-7.560,-75599/10000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDOneFsTwoFiveSixMHz,298.4,298407000,MHz,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,mhz1
+ApCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoDOneFsTwoFiveSixAuthMs,91.471,91471/1000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,ms3
+ApCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoDOneFsTwoFiveSixLeftMs,-1.304,-3261/2500000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoDOneFsTwoFiveSixLeftTpMs,-11.504,-28761/2500000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinMlDsaFourFourMlKemFiveOneTwoDOneFsFiveOneTwoAuthMs,88.953,88953/1000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,ms3
+ApCMinMlDsaFourFourMlKemFiveOneTwoDOneFsFiveOneTwoLeftMs,1.214,6071/5000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinMlDsaFourFourMlKemFiveOneTwoDOneFsFiveOneTwoLeftTpMs,-8.986,-44929/5000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinMlDsaFourFourMlKemFiveOneTwoDOneFsFiveOneTwoMHz,1492.8,1492806000,MHz,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,mhz1
+ApCMinMlDsaSixFiveMlKemFiveOneTwoDOneFsFiveOneTwoAuthMs,92.548,23137/250000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,ms3
+ApCMinMlDsaSixFiveMlKemFiveOneTwoDOneFsFiveOneTwoLeftMs,-2.381,-11907/5000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinMlDsaSixFiveMlKemFiveOneTwoDOneFsFiveOneTwoLeftTpMs,-12.581,-62907/5000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDOneFsFiveOneTwoAuthMs,80.563,80563/1000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDOneFsFiveOneTwoLeftMs,9.604,48019/5000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDOneFsFiveOneTwoLeftTpMs,-0.596,-2981/5000000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinFnDsaFiveOneTwoMlKemFiveOneTwoDOneFsFiveOneTwoMHz,82.0,82033000,MHz,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,mhz1
+ApCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoDOneFsFiveOneTwoAuthMs,82.960,1037/12500,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,ms3
+ApCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoDOneFsFiveOneTwoLeftMs,7.207,18017/2500000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoDOneFsFiveOneTwoLeftTpMs,-2.993,-7483/2500000,ms,paper/make_numbers.py:tables,kernel8_rmin.json applied (4-dp JSON),E2,ms3
+ApCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoDOneFsFiveOneTwoMHz,164.4,164392000,MHz,paper/make_numbers.py:tables,kernel8_rmin.json applied,E2,mhz1
+RamMlDsaFourFourSignPqmFourCleanBytes,54 689,54689,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaFourFourSignPqmFourMFourfBytes,47 529,47529,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaFourFourSignPqmFourMFourfstackBytes,7793,7793,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaSixFiveSignPqmFourCleanBytes,83 226,83226,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaSixFiveSignPqmFourMFourfBytes,72 474,72474,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaSixFiveSignPqmFourMFourfstackBytes,10 218,10218,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaEightSevenSignPqmFourCleanBytes,127 660,127660,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaEightSevenSignPqmFourMFourfBytes,112 812,112812,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaEightSevenSignPqmFourMFourfstackBytes,13 064,13064,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamFnDsaFiveOneTwoSignPqmFourRefBytes,43 083,43083,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamFnDsaFiveOneTwoSignPqmFourMFourfBytes,42 911,42911,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamFnDsaOneZeroTwoFourSignPqmFourRefBytes,83 849,83849,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamFnDsaOneZeroTwoFourSignPqmFourMFourfBytes,83 565,83565,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoEncapsPqmFourCleanBytes,10 645,10645,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoDecapsPqmFourCleanBytes,10 621,10621,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoEncapsPqmFourMFourfspeedBytes,7297,7297,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoDecapsPqmFourMFourfspeedBytes,6473,6473,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoEncapsPqmFourMFourfstackBytes,4209,4209,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoDecapsPqmFourMFourfstackBytes,3393,3393,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightEncapsPqmFourCleanBytes,15 949,15949,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightDecapsPqmFourCleanBytes,15 861,15861,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightEncapsPqmFourMFourfspeedBytes,9033,9033,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightDecapsPqmFourMFourfspeedBytes,7833,7833,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightEncapsPqmFourMFourfstackBytes,5425,5425,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightDecapsPqmFourMFourfstackBytes,4225,4225,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourEncapsPqmFourCleanBytes,22 205,22205,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourDecapsPqmFourCleanBytes,22 213,22213,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourEncapsPqmFourMFourfspeedBytes,10 929,10929,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourDecapsPqmFourMFourfspeedBytes,9345,9345,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourEncapsPqmFourMFourfstackBytes,6801,6801,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourDecapsPqmFourMFourfstackBytes,5217,5217,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamFnDsaFiveOneTwoSignPorninTwoZeroTwoSixRamEfficientBytes,12 191,12191,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamFnDsaFiveOneTwoSignPorninTwoZeroTwoFiveBytes,42 974,42974,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamFnDsaOneZeroTwoFourSignPorninTwoZeroTwoSixRamEfficientBytes,23 045,23045,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamFnDsaOneZeroTwoFourSignPorninTwoZeroTwoFiveBytes,83 636,83636,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaFourFourSignPqmThreeCleanBytes,54 629,54629,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaFourFourSignPqmThreeMThreeBytes,54 669,54669,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaSixFiveSignPqmThreeCleanBytes,83 190,83190,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaSixFiveSignPqmThreeMThreeBytes,83 222,83222,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoEncapsPqmThreeCleanBytes,10 633,10633,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoDecapsPqmThreeCleanBytes,10 601,10601,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoEncapsPqmThreeMThreeBytes,4177,4177,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemFiveOneTwoDecapsPqmThreeMThreeBytes,3385,3385,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightEncapsPqmThreeCleanBytes,15 953,15953,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightDecapsPqmThreeCleanBytes,15 857,15857,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightEncapsPqmThreeMThreeBytes,5361,5361,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemSevenSixEightDecapsPqmThreeMThreeBytes,4193,4193,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourEncapsPqmThreeCleanBytes,22 201,22201,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourDecapsPqmThreeCleanBytes,22 201,22201,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourEncapsPqmThreeMThreeBytes,6737,6737,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlKemOneZeroTwoFourDecapsPqmThreeMThreeBytes,5185,5185,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamRTwoDilithiumTwoSignGKSTwoOneStrategyOneBytes,17 206,17206,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamRTwoDilithiumTwoSignGKSTwoOneStrategyTwoBytes,41 840,41840,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamRTwoDilithiumTwoSignGKSTwoOneStrategyThreeBytes,11 800,11800,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamRTwoDilithiumThreeSignGKSTwoOneStrategyOneBytes,21 077,21077,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamRTwoDilithiumThreeSignGKSTwoOneStrategyTwoBytes,56 953,56953,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamRTwoDilithiumThreeSignGKSTwoOneStrategyThreeBytes,13 489,13489,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamRTwoDilithiumFourSignGKSTwoOneStrategyOneBytes,21 742,21742,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamRTwoDilithiumFourSignGKSTwoOneStrategyTwoBytes,74 122,74122,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamRTwoDilithiumFourSignGKSTwoOneStrategyThreeBytes,15 170,15170,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamMlDsaFourFourSignMZeroPQCleanBytes,54 527.4,54527.4,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,pub
+RamMlDsaSixFiveSignMZeroPQCleanBytes,83 064.4,83064.4,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,pub
+RamMlDsaEightSevenSignMZeroPQCleanBytes,127 390.4,127390.4,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,pub
+RamMlKemFiveOneTwoDecapsMZeroPQCleanBytes,10 686.6,10686.6,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,pub
+RamMlKemSevenSixEightDecapsMZeroPQCleanBytes,15 921.8,15921.8,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,pub
+RamMlKemOneZeroTwoFourDecapsMZeroPQCleanBytes,22 341,22341,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+RamFnDsaFiveOneTwoSignPorninTwoZeroOneNineExpandedKeySigningBytes,26 566,26566,B,paper/make_numbers.py:tables,results.json ram required_bytes (D-M1),,exact
+CrCMinMlDsaFourFourMlKemFiveOneTwoTxMs,99.814,49907/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinMlDsaFourFourMlKemFiveOneTwoGapsMs,33.500,67/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinMlDsaSixFiveMlKemFiveOneTwoTxMs,108.564,27141/250000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinMlDsaSixFiveMlKemFiveOneTwoGapsMs,42.500,17/400,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinMlDsaEightSevenMlKemFiveOneTwoTxMs,122.176,1909/15625,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinMlDsaEightSevenMlKemFiveOneTwoGapsMs,56.500,113/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinFnDsaFiveOneTwoMlKemFiveOneTwoTxMs,84.257,84257/1000000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinFnDsaFiveOneTwoMlKemFiveOneTwoGapsMs,17.500,7/400,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoTxMs,92.035,18407/200000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoGapsMs,25.500,51/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinMlDsaFourFourMlKemSevenSixEightTxMs,128.944,8059/62500,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinMlDsaFourFourMlKemSevenSixEightGapsMs,35.500,71/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinMlDsaSixFiveMlKemSevenSixEightTxMs,138.667,138667/1000000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinMlDsaSixFiveMlKemSevenSixEightGapsMs,45.500,91/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinMlDsaEightSevenMlKemSevenSixEightTxMs,151.306,75653/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinMlDsaEightSevenMlKemSevenSixEightGapsMs,58.500,117/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinFnDsaFiveOneTwoMlKemSevenSixEightTxMs,113.388,28347/250000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinFnDsaFiveOneTwoMlKemSevenSixEightGapsMs,19.500,39/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinFnDsaOneZeroTwoFourMlKemSevenSixEightTxMs,122.138,61069/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinFnDsaOneZeroTwoFourMlKemSevenSixEightGapsMs,28.500,57/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinMlDsaFourFourMlKemOneZeroTwoFourTxMs,173.612,43403/250000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinMlDsaFourFourMlKemOneZeroTwoFourGapsMs,39.500,79/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinMlDsaSixFiveMlKemOneZeroTwoFourTxMs,182.362,91181/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinMlDsaSixFiveMlKemOneZeroTwoFourGapsMs,48.500,97/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinMlDsaEightSevenMlKemOneZeroTwoFourTxMs,195.974,97987/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinMlDsaEightSevenMlKemOneZeroTwoFourGapsMs,62.500,1/16,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinFnDsaFiveOneTwoMlKemOneZeroTwoFourTxMs,158.055,31611/200000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinFnDsaFiveOneTwoMlKemOneZeroTwoFourGapsMs,23.500,47/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCMinFnDsaOneZeroTwoFourMlKemOneZeroTwoFourTxMs,165.834,82917/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCMinFnDsaOneZeroTwoFourMlKemOneZeroTwoFourGapsMs,31.500,63/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivMlDsaFourFourMlKemFiveOneTwoTxMs,173.782,86891/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivMlDsaFourFourMlKemFiveOneTwoGapsMs,39.500,79/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivMlDsaSixFiveMlKemFiveOneTwoTxMs,182.532,45633/250000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivMlDsaSixFiveMlKemFiveOneTwoGapsMs,48.500,97/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivMlDsaEightSevenMlKemFiveOneTwoTxMs,196.144,12259/62500,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivMlDsaEightSevenMlKemFiveOneTwoGapsMs,62.500,1/16,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivFnDsaFiveOneTwoMlKemFiveOneTwoTxMs,158.225,6329/40000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivFnDsaFiveOneTwoMlKemFiveOneTwoGapsMs,23.500,47/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivFnDsaOneZeroTwoFourMlKemFiveOneTwoTxMs,166.004,41501/250000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivFnDsaOneZeroTwoFourMlKemFiveOneTwoGapsMs,31.500,63/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivMlDsaFourFourMlKemSevenSixEightTxMs,237.480,5937/25000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivMlDsaFourFourMlKemSevenSixEightGapsMs,43.500,87/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivMlDsaSixFiveMlKemSevenSixEightTxMs,247.202,123601/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivMlDsaSixFiveMlKemSevenSixEightGapsMs,53.500,107/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivMlDsaEightSevenMlKemSevenSixEightTxMs,259.842,129921/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivMlDsaEightSevenMlKemSevenSixEightGapsMs,66.500,133/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivFnDsaFiveOneTwoMlKemSevenSixEightTxMs,221.923,221923/1000000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivFnDsaFiveOneTwoMlKemSevenSixEightGapsMs,27.500,11/400,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivFnDsaOneZeroTwoFourMlKemSevenSixEightTxMs,230.674,115337/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivFnDsaOneZeroTwoFourMlKemSevenSixEightGapsMs,36.500,73/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivMlDsaFourFourMlKemOneZeroTwoFourTxMs,318.660,15933/50000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivMlDsaFourFourMlKemOneZeroTwoFourGapsMs,51.500,103/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivMlDsaSixFiveMlKemOneZeroTwoFourTxMs,327.410,32741/100000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivMlDsaSixFiveMlKemOneZeroTwoFourGapsMs,60.500,121/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivMlDsaEightSevenMlKemOneZeroTwoFourTxMs,341.022,170511/500000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivMlDsaEightSevenMlKemOneZeroTwoFourGapsMs,74.500,149/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivFnDsaFiveOneTwoMlKemOneZeroTwoFourTxMs,303.103,303103/1000000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivFnDsaFiveOneTwoMlKemOneZeroTwoFourGapsMs,35.500,71/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+CrCPrivFnDsaOneZeroTwoFourMlKemOneZeroTwoFourTxMs,310.881,310881/1000000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader reader_tx_ms,,ms3
+CrCPrivFnDsaOneZeroTwoFourMlKemOneZeroTwoFourGapsMs,43.500,87/2000,ms,paper/make_numbers.py:tables,fit_matrix.json c_reader fdt_pcd_ms,,ms3
+ChipSTThreeOneNSixZeroZeroMHz,60,60000000,MHz,paper/make_numbers.py:tables,data/literature.json chips,,mhz0x
+ChipSTThreeOneNSixZeroZeroRamKB,16,16,KB,paper/make_numbers.py:tables,data/literature.json chips,,exact
+ChipSTThreeOnePFourFiveZeroMHz,55,55000000,MHz,paper/make_numbers.py:tables,data/literature.json chips,,mhz0x
+ChipSTThreeOnePFourFiveZeroRamKB,10,10,KB,paper/make_numbers.py:tables,data/literature.json chips,,exact
+ChipSTThreeOneHThreeTwoZeroMHz,28,28000000,MHz,paper/make_numbers.py:tables,data/literature.json chips,,mhz0x
+ChipSTThreeOneHThreeTwoZeroRamKB,10,10,KB,paper/make_numbers.py:tables,data/literature.json chips,,exact
+ChipInfineonSLCThreeSixPDxMHz,80,80000000,MHz,paper/make_numbers.py:tables,data/literature.json chips,,mhz0x
+ChipInfineonSLCThreeSixPDxRamKB,12,12,KB,paper/make_numbers.py:tables,data/literature.json chips,,exact
+ChipInfineonSLCThreeSevenPDxMHz,80,80000000,MHz,paper/make_numbers.py:tables,data/literature.json chips,,mhz0x
+ChipInfineonSLCThreeSevenPDxRamKB,16,16,KB,paper/make_numbers.py:tables,data/literature.json chips,,exact
+ChipNxpPSevenOneDThreeTwoOneFamilyRamKB,12,12,KB,paper/make_numbers.py:tables,data/literature.json chips,,exact
+FigCardRsaMs,75.3,255427/3390000,ms,paper/make_numbers.py:figs,results.json transport card_fixed,,ms1
+FigCardMlDsaFourFourMs,902.4,1529501/1695000,ms,paper/make_numbers.py:figs,results.json transport card_fixed,,ms1
+FigCardMlDsaSixFiveMs,1258.2,4265429/3390000,ms,paper/make_numbers.py:figs,results.json transport card_fixed,,ms1
+FigCardMlDsaEightSevenMs,1731.2,489073/282500,ms,paper/make_numbers.py:figs,results.json transport card_fixed,,ms1
+FigCardFnDsaFiveOneTwoMs,352.5,74684/211875,ms,paper/make_numbers.py:figs,results.json transport card_fixed,,ms1
+FigCardFnDsaOneZeroTwoFourMs,681.6,1155307/1695000,ms,paper/make_numbers.py:figs,results.json transport card_fixed,,ms1
+FigReaderCMinMlDsaFourFourMlKemFiveOneTwoMs,153.3,230021/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinMlDsaSixFiveMlKemFiveOneTwoMs,171.1,128323/750000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinMlDsaEightSevenMlKemFiveOneTwoMs,198.7,18629/93750,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinFnDsaFiveOneTwoMlKemFiveOneTwoMs,121.8,365371/3000000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinFnDsaOneZeroTwoFourMlKemFiveOneTwoMs,137.6,82541/600000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinMlDsaFourFourMlKemSevenSixEightMs,184.5,69179/375000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinMlDsaSixFiveMlKemSevenSixEightMs,204.2,612601/3000000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinMlDsaEightSevenMlKemSevenSixEightMs,229.8,344759/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinFnDsaFiveOneTwoMlKemSevenSixEightMs,152.9,114691/750000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinFnDsaOneZeroTwoFourMlKemSevenSixEightMs,170.7,256007/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinMlDsaFourFourMlKemOneZeroTwoFourMs,233.1,174859/750000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinMlDsaSixFiveMlKemOneZeroTwoFourMs,250.9,376343/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinMlDsaEightSevenMlKemOneZeroTwoFourMs,278.5,417761/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinFnDsaFiveOneTwoMlKemOneZeroTwoFourMs,201.6,120953/600000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCMinFnDsaOneZeroTwoFourMlKemOneZeroTwoFourMs,217.4,326051/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivMlDsaFourFourMlKemFiveOneTwoMs,233.3,349973/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivMlDsaSixFiveMlKemFiveOneTwoMs,251.1,188299/750000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivMlDsaEightSevenMlKemFiveOneTwoMs,278.7,13063/46875,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivFnDsaFiveOneTwoMlKemFiveOneTwoMs,201.8,24211/120000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivFnDsaOneZeroTwoFourMlKemFiveOneTwoMs,217.5,163153/750000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivMlDsaFourFourMlKemSevenSixEightMs,301.0,2822/9375,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivMlDsaSixFiveMlKemSevenSixEightMs,320.7,481103/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivMlDsaEightSevenMlKemSevenSixEightMs,346.4,519563/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivFnDsaFiveOneTwoMlKemSevenSixEightMs,269.5,808369/3000000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivFnDsaOneZeroTwoFourMlKemSevenSixEightMs,287.2,430811/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivMlDsaFourFourMlKemOneZeroTwoFourMs,390.2,58529/150000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivMlDsaSixFiveMlKemOneZeroTwoFourMs,407.9,122383/300000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivMlDsaEightSevenMlKemOneZeroTwoFourMs,435.6,653333/1500000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivFnDsaFiveOneTwoMlKemOneZeroTwoFourMs,358.6,1075909/3000000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderCPrivFnDsaOneZeroTwoFourMlKemOneZeroTwoFourMs,374.4,1123243/3000000,ms,paper/make_numbers.py:figs,fit_matrix.json c_reader + kernel8_rmin.json R_min + 2 t_P,E1,ms1
+FigReaderFnineMs,110.2,14941/135600,ms,paper/make_numbers.py:figs,figure_data.json f9_fs512 + R_min + 2 t_P,E1,ms1
+FigReaderEccMs,30.0,50851/1695000,ms,paper/make_numbers.py:figs,results.json transport C-classical + R_min + 2 t_P,E1,ms1
+FnFiveMFourfClockMHz,475.6,475586003,MHz,paper/make_numbers.py:figs,fit_matrix.json decomposition,,mhz1
+HardClockLoMHz,72.7,72668814,MHz,paper/make_numbers.py:figs,figure_data.json (E6 lower bound),E6,mhz1
+HardClockHiMHz,109.0,109003216,MHz,paper/make_numbers.py:figs,figure_data.json (E6 upper bound),E6,mhz1
+TestsModelCount,31,31,,paper/make_numbers.py:build,results.json tests (run.py T01-T12),,exact
+TestsTThirteenCount,33,33,,paper/make_numbers.py:build,tests/test_rmin_by_hand.py t13(),,exact
+DzKemRatio,3.58,3.58,,paper/make_numbers.py:build,data/literature_extra.json dz26,E7,pub
+DzDsaLo,20.5,20.5,,paper/make_numbers.py:build,data/literature_extra.json dz26,E7,pub
+DzDsaHi,307.7,307.7,,paper/make_numbers.py:build,data/literature_extra.json dz26,E7,pub
+DzRateKbps,848,848,kbit/s,paper/make_numbers.py:build,data/literature_extra.json dz26,E7,exact
+DzClockMHz,50,50000000,MHz,paper/make_numbers.py:build,data/literature_extra.json dz26,E7,mhz0x
+PqeacRuntimeS,1.28,1.28,s,paper/make_numbers.py:build,data/literature_extra.json pqeac,,pub
+MaskFactor,4.3,43/10,,paper/make_numbers.py:build,data/literature.json masking (AZ22 §6.3; TCHES 2023(4) p. 72),,x1
+MaskFactorDet,7.32,183/25,,paper/make_numbers.py:build,data/literature.json masking (AZ22 §6.3; TCHES 2023(4) p. 72),,x2
