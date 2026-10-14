@@ -1,0 +1,203 @@
+{
+ "by_architecture_4500": {
+  "A / B (card signs)": {
+   "sign": []
+  },
+  "C-min (card decapsulates)": {
+   "decaps": [
+    "ML-KEM-512 pqm3 m3",
+    "ML-KEM-768 pqm3 m3"
+   ]
+  },
+  "C-priv (card encapsulates and decapsulates)": {
+   "decaps": [
+    "ML-KEM-512 pqm3 m3",
+    "ML-KEM-768 pqm3 m3"
+   ],
+   "encaps": [
+    "ML-KEM-512 pqm3 m3"
+   ]
+  }
+ },
+ "fit_4500_payment_core": [
+  [
+   "ML-KEM-512",
+   "encaps",
+   "pqm3 m3",
+   "4177"
+  ],
+  [
+   "ML-KEM-512",
+   "decaps",
+   "pqm3 m3",
+   "3385"
+  ],
+  [
+   "ML-KEM-768",
+   "decaps",
+   "pqm3 m3",
+   "4193"
+  ]
+ ],
+ "fit_4608_any_core": [
+  [
+   "ML-KEM-512",
+   "encaps",
+   "pqm4 m4fstack",
+   "4209"
+  ],
+  [
+   "ML-KEM-512",
+   "decaps",
+   "pqm4 m4fstack",
+   "3393"
+  ],
+  [
+   "ML-KEM-768",
+   "decaps",
+   "pqm4 m4fstack",
+   "4225"
+  ],
+  [
+   "ML-KEM-512",
+   "encaps",
+   "pqm3 m3",
+   "4177"
+  ],
+  [
+   "ML-KEM-512",
+   "decaps",
+   "pqm3 m3",
+   "3385"
+  ],
+  [
+   "ML-KEM-768",
+   "decaps",
+   "pqm3 m3",
+   "4193"
+  ]
+ ],
+ "fit_4608_payment_core": [
+  [
+   "ML-KEM-512",
+   "encaps",
+   "pqm3 m3",
+   "4177"
+  ],
+  [
+   "ML-KEM-512",
+   "decaps",
+   "pqm3 m3",
+   "3385"
+  ],
+  [
+   "ML-KEM-768",
+   "decaps",
+   "pqm3 m3",
+   "4193"
+  ]
+ ],
+ "limits_bytes": {
+  "4500": 4500,
+  "4608": 4608
+ },
+ "lost_vs_16kb_brief": [
+  [
+   "ML-KEM-512",
+   "encaps",
+   "pqm4 clean",
+   "10645"
+  ],
+  [
+   "ML-KEM-512",
+   "decaps",
+   "pqm4 clean",
+   "10621"
+  ],
+  [
+   "ML-KEM-768",
+   "encaps",
+   "pqm4 clean",
+   "15949"
+  ],
+  [
+   "ML-KEM-768",
+   "decaps",
+   "pqm4 clean",
+   "15861"
+  ],
+  [
+   "ML-KEM-512",
+   "encaps",
+   "pqm3 clean",
+   "10633"
+  ],
+  [
+   "ML-KEM-512",
+   "decaps",
+   "pqm3 clean",
+   "10601"
+  ],
+  [
+   "ML-KEM-768",
+   "encaps",
+   "pqm3 clean",
+   "15953"
+  ],
+  [
+   "ML-KEM-768",
+   "decaps",
+   "pqm3 clean",
+   "15857"
+  ],
+  [
+   "ML-KEM-768",
+   "encaps",
+   "pqm3 m3",
+   "5361"
+  ],
+  [
+   "ML-KEM-1024",
+   "encaps",
+   "pqm3 m3",
+   "6737"
+  ],
+  [
+   "ML-KEM-1024",
+   "decaps",
+   "pqm3 m3",
+   "5185"
+  ],
+  [
+   "R2-Dilithium2",
+   "sign",
+   "GKS21 strategy 3",
+   "11800"
+  ],
+  [
+   "R2-Dilithium3",
+   "sign",
+   "GKS21 strategy 3",
+   "13489"
+  ],
+  [
+   "R2-Dilithium4",
+   "sign",
+   "GKS21 strategy 3",
+   "15170"
+  ],
+  [
+   "ML-KEM-512",
+   "decaps",
+   "M0+ PQClean",
+   "53433/5"
+  ],
+  [
+   "ML-KEM-768",
+   "decaps",
+   "M0+ PQClean",
+   "79609/5"
+  ]
+ ],
+ "rows": 79
+}

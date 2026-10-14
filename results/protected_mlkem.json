@@ -1,0 +1,37 @@
+{
+ "bdg25_increment_cycles": "24200000/1",
+ "bdg25_increment_ms": 242,
+ "budgets": [
+  {
+   "budget_cycles": 8880471,
+   "chip": "SC300 (Infineon SLC36/37PDx)",
+   "clock_hz": 80000000,
+   "verdict_vs_bracket": "UNRESOLVED (budget inside the bracket)"
+  },
+  {
+   "budget_cycles": 6660353,
+   "chip": "SC000 (ST31N600)",
+   "clock_hz": 60000000,
+   "verdict_vs_bracket": "exceeds even at the lower bound"
+  },
+  {
+   "budget_cycles": 6105324,
+   "chip": "SC000 (ST31P450)",
+   "clock_hz": 55000000,
+   "verdict_vs_bracket": "exceeds even at the lower bound"
+  }
+ ],
+ "config": {
+  "arch": "C-min",
+  "depth": 2,
+  "fsd_fsc": 256,
+  "kem": "ML-KEM-512",
+  "sig": "FN-DSA-512"
+ },
+ "decaps_hi_cycles": "12100000/1",
+ "decaps_lo_cycles": "24200000/3",
+ "ratio_hi": "12100000/627897",
+ "ratio_lo": "24200000/1883691",
+ "sealed_margin_sc300": "10000/707",
+ "unprotected_pqm3_m3_decaps_cycles": 627897
+}
