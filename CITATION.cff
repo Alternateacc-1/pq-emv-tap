@@ -5,6 +5,7 @@ type: software
 license: MIT
 repository-code: "https://github.com/Alternateacc-1/pq-emv-tap"
 version: "1.0.0"
+doi: "10.5281/zenodo.23376307"
 abstract: >-
   Code and results for the ICTCS 2026 paper "Does Post-Quantum Card Authentication Fit a
   Contactless Tap? A Test Against EMV's Own Rules". An exact timing and memory model of

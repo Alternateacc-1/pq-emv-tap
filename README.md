@@ -1,5 +1,7 @@
 # pq-emv-tap
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23376307.svg)](https://doi.org/10.5281/zenodo.23376307)
+
 Code for our ICTCS 2026 paper **"Does Post-Quantum Card Authentication Fit a Contactless Tap? A Test Against EMV's Own Rules"**.
 
 When you tap a bank card, the card proves it is genuine using RSA or elliptic-curve signatures. A large quantum computer could break both. So we asked a simple question: if the card switched to post-quantum algorithms (ML-DSA, FN-DSA or ML-KEM), would the tap still finish within the time and memory limits that EMV sets?
@@ -95,3 +97,5 @@ To redraw the figures you need matplotlib: `pip install -r requirements-figures.
 The code is under the MIT licence. If you use it, please cite the paper:
 
 > T. Mogare, S. Pakhale, S. Shinde, M. Vasaikar and R. Deshmukh, "Does Post-Quantum Card Authentication Fit a Contactless Tap? A Test Against EMV's Own Rules", ICTCS 2026, Lecture Notes in Networks and Systems, Springer.
+
+To cite the code itself: T. Mogare, pq-emv-tap, version 1.0.0, Zenodo (2026), https://doi.org/10.5281/zenodo.23376307
