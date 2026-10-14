@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "pq-emv-tap"
+type: software
+license: MIT
+repository-code: "https://github.com/Alternateacc-1/pq-emv-tap"
+version: "1.0.0"
+abstract: >-
+  Code and results for the ICTCS 2026 paper "Does Post-Quantum Card Authentication Fit a
+  Contactless Tap? A Test Against EMV's Own Rules". An exact timing and memory model of
+  post-quantum card authentication (ML-DSA, FN-DSA, ML-KEM) in three EMV kernel
+  architectures, built from the EMV specifications and published measurements, that
+  regenerates every number and figure in the paper.
+keywords:
+  - EMV
+  - contactless
+  - post-quantum cryptography
+  - ML-DSA
+  - ML-KEM
+  - FN-DSA
+  - smart cards
+authors:
+  - family-names: "Mogare"
+    given-names: "Tejas"
+    affiliation: "JSPM's Rajarshi Shahu College of Engineering, Pune, India"
+preferred-citation:
+  type: conference-paper
+  title: "Does Post-Quantum Card Authentication Fit a Contactless Tap? A Test Against EMV's Own Rules"
+  year: 2026
+  conference:
+    name: "ICTCS 2026"
+  collection-title: "Lecture Notes in Networks and Systems"
+  publisher:
+    name: "Springer"
+  authors:
+    - family-names: "Mogare"
+      given-names: "Tejas"
+    - family-names: "Pakhale"
+      given-names: "Shreyas"
+    - family-names: "Shinde"
+      given-names: "Satvik"
+    - family-names: "Vasaikar"
+      given-names: "Mayank"
+    - family-names: "Deshmukh"
+      given-names: "Rushali"
